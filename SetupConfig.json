@@ -1,0 +1,33 @@
+{
+    "cms_forwarder_ver_API": "http://getAPI.com",
+    "allClusers" : [
+        {
+            "name": "HKEC",
+            "hospCodeList" : [
+                "PYN",
+                "RH"
+            ]
+        },
+        {
+            "name": "HKWC",
+            "hospCodeList" : [
+                "QMH",
+                "GH",
+                "FYK",
+                "TWH"
+            ]
+        },
+        {
+            "name": "KWC",
+            "hospCodeList" : [
+                ""
+            ]
+        },
+        {
+            "name": "NTEC",
+            "hospCodeList" : [
+                ""
+            ]
+        }
+    ]
+}
