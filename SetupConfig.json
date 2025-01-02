@@ -1,32 +1,80 @@
 {
-    "cms_forwarder_ver_API": "http://getAPI.com",
+    "cms_forwarder_ver_API": "http://csc1-linux:30083/ForwarderTable/weblogic_12c.json",
     "allClusers" : [
         {
             "name": "HKEC",
             "hospCodeList" : [
+                "CHC",
                 "PYN",
-                "RH"
+                "RH",
+                "SJH",
+                "TWE",
+                "WCH"
             ]
         },
         {
             "name": "HKWC",
             "hospCodeList" : [
-                "QMH",
-                "GH",
+                "DKC",
                 "FYK",
-                "TWH"
+                "GH",
+                "ML",
+                "QMH",
+                "TWH",
+                "TYH"
+            ]
+        },
+        {
+            "name": "KEC",
+            "hospCodeList" : [
+                "HHH",
+                "TKO",
+                "UCH"
+            ]
+        },
+        {
+            "name": "KCC",
+            "hospCodeList" : [
+                "BH",
+                "HCH",
+                "HKE",
+                "KH",
+                "KWH",
+                "OLM",
+                "QEH",
+                "WTS"
             ]
         },
         {
             "name": "KWC",
             "hospCodeList" : [
-                ""
+                "KCH",
+                "CMC",
+                "NLT",
+                "PMH",
+                "YCH"
             ]
         },
         {
             "name": "NTEC",
             "hospCodeList" : [
-                ""
+                "AHN",
+                "BBH",
+                "CHS",
+                "NDH",
+                "PWH",
+                "SH",
+                "TPH"
+            ]
+        },
+        {
+            "name": "NTWC",
+            "hospCodeList" : [
+                "CPH",
+                "POH",
+                "SLH",
+                "TMH",
+                "TSH"
             ]
         }
     ]
