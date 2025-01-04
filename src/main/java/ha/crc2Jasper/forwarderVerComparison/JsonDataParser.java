@@ -12,15 +12,15 @@ public class JsonDataParser {
         try {
             JsonNode rawJsonData = objectMapper.readTree(jsonData);
             JsonNode allData = rawJsonData.get("data");
-            for (JsonNode data: allData){
-                String function = objectMapper.treeToValue(data.get("function"), String.class);
-                String hospCode = objectMapper.treeToValue(data.get("hosp_code"), String.class);
-                String version = objectMapper.treeToValue(data.get("version"), String.class);
+            allData.forEach(data -> {
+                String function = data.get("function").asText();
+                String hospCode = data.get("hosp_code").asText();
+                String version = data.get("version").asText();
                 db.addNewHospItem(function, hospCode, version);
-            }
+            });
             System.out.println("Data parsed successfully");
         } catch (Exception e) {
-            e.printStackTrace();
+            ExceptionService.printException(e);
         }
     }
 }

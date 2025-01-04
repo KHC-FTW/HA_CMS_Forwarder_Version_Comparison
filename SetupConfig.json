@@ -2,8 +2,8 @@
     "cms_forwarder_ver_API": "http://csc1-linux:30083/ForwarderTable/weblogic_12c.json",
     "allClusers" : [
         {
-            "name": "HKEC",
-            "hospCodeList" : [
+            "cluster": "HKEC",
+            "hospList" : [
                 "CHC",
                 "PYN",
                 "RH",
@@ -13,8 +13,8 @@
             ]
         },
         {
-            "name": "HKWC",
-            "hospCodeList" : [
+            "cluster": "HKWC",
+            "hospList" : [
                 "DKC",
                 "FYK",
                 "GH",
@@ -25,16 +25,16 @@
             ]
         },
         {
-            "name": "KEC",
-            "hospCodeList" : [
+            "cluster": "KEC",
+            "hospList" : [
                 "HHH",
                 "TKO",
                 "UCH"
             ]
         },
         {
-            "name": "KCC",
-            "hospCodeList" : [
+            "cluster": "KCC",
+            "hospList" : [
                 "BH",
                 "HCH",
                 "HKE",
@@ -46,8 +46,8 @@
             ]
         },
         {
-            "name": "KWC",
-            "hospCodeList" : [
+            "cluster": "KWC",
+            "hospList" : [
                 "KCH",
                 "CMC",
                 "NLT",
@@ -56,8 +56,8 @@
             ]
         },
         {
-            "name": "NTEC",
-            "hospCodeList" : [
+            "cluster": "NTEC",
+            "hospList" : [
                 "AHN",
                 "BBH",
                 "CHS",
@@ -68,8 +68,8 @@
             ]
         },
         {
-            "name": "NTWC",
-            "hospCodeList" : [
+            "cluster": "NTWC",
+            "hospList" : [
                 "CPH",
                 "POH",
                 "SLH",

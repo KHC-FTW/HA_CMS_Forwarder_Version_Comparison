@@ -1,5 +1,7 @@
 package ha.crc2Jasper.forwarderVerComparison;
 
+import ha.crc2Jasper.forwarderVerComparison.component.CMSFunction;
+import ha.crc2Jasper.forwarderVerComparison.component.SetupConfig;
 import lombok.Getter;
 
 import java.util.LinkedHashMap;
@@ -10,11 +12,11 @@ public class Database {
     private Database() {
         hospMapPlaceholder = createHospPlaceholderMap();
     }
+    @Getter
     private static Database instance = new Database();
-    public static Database getInstance() {return instance;}
-    private Map<String, Map<String, CMSFunction>> allFuncHospMap = new LinkedHashMap<>();
-    private Map<String, Map<String, CMSFunction>> funcWithDiffVersionMap = new LinkedHashMap<>();
-    private Map<String, CMSFunction> hospMapPlaceholder;
+    private final Map<String, Map<String, CMSFunction>> allFuncHospMap = new LinkedHashMap<>();
+    private final Map<String, Map<String, CMSFunction>> funcWithDiffVerMap_allHosp = new LinkedHashMap<>();
+    private final Map<String, CMSFunction> hospMapPlaceholder;
 
     private static final SetupConfig setupConfig = SetupConfig.getInstance();
 
@@ -45,7 +47,7 @@ public class Database {
     private Map<String, CMSFunction> createHospPlaceholderMap(){
         Map<String, CMSFunction> hospMap = new LinkedHashMap<>();
         setupConfig.getAllClusters().forEach(cluster -> {
-            cluster.getHospCodeList().forEach(hospCode -> {
+            cluster.getHospList().forEach(hospCode -> {
                 hospMap.put(hospCode, new CMSFunction());
             });
         });

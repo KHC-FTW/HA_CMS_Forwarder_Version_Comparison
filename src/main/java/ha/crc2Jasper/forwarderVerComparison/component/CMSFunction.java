@@ -1,4 +1,4 @@
-package ha.crc2Jasper.forwarderVerComparison;
+package ha.crc2Jasper.forwarderVerComparison.component;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
