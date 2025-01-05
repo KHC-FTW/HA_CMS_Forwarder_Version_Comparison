@@ -30,6 +30,20 @@ public class DataUtils {
         return new Response("OK", results.size(), results);
     }
 
+    public static Map<String, Map<String, CMSFunction>> compareForwarderVersion_V2(List<String> hospToCompare) {
+        Map<String, Map<String, CMSFunction>> funcWithDiffVerMap_allHospital = DB.getFuncWithDiffVerMap_allHosp();
+        Map<String, Map<String, CMSFunction>> results = new LinkedHashMap<>();
+        funcWithDiffVerMap_allHospital.forEach((function, hospMap) -> {
+            Map<String, CMSFunction> diffMap = new LinkedHashMap<>();
+            hospToCompare.forEach(hospCode -> {
+                diffMap.put(hospCode, hospMap.get(hospCode));
+            });
+            results.put(function, diffMap);
+        });
+        return results;
+    }
+
+
     public static Map<String, Map<String, CMSFunction>> compareForwarderVersion(
             List<String> hospToCompare,
             Map<String, Map<String, CMSFunction>> funcHospMap) {
@@ -40,13 +54,14 @@ public class DataUtils {
                 for(int i = 0; i < hospToCompare.size() - 1; i++) {
                     CMSFunction currCmsFunction = hospMap.get(hospToCompare.get(i));
                     CMSFunction nextCmsFunction = hospMap.get(hospToCompare.get(i + 1));
-                    if(!currCmsFunction.getVersion().equals(nextCmsFunction.getVersion())) {
+                    if(currCmsFunction.isDiffVersion(nextCmsFunction)) {
                         Map<String, CMSFunction> diffMap = new LinkedHashMap<>();
                         hospToCompare.forEach(hospCode -> {
                             CMSFunction cmsFunction = hospMap.get(hospCode);
                             diffMap.put(hospCode, cmsFunction);
                         });
                         results.put(function, diffMap);
+                        break;
                     }
                 }
             });

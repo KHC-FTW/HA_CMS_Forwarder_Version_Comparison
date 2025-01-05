@@ -43,11 +43,11 @@ public class Database {
                     existingCMSFunction.setVersion(existingVersion + ", " + version);
                 }
             }else{
-                Map<String, CMSFunction> hospMap = new LinkedHashMap<>(hospMapPlaceholder);
-                CMSFunction existingCMSFunction = hospMap.get(hospCode);
-                existingCMSFunction.setFunction(function);
-                existingCMSFunction.setHospCode(hospCode);
-                existingCMSFunction.setVersion(version);
+                Map<String, CMSFunction> hospMap = deepCopyFromHospMapPlaceholder();
+                CMSFunction emptyCMSFunction = hospMap.get(hospCode);
+                emptyCMSFunction.setFunction(function);
+                emptyCMSFunction.setHospCode(hospCode);
+                emptyCMSFunction.setVersion(version);
                 allFuncHospMap.put(function, hospMap);
             }
         }
@@ -59,6 +59,14 @@ public class Database {
             cluster.getHospList().forEach(hospCode -> {
                 hospMap.put(hospCode, new CMSFunction());
             });
+        });
+        return hospMap;
+    }
+
+    private Map<String, CMSFunction> deepCopyFromHospMapPlaceholder(){
+        Map<String, CMSFunction> hospMap = new LinkedHashMap<>();
+        hospMapPlaceholder.forEach((key, value) -> {
+            hospMap.put(key, new CMSFunction(value));
         });
         return hospMap;
     }

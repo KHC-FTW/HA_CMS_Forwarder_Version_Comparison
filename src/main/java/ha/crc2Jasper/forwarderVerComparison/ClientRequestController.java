@@ -35,7 +35,7 @@ public class ClientRequestController {
         Map<String, Map<String, CMSFunction>> funcWithDiffVerMap_allHosp = DB.getFuncWithDiffVerMap_allHosp();
         if (funcWithDiffVerMap_allHosp != null) {
             List<String> hospList = DataUtils.getHospListFromPayload(payload);
-            Map<String, Map<String, CMSFunction>> results = DataUtils.compareForwarderVersion(hospList, funcWithDiffVerMap_allHosp);
+            Map<String, Map<String, CMSFunction>> results = DataUtils.compareForwarderVersion_V2(hospList);
             return DataUtils.createResponse(results);
         }
         return new Response();
@@ -48,7 +48,7 @@ public class ClientRequestController {
         if (funcWithDiffVerMap_allHosp != null) {
             List<String> hospList = SETUP_CONFIG.getHospListByCluster(cluster);
             if(hospList != null) {
-                Map<String, Map<String, CMSFunction>> results = DataUtils.compareForwarderVersion(hospList, funcWithDiffVerMap_allHosp);
+                Map<String, Map<String, CMSFunction>> results = DataUtils.compareForwarderVersion_V2(hospList);
                 return DataUtils.createResponse(results);
             }
             String errorMsg = "Error: Cluster \"" + cluster + "\" not found! Only valid clusters are accepted: " + VALID_CLUSTERS;
