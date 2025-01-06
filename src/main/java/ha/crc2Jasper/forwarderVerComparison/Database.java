@@ -5,7 +5,6 @@ import ha.crc2Jasper.forwarderVerComparison.component.Response;
 import ha.crc2Jasper.forwarderVerComparison.component.SetupConfig;
 import lombok.Getter;
 import lombok.Setter;
-import org.springframework.web.bind.annotation.RequestBody;
 
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
@@ -27,8 +26,6 @@ public class Database {
     private final List<String> allHospCode;
     private Response preComputedResponseAllHosp;
 
-    private static final SetupConfig setupConfig = SetupConfig.getInstance();
-
     public void addNewHospItem(String function, String hospCode, String version){
         if(hospMapPlaceholder.containsKey(hospCode)){
             if(allFuncHospMap.containsKey(function)){
@@ -36,18 +33,16 @@ public class Database {
                 CMSFunction existingCMSFunction = hospMap.get(hospCode);
                 String existingVersion = existingCMSFunction.getVersion();
                 if(existingVersion.isBlank()){
-                    existingCMSFunction.setVersion(version);
+                    existingCMSFunction.setAll(function, hospCode, version);
                     return;
                 }
                 if(!existingVersion.equals(version)){
                     existingCMSFunction.setVersion(existingVersion + ", " + version);
                 }
             }else{
+                DebugUtils.print("Adding new function: " + function);
                 Map<String, CMSFunction> hospMap = deepCopyFromHospMapPlaceholder();
-                CMSFunction emptyCMSFunction = hospMap.get(hospCode);
-                emptyCMSFunction.setFunction(function);
-                emptyCMSFunction.setHospCode(hospCode);
-                emptyCMSFunction.setVersion(version);
+                hospMap.get(hospCode).setAll(function, hospCode, version);
                 allFuncHospMap.put(function, hospMap);
             }
         }
@@ -55,20 +50,21 @@ public class Database {
 
     private Map<String, CMSFunction> createHospPlaceholderMap(){
         Map<String, CMSFunction> hospMap = new LinkedHashMap<>();
-        setupConfig.getAllClusters().getPayload().forEach(cluster -> {
+        final SetupConfig SETUP_CONFIG = SetupConfig.getInstance();
+        SETUP_CONFIG.getAllClusters().forEach(cluster -> {
             cluster.getHospList().forEach(hospCode -> {
-                hospMap.put(hospCode, new CMSFunction());
+                hospMap.put(hospCode, new CMSFunction("", hospCode, ""));
             });
         });
         return hospMap;
     }
 
     private Map<String, CMSFunction> deepCopyFromHospMapPlaceholder(){
-        Map<String, CMSFunction> hospMap = new LinkedHashMap<>();
+        Map<String, CMSFunction> copyResult = new LinkedHashMap<>();
         hospMapPlaceholder.forEach((key, value) -> {
-            hospMap.put(key, new CMSFunction(value));
+            copyResult.put(key, new CMSFunction(value));
         });
-        return hospMap;
+        return copyResult;
     }
 
 }

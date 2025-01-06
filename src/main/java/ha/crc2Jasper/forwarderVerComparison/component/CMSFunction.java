@@ -23,4 +23,10 @@ public class CMSFunction {
     public boolean isDiffVersion(CMSFunction other){
         return !this.version.equals(other.getVersion());
     }
+
+    public void setAll(String function, String hospCode, String version){
+        this.function = function;
+        this.hospCode = hospCode;
+        this.version = version;
+    }
 }

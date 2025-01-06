@@ -1,6 +1,7 @@
 {
-    "cms_forwarder_ver_API": "http://csc1-linux:30083/ForwarderTable/weblogic_12c.json",
-    "allClusers" : [
+    "cms_forwarder_API_host": "csc1-linux:30083",
+    "cms_forwarder_API": "http://160.98.17.133:30083/ForwarderTable/weblogic_12c.json",
+    "allClusters": [
         {
             "cluster": "HKEC",
             "hospList" : [
