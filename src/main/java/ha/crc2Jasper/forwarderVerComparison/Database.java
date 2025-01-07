@@ -18,6 +18,7 @@ public class Database {
         hospMapPlaceholder = createHospPlaceholderMap();
         allHospCode = new ArrayList<>(hospMapPlaceholder.keySet());
     }
+
     @Getter
     private static Database instance = new Database();
     private final Map<String, Map<String, CMSFunction>> allFuncHospMap = new LinkedHashMap<>();
@@ -25,6 +26,12 @@ public class Database {
     private final Map<String, CMSFunction> hospMapPlaceholder;
     private final List<String> allHospCode;
     private Response preComputedResponseAllHosp;
+
+    public void resetData(){
+        allFuncHospMap.clear();
+        funcWithDiffVerMap_allHosp = null;
+        preComputedResponseAllHosp = null;
+    }
 
     public void addNewHospItem(String function, String hospCode, String version){
         if(hospMapPlaceholder.containsKey(hospCode)){
@@ -36,11 +43,10 @@ public class Database {
                     existingCMSFunction.setAll(function, hospCode, version);
                     return;
                 }
-                if(!existingVersion.equals(version)){
+                if(!existingVersion.contains(version)){
                     existingCMSFunction.setVersion(existingVersion + ", " + version);
                 }
             }else{
-                DebugUtils.print("Adding new function: " + function);
                 Map<String, CMSFunction> hospMap = deepCopyFromHospMapPlaceholder();
                 hospMap.get(hospCode).setAll(function, hospCode, version);
                 allFuncHospMap.put(function, hospMap);

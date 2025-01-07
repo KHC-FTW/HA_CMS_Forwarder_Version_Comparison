@@ -12,14 +12,12 @@ public class DataUtils {
 
     private static final Database DB = Database.getInstance();
 
-    public static void initializeFuncWithDiffVerMapForAllHosp(){
+    public static void updateFuncWithDiffVerMapForAllHosp(){
         if(DB.getFuncWithDiffVerMap_allHosp() == null){
             DB.setFuncWithDiffVerMap_allHosp(compareForwarderVersion(DB.getAllHospCode(), DB.getAllFuncHospMap()));
-            DebugUtils.print("FuncWithDiffVerMap_allHosp initialized!");
         }
         if(DB.getPreComputedResponseAllHosp() == null){
             DB.setPreComputedResponseAllHosp(createResponse(DB.getFuncWithDiffVerMap_allHosp()));
-            DebugUtils.print("PreComputedResponseAllHosp initialized!");
         }
     }
 

@@ -7,7 +7,7 @@ import reactor.core.publisher.Mono;
 public class JsonDataParser {
     private JsonDataParser() {}
     private static final ObjectMapper objectMapper = SystemIni.getObjectMapper();
-    private static final Database db = Database.getInstance();
+    private static final Database DB = Database.getInstance();
 
     public static void parseForwarderData(String jsonData) {
         try {
@@ -17,9 +17,8 @@ public class JsonDataParser {
                 String function = data.get("function").asText();
                 String hospCode = data.get("hosp_code").asText();
                 String version = data.get("version").asText();
-                db.addNewHospItem(function, hospCode, version);
+                DB.addNewHospItem(function, hospCode, version);
             });
-            System.out.println("Data parsed successfully");
         } catch (Exception e) {
             ExceptionService.printException(e);
         }
@@ -34,9 +33,9 @@ public class JsonDataParser {
                 String function = data.get("function").asText();
                 String hospCode = data.get("hosp_code").asText();
                 String version = data.get("version").asText();
-                db.addNewHospItem(function, hospCode, version);
+                DB.addNewHospItem(function, hospCode, version);
             });
-            System.out.println("Data parsed successfully");
+            DebugUtils.print("Data parsed successfully");
         } catch (Exception e) {
             ExceptionService.printException(e);
         }

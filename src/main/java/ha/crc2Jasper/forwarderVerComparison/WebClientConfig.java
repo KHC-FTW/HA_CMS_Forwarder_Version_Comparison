@@ -3,8 +3,7 @@ package ha.crc2Jasper.forwarderVerComparison;
 import org.springframework.web.reactive.function.client.WebClient;
 
 public class WebClientConfig {
-    private WebClientConfig() {
-    }
+    private WebClientConfig() {}
     private static final int MAX_MEMORY_BUFFER = 50 * 1024 * 1024;
     private static final WebClient webClient = customWebClient();
 
