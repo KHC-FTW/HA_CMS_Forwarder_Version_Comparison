@@ -4,6 +4,8 @@ import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import reactor.core.publisher.Mono;
 
+import java.time.LocalDateTime;
+
 public class JsonDataParser {
     private JsonDataParser() {}
     private static final ObjectMapper objectMapper = SystemIni.getObjectMapper();
@@ -35,7 +37,9 @@ public class JsonDataParser {
                 String version = data.get("version").asText();
                 DB.addNewHospItem(function, hospCode, version);
             });
-            DebugUtils.print("Data parsed successfully");
+            LocalDateTime now = LocalDateTime.now();
+            String msg = "Data parsed successfully at " + now;
+            DebugUtils.print(msg);
         } catch (Exception e) {
             ExceptionService.printException(e);
         }
