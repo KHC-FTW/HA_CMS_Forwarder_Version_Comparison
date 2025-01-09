@@ -1,0 +1,1686 @@
+{
+    "status": "OK",
+    "total": 42,
+    "results": [
+      {
+        "function": "AEDF",
+        "hospForwarder": [
+          {
+            "function": "",
+            "hospCode": "DKC",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "FYK",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "GH",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "ML",
+            "version": ""
+          },
+          {
+            "function": "AEDF",
+            "hospCode": "QMH",
+            "version": "4.1.0"
+          },
+          {
+            "function": "",
+            "hospCode": "TWH",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "TYH",
+            "version": ""
+          }
+        ]
+      },
+      {
+        "function": "AEDF-PDFENG",
+        "hospForwarder": [
+          {
+            "function": "",
+            "hospCode": "DKC",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "FYK",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "GH",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "ML",
+            "version": ""
+          },
+          {
+            "function": "AEDF-PDFENG",
+            "hospCode": "QMH",
+            "version": "4.1.0"
+          },
+          {
+            "function": "",
+            "hospCode": "TWH",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "TYH",
+            "version": ""
+          }
+        ]
+      },
+      {
+        "function": "AEIS",
+        "hospForwarder": [
+          {
+            "function": "",
+            "hospCode": "DKC",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "FYK",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "GH",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "ML",
+            "version": ""
+          },
+          {
+            "function": "AEIS",
+            "hospCode": "QMH",
+            "version": "8.16.0"
+          },
+          {
+            "function": "",
+            "hospCode": "TWH",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "TYH",
+            "version": ""
+          }
+        ]
+      },
+      {
+        "function": "AEIS-CQMS",
+        "hospForwarder": [
+          {
+            "function": "",
+            "hospCode": "DKC",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "FYK",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "GH",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "ML",
+            "version": ""
+          },
+          {
+            "function": "AEIS-CQMS",
+            "hospCode": "QMH",
+            "version": "1.0.0"
+          },
+          {
+            "function": "",
+            "hospCode": "TWH",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "TYH",
+            "version": ""
+          }
+        ]
+      },
+      {
+        "function": "AEIS-IPMOE",
+        "hospForwarder": [
+          {
+            "function": "",
+            "hospCode": "DKC",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "FYK",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "GH",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "ML",
+            "version": ""
+          },
+          {
+            "function": "AEIS-IPMOE",
+            "hospCode": "QMH",
+            "version": "8.16.0"
+          },
+          {
+            "function": "",
+            "hospCode": "TWH",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "TYH",
+            "version": ""
+          }
+        ]
+      },
+      {
+        "function": "AEIS-PDFENG",
+        "hospForwarder": [
+          {
+            "function": "",
+            "hospCode": "DKC",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "FYK",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "GH",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "ML",
+            "version": ""
+          },
+          {
+            "function": "AEIS-PDFENG",
+            "hospCode": "QMH",
+            "version": "8.16.0"
+          },
+          {
+            "function": "",
+            "hospCode": "TWH",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "TYH",
+            "version": ""
+          }
+        ]
+      },
+      {
+        "function": "AEIS-RD",
+        "hospForwarder": [
+          {
+            "function": "",
+            "hospCode": "DKC",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "FYK",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "GH",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "ML",
+            "version": ""
+          },
+          {
+            "function": "AEIS-RD",
+            "hospCode": "QMH",
+            "version": "8.16.0"
+          },
+          {
+            "function": "",
+            "hospCode": "TWH",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "TYH",
+            "version": ""
+          }
+        ]
+      },
+      {
+        "function": "ASPF",
+        "hospForwarder": [
+          {
+            "function": "ASPF",
+            "hospCode": "DKC",
+            "version": "1.1.0"
+          },
+          {
+            "function": "ASPF",
+            "hospCode": "FYK",
+            "version": "1.1.0"
+          },
+          {
+            "function": "ASPF",
+            "hospCode": "GH",
+            "version": "1.1.0"
+          },
+          {
+            "function": "ASPF",
+            "hospCode": "ML",
+            "version": "1.1.0"
+          },
+          {
+            "function": "ASPF",
+            "hospCode": "QMH",
+            "version": "1.1.1"
+          },
+          {
+            "function": "ASPF",
+            "hospCode": "TWH",
+            "version": "1.1.0"
+          },
+          {
+            "function": "ASPF",
+            "hospCode": "TYH",
+            "version": "1.1.0"
+          }
+        ]
+      },
+      {
+        "function": "CMS_GCDWS",
+        "hospForwarder": [
+          {
+            "function": "CMS_GCDWS",
+            "hospCode": "DKC",
+            "version": "9.7.0_DKC"
+          },
+          {
+            "function": "CMS_GCDWS",
+            "hospCode": "FYK",
+            "version": "9.7.0_FYK"
+          },
+          {
+            "function": "CMS_GCDWS",
+            "hospCode": "GH",
+            "version": "9.7.0_GH"
+          },
+          {
+            "function": "CMS_GCDWS",
+            "hospCode": "ML",
+            "version": "9.7.0_ML"
+          },
+          {
+            "function": "CMS_GCDWS",
+            "hospCode": "QMH",
+            "version": "9.7.0_QMH"
+          },
+          {
+            "function": "CMS_GCDWS",
+            "hospCode": "TWH",
+            "version": "9.7.0_TWH"
+          },
+          {
+            "function": "CMS_GCDWS",
+            "hospCode": "TYH",
+            "version": "9.7.0_TYH"
+          }
+        ]
+      },
+      {
+        "function": "CMS_LREWS",
+        "hospForwarder": [
+          {
+            "function": "CMS_LREWS",
+            "hospCode": "DKC",
+            "version": "1.0.0"
+          },
+          {
+            "function": "CMS_LREWS",
+            "hospCode": "FYK",
+            "version": "1.0.0"
+          },
+          {
+            "function": "CMS_LREWS",
+            "hospCode": "GH",
+            "version": "1.0.0"
+          },
+          {
+            "function": "CMS_LREWS",
+            "hospCode": "ML",
+            "version": "1.0.0"
+          },
+          {
+            "function": "CMS_LREWS",
+            "hospCode": "QMH",
+            "version": "1.0.0"
+          },
+          {
+            "function": "CMS_LREWS",
+            "hospCode": "TWH",
+            "version": "1.0.0"
+          },
+          {
+            "function": "",
+            "hospCode": "TYH",
+            "version": ""
+          }
+        ]
+      },
+      {
+        "function": "CMS_RPTSCRN_LREWS",
+        "hospForwarder": [
+          {
+            "function": "",
+            "hospCode": "DKC",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "FYK",
+            "version": ""
+          },
+          {
+            "function": "CMS_RPTSCRN_LREWS",
+            "hospCode": "GH",
+            "version": "1.0.0"
+          },
+          {
+            "function": "",
+            "hospCode": "ML",
+            "version": ""
+          },
+          {
+            "function": "CMS_RPTSCRN_LREWS",
+            "hospCode": "QMH",
+            "version": "1.0.0"
+          },
+          {
+            "function": "",
+            "hospCode": "TWH",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "TYH",
+            "version": ""
+          }
+        ]
+      },
+      {
+        "function": "FFCS",
+        "hospForwarder": [
+          {
+            "function": "",
+            "hospCode": "DKC",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "FYK",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "GH",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "ML",
+            "version": ""
+          },
+          {
+            "function": "FFCS",
+            "hospCode": "QMH",
+            "version": "1.1.0"
+          },
+          {
+            "function": "",
+            "hospCode": "TWH",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "TYH",
+            "version": ""
+          }
+        ]
+      },
+      {
+        "function": "MDSREST_WS",
+        "hospForwarder": [
+          {
+            "function": "MDSREST_WS",
+            "hospCode": "DKC",
+            "version": "4.0.8"
+          },
+          {
+            "function": "MDSREST_WS",
+            "hospCode": "FYK",
+            "version": "4.0.8"
+          },
+          {
+            "function": "MDSREST_WS",
+            "hospCode": "GH",
+            "version": "4.0.8"
+          },
+          {
+            "function": "MDSREST_WS",
+            "hospCode": "ML",
+            "version": "4.0.8"
+          },
+          {
+            "function": "MDSREST_WS",
+            "hospCode": "QMH",
+            "version": "4.0.8"
+          },
+          {
+            "function": "MDSREST_WS",
+            "hospCode": "TWH",
+            "version": "4.0.8"
+          },
+          {
+            "function": "",
+            "hospCode": "TYH",
+            "version": ""
+          }
+        ]
+      },
+      {
+        "function": "MLR_LIS_PDF_WS",
+        "hospForwarder": [
+          {
+            "function": "",
+            "hospCode": "DKC",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "FYK",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "GH",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "ML",
+            "version": ""
+          },
+          {
+            "function": "MLR_LIS_PDF_WS",
+            "hospCode": "QMH",
+            "version": "1.0.0"
+          },
+          {
+            "function": "",
+            "hospCode": "TWH",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "TYH",
+            "version": ""
+          }
+        ]
+      },
+      {
+        "function": "MLR_LIS_WS",
+        "hospForwarder": [
+          {
+            "function": "MLR_LIS_WS",
+            "hospCode": "DKC",
+            "version": "1.0.0"
+          },
+          {
+            "function": "",
+            "hospCode": "FYK",
+            "version": ""
+          },
+          {
+            "function": "MLR_LIS_WS",
+            "hospCode": "GH",
+            "version": "1.0.0"
+          },
+          {
+            "function": "",
+            "hospCode": "ML",
+            "version": ""
+          },
+          {
+            "function": "MLR_LIS_WS",
+            "hospCode": "QMH",
+            "version": "1.0.0"
+          },
+          {
+            "function": "MLR_LIS_WS",
+            "hospCode": "TWH",
+            "version": "1.0.0"
+          },
+          {
+            "function": "",
+            "hospCode": "TYH",
+            "version": ""
+          }
+        ]
+      },
+      {
+        "function": "OTMSWEBS-ApptEnq-CDB",
+        "hospForwarder": [
+          {
+            "function": "OTMSWEBS-ApptEnq-CDB",
+            "hospCode": "DKC",
+            "version": "1.0.0"
+          },
+          {
+            "function": "",
+            "hospCode": "FYK",
+            "version": ""
+          },
+          {
+            "function": "OTMSWEBS-ApptEnq-CDB",
+            "hospCode": "GH",
+            "version": "1.0.0"
+          },
+          {
+            "function": "",
+            "hospCode": "ML",
+            "version": ""
+          },
+          {
+            "function": "OTMSWEBS-ApptEnq-CDB",
+            "hospCode": "QMH",
+            "version": "1.0.0"
+          },
+          {
+            "function": "OTMSWEBS-ApptEnq-CDB",
+            "hospCode": "TWH",
+            "version": "1.0.0"
+          },
+          {
+            "function": "",
+            "hospCode": "TYH",
+            "version": ""
+          }
+        ]
+      },
+      {
+        "function": "OTMS_EOT_Booking",
+        "hospForwarder": [
+          {
+            "function": "OTMS_EOT_Booking",
+            "hospCode": "DKC",
+            "version": "1_0_0"
+          },
+          {
+            "function": "",
+            "hospCode": "FYK",
+            "version": ""
+          },
+          {
+            "function": "OTMS_EOT_Booking",
+            "hospCode": "GH",
+            "version": "1_0_0"
+          },
+          {
+            "function": "",
+            "hospCode": "ML",
+            "version": ""
+          },
+          {
+            "function": "OTMS_EOT_Booking",
+            "hospCode": "QMH",
+            "version": "1_0_0"
+          },
+          {
+            "function": "OTMS_EOT_Booking",
+            "hospCode": "TWH",
+            "version": "1_0_0"
+          },
+          {
+            "function": "",
+            "hospCode": "TYH",
+            "version": ""
+          }
+        ]
+      },
+      {
+        "function": "OTMS_EOT_Maint",
+        "hospForwarder": [
+          {
+            "function": "OTMS_EOT_Maint",
+            "hospCode": "DKC",
+            "version": "1_0_0"
+          },
+          {
+            "function": "",
+            "hospCode": "FYK",
+            "version": ""
+          },
+          {
+            "function": "OTMS_EOT_Maint",
+            "hospCode": "GH",
+            "version": "1_0_0"
+          },
+          {
+            "function": "",
+            "hospCode": "ML",
+            "version": ""
+          },
+          {
+            "function": "OTMS_EOT_Maint",
+            "hospCode": "QMH",
+            "version": "1_0_0"
+          },
+          {
+            "function": "OTMS_EOT_Maint",
+            "hospCode": "TWH",
+            "version": "1_0_0"
+          },
+          {
+            "function": "",
+            "hospCode": "TYH",
+            "version": ""
+          }
+        ]
+      },
+      {
+        "function": "OTMS_EOT_Status",
+        "hospForwarder": [
+          {
+            "function": "OTMS_EOT_Status",
+            "hospCode": "DKC",
+            "version": "1_0_0"
+          },
+          {
+            "function": "",
+            "hospCode": "FYK",
+            "version": ""
+          },
+          {
+            "function": "OTMS_EOT_Status",
+            "hospCode": "GH",
+            "version": "1_0_0"
+          },
+          {
+            "function": "",
+            "hospCode": "ML",
+            "version": ""
+          },
+          {
+            "function": "OTMS_EOT_Status",
+            "hospCode": "QMH",
+            "version": "1_0_0"
+          },
+          {
+            "function": "OTMS_EOT_Status",
+            "hospCode": "TWH",
+            "version": "1_0_0"
+          },
+          {
+            "function": "",
+            "hospCode": "TYH",
+            "version": ""
+          }
+        ]
+      },
+      {
+        "function": "OTMS_ElectiveOT_Booking",
+        "hospForwarder": [
+          {
+            "function": "OTMS_ElectiveOT_Booking",
+            "hospCode": "DKC",
+            "version": "1_0_0"
+          },
+          {
+            "function": "",
+            "hospCode": "FYK",
+            "version": ""
+          },
+          {
+            "function": "OTMS_ElectiveOT_Booking",
+            "hospCode": "GH",
+            "version": "1_0_0"
+          },
+          {
+            "function": "",
+            "hospCode": "ML",
+            "version": ""
+          },
+          {
+            "function": "OTMS_ElectiveOT_Booking",
+            "hospCode": "QMH",
+            "version": "1_0_0"
+          },
+          {
+            "function": "OTMS_ElectiveOT_Booking",
+            "hospCode": "TWH",
+            "version": "1_0_0"
+          },
+          {
+            "function": "",
+            "hospCode": "TYH",
+            "version": ""
+          }
+        ]
+      },
+      {
+        "function": "OTMS_ElectiveOT_Status",
+        "hospForwarder": [
+          {
+            "function": "OTMS_ElectiveOT_Status",
+            "hospCode": "DKC",
+            "version": "1_0_0"
+          },
+          {
+            "function": "",
+            "hospCode": "FYK",
+            "version": ""
+          },
+          {
+            "function": "OTMS_ElectiveOT_Status",
+            "hospCode": "GH",
+            "version": "1_0_0"
+          },
+          {
+            "function": "",
+            "hospCode": "ML",
+            "version": ""
+          },
+          {
+            "function": "OTMS_ElectiveOT_Status",
+            "hospCode": "QMH",
+            "version": "1_0_0"
+          },
+          {
+            "function": "OTMS_ElectiveOT_Status",
+            "hospCode": "TWH",
+            "version": "1_0_0"
+          },
+          {
+            "function": "",
+            "hospCode": "TYH",
+            "version": ""
+          }
+        ]
+      },
+      {
+        "function": "OTMS_Other_ElectiveOT",
+        "hospForwarder": [
+          {
+            "function": "OTMS_Other_ElectiveOT",
+            "hospCode": "DKC",
+            "version": "1_0_0"
+          },
+          {
+            "function": "",
+            "hospCode": "FYK",
+            "version": ""
+          },
+          {
+            "function": "OTMS_Other_ElectiveOT",
+            "hospCode": "GH",
+            "version": "1_0_0"
+          },
+          {
+            "function": "",
+            "hospCode": "ML",
+            "version": ""
+          },
+          {
+            "function": "OTMS_Other_ElectiveOT",
+            "hospCode": "QMH",
+            "version": "1_0_0"
+          },
+          {
+            "function": "OTMS_Other_ElectiveOT",
+            "hospCode": "TWH",
+            "version": "1_0_0"
+          },
+          {
+            "function": "",
+            "hospCode": "TYH",
+            "version": ""
+          }
+        ]
+      },
+      {
+        "function": "PAPERLESSECG",
+        "hospForwarder": [
+          {
+            "function": "",
+            "hospCode": "DKC",
+            "version": ""
+          },
+          {
+            "function": "PAPERLESSECG",
+            "hospCode": "FYK",
+            "version": "1.0.0"
+          },
+          {
+            "function": "PAPERLESSECG",
+            "hospCode": "GH",
+            "version": "1.0.0"
+          },
+          {
+            "function": "",
+            "hospCode": "ML",
+            "version": ""
+          },
+          {
+            "function": "PAPERLESSECG",
+            "hospCode": "QMH",
+            "version": "1.0.0"
+          },
+          {
+            "function": "PAPERLESSECG",
+            "hospCode": "TWH",
+            "version": "1.0.0"
+          },
+          {
+            "function": "",
+            "hospCode": "TYH",
+            "version": ""
+          }
+        ]
+      },
+      {
+        "function": "PSP-List12",
+        "hospForwarder": [
+          {
+            "function": "",
+            "hospCode": "DKC",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "FYK",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "GH",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "ML",
+            "version": ""
+          },
+          {
+            "function": "PSP-List12",
+            "hospCode": "QMH",
+            "version": "2.6.0"
+          },
+          {
+            "function": "",
+            "hospCode": "TWH",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "TYH",
+            "version": ""
+          }
+        ]
+      },
+      {
+        "function": "USER_ADMIN",
+        "hospForwarder": [
+          {
+            "function": "USER_ADMIN",
+            "hospCode": "DKC",
+            "version": "3_3_4_1"
+          },
+          {
+            "function": "USER_ADMIN",
+            "hospCode": "FYK",
+            "version": "3_3_4_1"
+          },
+          {
+            "function": "USER_ADMIN",
+            "hospCode": "GH",
+            "version": "3_3_4_1"
+          },
+          {
+            "function": "USER_ADMIN",
+            "hospCode": "ML",
+            "version": "3_3_4_1"
+          },
+          {
+            "function": "USER_ADMIN",
+            "hospCode": "QMH",
+            "version": "3_3_5_1"
+          },
+          {
+            "function": "USER_ADMIN",
+            "hospCode": "TWH",
+            "version": "3_3_4_1"
+          },
+          {
+            "function": "USER_ADMIN",
+            "hospCode": "TYH",
+            "version": "3_3_4_1"
+          }
+        ]
+      },
+      {
+        "function": "ARS-RESTAPI-OBSCIS",
+        "hospForwarder": [
+          {
+            "function": "",
+            "hospCode": "DKC",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "FYK",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "GH",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "ML",
+            "version": ""
+          },
+          {
+            "function": "ARS-RESTAPI-OBSCIS",
+            "hospCode": "QMH",
+            "version": "5_11_0"
+          },
+          {
+            "function": "",
+            "hospCode": "TWH",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "TYH",
+            "version": ""
+          }
+        ]
+      },
+      {
+        "function": "OBSCIS",
+        "hospForwarder": [
+          {
+            "function": "",
+            "hospCode": "DKC",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "FYK",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "GH",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "ML",
+            "version": ""
+          },
+          {
+            "function": "OBSCIS",
+            "hospCode": "QMH",
+            "version": "5_11_0"
+          },
+          {
+            "function": "",
+            "hospCode": "TWH",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "TYH",
+            "version": ""
+          }
+        ]
+      },
+      {
+        "function": "CDB-DKC",
+        "hospForwarder": [
+          {
+            "function": "CDB-DKC",
+            "hospCode": "DKC",
+            "version": "3_12_0"
+          },
+          {
+            "function": "",
+            "hospCode": "FYK",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "GH",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "ML",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "QMH",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "TWH",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "TYH",
+            "version": ""
+          }
+        ]
+      },
+      {
+        "function": "CDB-FYK",
+        "hospForwarder": [
+          {
+            "function": "",
+            "hospCode": "DKC",
+            "version": ""
+          },
+          {
+            "function": "CDB-FYK",
+            "hospCode": "FYK",
+            "version": "3_12_0"
+          },
+          {
+            "function": "",
+            "hospCode": "GH",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "ML",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "QMH",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "TWH",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "TYH",
+            "version": ""
+          }
+        ]
+      },
+      {
+        "function": "CDB-GH",
+        "hospForwarder": [
+          {
+            "function": "",
+            "hospCode": "DKC",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "FYK",
+            "version": ""
+          },
+          {
+            "function": "CDB-GH",
+            "hospCode": "GH",
+            "version": "3_12_0"
+          },
+          {
+            "function": "",
+            "hospCode": "ML",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "QMH",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "TWH",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "TYH",
+            "version": ""
+          }
+        ]
+      },
+      {
+        "function": "OBSCIS_IP",
+        "hospForwarder": [
+          {
+            "function": "",
+            "hospCode": "DKC",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "FYK",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "GH",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "ML",
+            "version": ""
+          },
+          {
+            "function": "OBSCIS_IP",
+            "hospCode": "QMH",
+            "version": "7_9_6"
+          },
+          {
+            "function": "",
+            "hospCode": "TWH",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "TYH",
+            "version": ""
+          }
+        ]
+      },
+      {
+        "function": "PASWEBS-OpasServiceEnquiry-OBSCIS",
+        "hospForwarder": [
+          {
+            "function": "",
+            "hospCode": "DKC",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "FYK",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "GH",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "ML",
+            "version": ""
+          },
+          {
+            "function": "PASWEBS-OpasServiceEnquiry-OBSCIS",
+            "hospCode": "QMH",
+            "version": "3.0.7"
+          },
+          {
+            "function": "",
+            "hospCode": "TWH",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "TYH",
+            "version": ""
+          }
+        ]
+      },
+      {
+        "function": "PAS_OBS_NEW_BORN_REG",
+        "hospForwarder": [
+          {
+            "function": "",
+            "hospCode": "DKC",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "FYK",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "GH",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "ML",
+            "version": ""
+          },
+          {
+            "function": "PAS_OBS_NEW_BORN_REG",
+            "hospCode": "QMH",
+            "version": "5.0.7"
+          },
+          {
+            "function": "",
+            "hospCode": "TWH",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "TYH",
+            "version": ""
+          }
+        ]
+      },
+      {
+        "function": "GCD_FIM",
+        "hospForwarder": [
+          {
+            "function": "",
+            "hospCode": "DKC",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "FYK",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "GH",
+            "version": ""
+          },
+          {
+            "function": "GCD_FIM",
+            "hospCode": "ML",
+            "version": "6.3.0"
+          },
+          {
+            "function": "",
+            "hospCode": "QMH",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "TWH",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "TYH",
+            "version": ""
+          }
+        ]
+      },
+      {
+        "function": "OBSCIS_USER_ADMIN_API",
+        "hospForwarder": [
+          {
+            "function": "",
+            "hospCode": "DKC",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "FYK",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "GH",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "ML",
+            "version": ""
+          },
+          {
+            "function": "OBSCIS_USER_ADMIN_API",
+            "hospCode": "QMH",
+            "version": "7_9_6"
+          },
+          {
+            "function": "",
+            "hospCode": "TWH",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "TYH",
+            "version": ""
+          }
+        ]
+      },
+      {
+        "function": "CDB-ML",
+        "hospForwarder": [
+          {
+            "function": "",
+            "hospCode": "DKC",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "FYK",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "GH",
+            "version": ""
+          },
+          {
+            "function": "CDB-ML",
+            "hospCode": "ML",
+            "version": "3_12_0"
+          },
+          {
+            "function": "",
+            "hospCode": "QMH",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "TWH",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "TYH",
+            "version": ""
+          }
+        ]
+      },
+      {
+        "function": "PSP-List14",
+        "hospForwarder": [
+          {
+            "function": "",
+            "hospCode": "DKC",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "FYK",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "GH",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "ML",
+            "version": ""
+          },
+          {
+            "function": "PSP-List14",
+            "hospCode": "QMH",
+            "version": "1.1.0"
+          },
+          {
+            "function": "",
+            "hospCode": "TWH",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "TYH",
+            "version": ""
+          }
+        ]
+      },
+      {
+        "function": "TRAUMA",
+        "hospForwarder": [
+          {
+            "function": "",
+            "hospCode": "DKC",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "FYK",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "GH",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "ML",
+            "version": ""
+          },
+          {
+            "function": "TRAUMA",
+            "hospCode": "QMH",
+            "version": "4.7.0"
+          },
+          {
+            "function": "",
+            "hospCode": "TWH",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "TYH",
+            "version": ""
+          }
+        ]
+      },
+      {
+        "function": "CDB-QMH",
+        "hospForwarder": [
+          {
+            "function": "",
+            "hospCode": "DKC",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "FYK",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "GH",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "ML",
+            "version": ""
+          },
+          {
+            "function": "CDB-QMH",
+            "hospCode": "QMH",
+            "version": "3_12_0"
+          },
+          {
+            "function": "",
+            "hospCode": "TWH",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "TYH",
+            "version": ""
+          }
+        ]
+      },
+      {
+        "function": "PBBS",
+        "hospForwarder": [
+          {
+            "function": "",
+            "hospCode": "DKC",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "FYK",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "GH",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "ML",
+            "version": ""
+          },
+          {
+            "function": "PBBS",
+            "hospCode": "QMH",
+            "version": "1_0_0"
+          },
+          {
+            "function": "",
+            "hospCode": "TWH",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "TYH",
+            "version": ""
+          }
+        ]
+      },
+      {
+        "function": "CDB-TWH",
+        "hospForwarder": [
+          {
+            "function": "",
+            "hospCode": "DKC",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "FYK",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "GH",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "ML",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "QMH",
+            "version": ""
+          },
+          {
+            "function": "CDB-TWH",
+            "hospCode": "TWH",
+            "version": "3_12_0"
+          },
+          {
+            "function": "",
+            "hospCode": "TYH",
+            "version": ""
+          }
+        ]
+      },
+      {
+        "function": "CDB-TYH",
+        "hospForwarder": [
+          {
+            "function": "",
+            "hospCode": "DKC",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "FYK",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "GH",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "ML",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "QMH",
+            "version": ""
+          },
+          {
+            "function": "",
+            "hospCode": "TWH",
+            "version": ""
+          },
+          {
+            "function": "CDB-TYH",
+            "hospCode": "TYH",
+            "version": "3_12_0"
+          }
+        ]
+      }
+    ]
+  }

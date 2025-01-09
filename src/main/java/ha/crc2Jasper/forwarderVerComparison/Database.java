@@ -39,6 +39,7 @@ public class Database {
                 Map<String, CMSFunction> hospMap = allFuncHospMap.get(function);
                 CMSFunction existingCMSFunction = hospMap.get(hospCode);
                 String existingVersion = existingCMSFunction.getVersion();
+                if (version.isBlank()) version = "";
                 if(existingVersion.isBlank()){
                     existingCMSFunction.setAll(function, hospCode, version);
                     return;

@@ -1,0 +1,80 @@
+{
+    "allClusters": [
+        {
+            "cluster": "HKEC",
+            "hospList" : [
+                "CHC",
+                "PYN",
+                "RH",
+                "SJH",
+                "TWE",
+                "WCH"
+            ]
+        },
+        {
+            "cluster": "HKWC",
+            "hospList" : [
+                "DKC",
+                "FYK",
+                "GH",
+                "ML",
+                "QMH",
+                "TWH",
+                "TYH"
+            ]
+        },
+        {
+            "cluster": "KEC",
+            "hospList" : [
+                "HHH",
+                "TKO",
+                "UCH"
+            ]
+        },
+        {
+            "cluster": "KCC",
+            "hospList" : [
+                "BH",
+                "HCH",
+                "HKE",
+                "KH",
+                "KWH",
+                "OLM",
+                "QEH",
+                "WTS"
+            ]
+        },
+        {
+            "cluster": "KWC",
+            "hospList" : [
+                "KCH",
+                "CMC",
+                "NLT",
+                "PMH",
+                "YCH"
+            ]
+        },
+        {
+            "cluster": "NTEC",
+            "hospList" : [
+                "AHN",
+                "BBH",
+                "CHS",
+                "NDH",
+                "PWH",
+                "SH",
+                "TPH"
+            ]
+        },
+        {
+            "cluster": "NTWC",
+            "hospList" : [
+                "CPH",
+                "POH",
+                "SLH",
+                "TMH",
+                "TSH"
+            ]
+        }
+    ]
+}

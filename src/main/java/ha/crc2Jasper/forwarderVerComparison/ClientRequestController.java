@@ -97,7 +97,24 @@ public class ClientRequestController {
                 Map<String, Map<String, CMSFunction>> results = DataUtils.compareForwarderVersion(hospList, funcWithDiffVerMap_allHosp);
                 return DataUtils.createResponse(results);
             }
-            String errorMsg = String.format("Error: Get param has invalid hospital code(s): %s, %s (Case-sensitive)", hosp1, hosp2);
+            String errorMsg = String.format("Error: GET param has invalid hospital code(s): %s, %s (Uppercase needed)", hosp1, hosp2);
+            return new Response(errorMsg, 0, null);
+        } finally {
+            READ_LOCK.unlock();
+        }
+    }
+
+    @ResponseBody
+    @GetMapping("/v1/find-forwarder-diff-by-function/{function}")
+    public Response v1_find_forwarder_diff_by_function(@PathVariable("function") String function) {
+        try{
+            READ_LOCK.lock();
+            Map<String, Map<String, CMSFunction>> funcWithDiffVerMap_allHosp = DB.getFuncWithDiffVerMap_allHosp();
+            if (funcWithDiffVerMap_allHosp != null && funcWithDiffVerMap_allHosp.containsKey(function)) {
+                Map<String, Map<String, CMSFunction>> results = Collections.singletonMap(function, funcWithDiffVerMap_allHosp.get(function));
+                return DataUtils.createResponse(results);
+            }
+            String errorMsg = String.format("Error: GET param has invalid function name: '%s'", function);
             return new Response(errorMsg, 0, null);
         } finally {
             READ_LOCK.unlock();

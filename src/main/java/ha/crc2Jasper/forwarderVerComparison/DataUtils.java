@@ -35,7 +35,7 @@ public class DataUtils {
         Map<String, Map<String, CMSFunction>> results = new LinkedHashMap<>();
         funcWithDiffVerMap_allHospital.forEach((function, hospMap) -> {
             Map<String, CMSFunction> diffMap = new LinkedHashMap<>();
-            hospToCompare.forEach(hospCode -> {
+            hospToCompare.forEach((String hospCode) -> {
                 diffMap.put(hospCode, hospMap.get(hospCode));
             });
             results.put(function, diffMap);

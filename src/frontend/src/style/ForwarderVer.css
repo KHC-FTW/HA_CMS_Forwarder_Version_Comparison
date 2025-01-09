@@ -1,0 +1,64 @@
+.api-response-handler {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-height: 95vh;
+    overflow-y: auto; /* Add scroll if content exceeds max height */
+}
+
+.total {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.results {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.result {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    border: 1px solid #eee;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 240px;
+    box-sizing: border-box;
+}
+
+.function-header {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.hosp-row {
+    display: flex;
+    justify-content: center;
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.hosp-code{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #ddd;
+    width: 50%;
+}
+
+.version {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
