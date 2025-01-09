@@ -3,14 +3,15 @@
     flex-direction: column;
     gap: 15px;
     padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    max-height: 95vh;
+    border-left: 1px solid #ccc;
+    /* border-radius: 5px; */
+    height: 95vh;
     overflow-y: auto; /* Add scroll if content exceeds max height */
+    /* background-color: #ffffff; */
 }
 
 .total {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
 }
 
@@ -24,7 +25,7 @@
     display: flex;
     flex-direction: column;
     gap: 8px;
-    border: 1px solid #eee;
+    border: 1px solid #ffffff;
     padding: 10px;
     border-radius: 5px;
     width: 100%;
@@ -37,7 +38,7 @@
     justify-content: center;
     font-size: 16px;
     font-weight: bold;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #ffffff;
     padding-bottom: 5px;
 }
 
@@ -46,13 +47,24 @@
     justify-content: center;
     padding: 5px 0;
     border-bottom: 1px solid #ddd;
+    font-weight: bold;
+}
+
+.hosp-row:nth-child(odd) {
+    /* background-color: #dfe2f8; */
+    background-color: #c6cdff;
+}
+
+.hosp-row:nth-child(even) {
+    /* background-color: #d9f5f8; */
+    background-color: #b7d4ff;
 }
 
 .hosp-code{
     display: flex;
     justify-content: center;
     align-items: center;
-    border-right: 1px solid #ddd;
+    border-right: 1px solid #ffffff;
     width: 50%;
 }
 

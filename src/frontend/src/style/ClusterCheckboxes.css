@@ -1,18 +1,52 @@
+.header{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
 .cluster-checkboxes {
     display: flex;
     flex-direction: column;
     /* gap: 10px; */
-    border: 1px solid #ccc;
-    padding: 15px 0 15px 30px;
-    border-radius: 5px;
-    /* height: 95vh; */
+    border-right: 1px solid #ccc;
+    padding: 20px 30px;
+    /* border-radius: 5px; */
+    height: 95vh;
+    overflow-y: auto; /* Add scroll if content exceeds max height */
 }
 
 .cluster-row {
     display: flex;
-    gap: 10px;
+    gap: 15px;
     border-bottom: 1px solid #eee;
-    padding: 18px 0;
+    padding: 15px 0;
+}
+
+#cluster-row-HKEC{
+    background-color: #ffc0e0;
+}
+
+#cluster-row-HKWC{
+    background-color: #98d6ff;
+}
+
+#cluster-row-KEC{
+    background-color: #edbcff;
+}
+
+#cluster-row-KCC{
+    background-color: #93ebc2;
+}
+
+#cluster-row-KWC{
+    background-color: #ec9695;
+}
+
+#cluster-row-NTEC{
+    background-color: #f0b584;
+}
+
+#cluster-row-NTWC{
+    background-color: #97cadf;
 }
 
 .cluster-column {
@@ -21,18 +55,21 @@
     gap: 5px;
     width: 100px;
     font-weight: bold;
+    padding-left: 15px;
+    font-size: 1.2rem;
 }
 
 .hospital-column {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 16px 40px;
     flex: 1;
 }
 
 .hospital-column label {
-    width: calc(25% - 10px); /* Adjust width to fit 3 items per row with gap */
+    width: 25%;
     box-sizing: border-box;
+    font-weight: bold;
 }
 
 label {
@@ -43,4 +80,20 @@ label {
 
 input[type="checkbox"] {
     margin: 0;
+}
+
+/* 
+buttons
+*/
+.buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-top: 10px;
+    font-size: 1rem;
+}
+
+#check{
+    background-color: #8afcfc;
+    padding: 0.6em 2em;
 }

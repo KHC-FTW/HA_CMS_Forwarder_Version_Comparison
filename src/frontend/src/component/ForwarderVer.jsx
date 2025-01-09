@@ -1,23 +1,6 @@
-import React, { useEffect, useState } from 'react';
 import '../style/ForwarderVer.css';
 
-import data from '../param_config/sampleResponse.json';
-
-const ForwarderVer = () => {
-    // const [data, setData] = useState(null);
-
-    // useEffect(() => {
-    //     // Replace with your actual API endpoint
-    //     fetch('https://api.example.com/data')
-    //         .then(response => response.json())
-    //         .then(data => setData(data))
-    //         .catch(error => console.error('Error fetching data:', error));
-    // }, []);
-
-    // if (!data) {
-    //     return <div>Loading...</div>;
-    // }
-
+const ForwarderVer = ({data}) => {
     return (
         <div className="api-response-handler">
             <div className="total">Total: {data.total}</div>
