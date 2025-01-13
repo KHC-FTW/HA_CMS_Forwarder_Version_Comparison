@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import './style/App.css'
 import ClusterCheckboxes from './component/ClusterCheckbox'
-import ForwarderVer from './component/ForwarderVer';
+import ForwarderVer2 from './component/ForwarderVer2.jsx';
 import data from './param_config/sampleResponse.json';
 import setupConfig from './param_config/setupConfig.json';
 import { doGetRequest } from './jsUtils.js';
@@ -17,14 +17,12 @@ function App() {
 
   return (
     <div className="App">
-      <div style={{width: '30%'}}>
+      <div style={{width: '28vw'}}>
         <ClusterCheckboxes setRespData={setRespData}/>
       </div>
-      <div style={{width: '70%'}}>
-        <ForwarderVer data={respData}/>
-      </div>
-        
-        
+      <div style={{width: '71.9vw'}}>
+        <ForwarderVer2 data={respData}/>
+      </div>        
     </div>
 );
 }

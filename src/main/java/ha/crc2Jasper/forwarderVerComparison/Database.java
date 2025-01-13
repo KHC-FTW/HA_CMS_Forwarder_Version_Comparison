@@ -33,23 +33,25 @@ public class Database {
         preComputedResponseAllHosp = null;
     }
 
-    public void addNewHospItem(String function, String hospCode, String version){
+    public void addNewHospItem(String function, String hospCode, String version, String context_root){
         if(hospMapPlaceholder.containsKey(hospCode)){
+            if (version.isBlank()) version = "";
+            if (context_root.isBlank()) context_root = "";
+
             if(allFuncHospMap.containsKey(function)){
                 Map<String, CMSFunction> hospMap = allFuncHospMap.get(function);
                 CMSFunction existingCMSFunction = hospMap.get(hospCode);
-                String existingVersion = existingCMSFunction.getVersion();
-                if (version.isBlank()) version = "";
-                if(existingVersion.isBlank()){
-                    existingCMSFunction.setAll(function, hospCode, version);
+                String existingContextRoot = existingCMSFunction.getContext_root();
+                if(existingContextRoot.isBlank()){
+                    existingCMSFunction.setAll(function, hospCode, version, context_root);
                     return;
                 }
-                if(!existingVersion.contains(version)){
-                    existingCMSFunction.setVersion(existingVersion + ", " + version);
+                if(!existingContextRoot.contains(context_root)){
+                    existingCMSFunction.setContext_root(existingContextRoot + "\n\n" + context_root);
                 }
             }else{
                 Map<String, CMSFunction> hospMap = deepCopyFromHospMapPlaceholder();
-                hospMap.get(hospCode).setAll(function, hospCode, version);
+                hospMap.get(hospCode).setAll(function, hospCode, version, context_root);
                 allFuncHospMap.put(function, hospMap);
             }
         }
@@ -60,7 +62,7 @@ public class Database {
         final SetupConfig SETUP_CONFIG = SetupConfig.getInstance();
         SETUP_CONFIG.getAllClusters().forEach(cluster -> {
             cluster.getHospList().forEach(hospCode -> {
-                hospMap.put(hospCode, new CMSFunction("", hospCode, ""));
+                hospMap.put(hospCode, new CMSFunction("", hospCode, "", ""));
             });
         });
         return hospMap;

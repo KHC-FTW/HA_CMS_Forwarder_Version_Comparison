@@ -1,8 +1,8 @@
 {   
     "backend_port" : "http://crc2-jasper:8888/api",
     "api_list": {
-        "find_forwarder_diff_all_hosp" : "/v1/find-forwarder-diff/all-hosp",
-        "find_forwarder_diff_selected_hosp" : "/v1/find-forwarder-diff/selected-hosp"
+        "find_forwarder_diff_all_hosp" : "/v2/find-forwarder-diff/all-hosp",
+        "find_forwarder_diff_selected_hosp" : "/v2/find-forwarder-diff/selected-hosp"
     },
     "allClusters": [
         {

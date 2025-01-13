@@ -19,10 +19,33 @@ public class ClientRequestController {
     @ResponseBody
     @GetMapping("/v1/testGET")
     public Response retrieveTest() {
-        return new Response("GET request successful!", 0, null);
+        return new Response("GET request successful!", "", 0, null);
     }
 
     @ResponseBody
+    @GetMapping("/v2/find-forwarder-diff/all-hosp")
+    public Response v2_find_forwarder_diff_all_hosp() {
+        List<String> hospList = Database.getInstance().getAllHospCode();
+        return APIService.getSrcForwarderDataReactive(hospList);
+    }
+
+    @ResponseBody
+    @PostMapping("/v2/find-forwarder-diff/selected-hosp")
+    public Response v2_find_forwarder_diff_selected_hosp(@RequestBody PayloadHospSelection payload) {
+        List<String> hospList = DataUtils.getHospListFromPayload(payload);
+        return APIService.getSrcForwarderDataReactive(hospList);
+    }
+
+
+
+    /*
+    * Deprecated below
+    * */
+
+
+
+
+    /*@ResponseBody
     @GetMapping("/v1/find-forwarder-diff/all-hosp")
     public Response v1_find_forwarder_diff_all_hosp() {
         try{
@@ -119,5 +142,5 @@ public class ClientRequestController {
         } finally {
             READ_LOCK.unlock();
         }
-    }
+    }*/
 }

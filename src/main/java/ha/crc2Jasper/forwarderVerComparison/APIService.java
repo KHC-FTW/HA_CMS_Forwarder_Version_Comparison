@@ -1,8 +1,11 @@
 package ha.crc2Jasper.forwarderVerComparison;
 
+import ha.crc2Jasper.forwarderVerComparison.component.Response;
 import ha.crc2Jasper.forwarderVerComparison.component.SetupConfig;
 import org.springframework.web.reactive.function.client.WebClient;
 import reactor.core.publisher.Mono;
+
+import java.util.List;
 
 public class APIService {
     private APIService() {}
@@ -27,5 +30,14 @@ public class APIService {
                 .retrieve()
                 .bodyToMono(String.class);
         JsonDataParser.parseForwarderData_V2(monoData);
+    }
+
+    public static Response getSrcForwarderDataReactive(List<String> hospList) {
+        SetupConfig SETUP_CONFIG = SetupConfig.getInstance();
+        Mono<String> monoData = WEB_CLIENT.get()
+                                    .uri(SETUP_CONFIG.getCms_forwarder_ver_API())
+                                    .retrieve()
+                                    .bodyToMono(String.class);
+        return JsonDataParser.parseForwarderDataAndCompileResponse(monoData, hospList);
     }
 }

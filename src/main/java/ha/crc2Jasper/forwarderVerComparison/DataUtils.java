@@ -12,22 +12,22 @@ public class DataUtils {
 
     private static final Database DB = Database.getInstance();
 
-    public static void updateFuncWithDiffVerMapForAllHosp(){
-        if(DB.getFuncWithDiffVerMap_allHosp() == null){
-            DB.setFuncWithDiffVerMap_allHosp(compareForwarderVersion(DB.getAllHospCode(), DB.getAllFuncHospMap()));
-        }
-        if(DB.getPreComputedResponseAllHosp() == null){
-            DB.setPreComputedResponseAllHosp(createResponse(DB.getFuncWithDiffVerMap_allHosp()));
-        }
-    }
+//    public static void updateFuncWithDiffVerMapForAllHosp(){
+//        if(DB.getFuncWithDiffVerMap_allHosp() == null){
+//            DB.setFuncWithDiffVerMap_allHosp(compareForwarderVersion(DB.getAllHospCode(), DB.getAllFuncHospMap()));
+//        }
+//        if(DB.getPreComputedResponseAllHosp() == null){
+//            DB.setPreComputedResponseAllHosp(createResponse(DB.getFuncWithDiffVerMap_allHosp()));
+//        }
+//    }
 
-    public static Response createResponse(Map<String, Map<String, CMSFunction>> funcHospMap){
+    public static Response createResponse(Map<String, Map<String, CMSFunction>> funcHospMap, String lasUpdated){
         List<Result> results = new ArrayList<>();
         funcHospMap.forEach((function, hospMap) -> {
             Result result = new Result(function, hospMap.values().stream().toList());
             results.add(result);
         });
-        return new Response("OK", results.size(), results);
+        return new Response("OK", lasUpdated, results.size(), results);
     }
 
     public static Map<String, Map<String, CMSFunction>> compareForwarderVersion_V2(List<String> hospToCompare) {
@@ -74,4 +74,13 @@ public class DataUtils {
                 .stream().map(Cluster::getHospList)
                 .flatMap(List::stream).toList();
     }
+
+    public static Map<String, CMSFunction> createCustomHospPlaceholderMap(List<String> hospList){
+        Map<String, CMSFunction> hospMap = new LinkedHashMap<>();
+        hospList.forEach(hospCode -> {
+            hospMap.put(hospCode, new CMSFunction("", hospCode, "", ""));
+        });
+        return hospMap;
+    }
+
 }

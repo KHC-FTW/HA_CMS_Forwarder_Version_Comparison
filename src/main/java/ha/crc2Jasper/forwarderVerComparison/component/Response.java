@@ -14,6 +14,7 @@ import java.util.List;
 @Setter
 public class Response {
     private String status = "Error returning correct response! Please try again later.";
+    private String lastUpdated = "";
     private int total;
     private List<Result> results = new ArrayList<>();
 }
