@@ -30,6 +30,8 @@ public class SetupConfig {
     private final String ROW_FORMAT = "%-25s | %s";
     @JsonIgnore
     private String validClusters = "";
+    @JsonIgnore
+    private List<String> allHospCode;
 
     @JsonProperty("cms_forwarder_API_host")
     private String cms_forwarder_API_host;

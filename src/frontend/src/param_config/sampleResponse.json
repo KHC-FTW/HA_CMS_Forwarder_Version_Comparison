@@ -1,2263 +1,2263 @@
 {
-  "status": "OK",
-  "lastUpdated": "",
-  "total": 48,
-  "results": [
-      {
-          "function": "AEDF",
-          "hospForwarder": [
-              {
-                  "function": "",
-                  "hospCode": "DKC",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "FYK",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "GH",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "ML",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "AEDF",
-                  "hospCode": "QMH",
-                  "version": "4.1.0",
-                  "context_root": "/cms/aedf_4_1_0/"
-              },
-              {
-                  "function": "",
-                  "hospCode": "TWH",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "TYH",
-                  "version": "",
-                  "context_root": ""
-              }
-          ]
-      },
-      {
-          "function": "AEDF-PDFENG",
-          "hospForwarder": [
-              {
-                  "function": "",
-                  "hospCode": "DKC",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "FYK",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "GH",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "ML",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "AEDF-PDFENG",
-                  "hospCode": "QMH",
-                  "version": "4.1.0",
-                  "context_root": "/cms/aedf_4_1_0/"
-              },
-              {
-                  "function": "",
-                  "hospCode": "TWH",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "TYH",
-                  "version": "",
-                  "context_root": ""
-              }
-          ]
-      },
-      {
-          "function": "AEIS",
-          "hospForwarder": [
-              {
-                  "function": "",
-                  "hospCode": "DKC",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "FYK",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "GH",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "ML",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "AEIS",
-                  "hospCode": "QMH",
-                  "version": "8.16.0",
-                  "context_root": "/aeis/8_16_0/"
-              },
-              {
-                  "function": "",
-                  "hospCode": "TWH",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "TYH",
-                  "version": "",
-                  "context_root": ""
-              }
-          ]
-      },
-      {
-          "function": "AEIS-CQMS",
-          "hospForwarder": [
-              {
-                  "function": "",
-                  "hospCode": "DKC",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "FYK",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "GH",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "ML",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "AEIS-CQMS",
-                  "hospCode": "QMH",
-                  "version": "1.0.0",
-                  "context_root": "/qmh.ae/aeapi.asmx"
-              },
-              {
-                  "function": "",
-                  "hospCode": "TWH",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "TYH",
-                  "version": "",
-                  "context_root": ""
-              }
-          ]
-      },
-      {
-          "function": "AEIS-IPMOE",
-          "hospForwarder": [
-              {
-                  "function": "",
-                  "hospCode": "DKC",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "FYK",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "GH",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "ML",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "AEIS-IPMOE",
-                  "hospCode": "QMH",
-                  "version": "8.16.0",
-                  "context_root": "/aeis/8_16_0/"
-              },
-              {
-                  "function": "",
-                  "hospCode": "TWH",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "TYH",
-                  "version": "",
-                  "context_root": ""
-              }
-          ]
-      },
-      {
-          "function": "AEIS-PDFENG",
-          "hospForwarder": [
-              {
-                  "function": "",
-                  "hospCode": "DKC",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "FYK",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "GH",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "ML",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "AEIS-PDFENG",
-                  "hospCode": "QMH",
-                  "version": "8.16.0",
-                  "context_root": "/aeis/8_16_0/"
-              },
-              {
-                  "function": "",
-                  "hospCode": "TWH",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "TYH",
-                  "version": "",
-                  "context_root": ""
-              }
-          ]
-      },
-      {
-          "function": "AEIS-RD",
-          "hospForwarder": [
-              {
-                  "function": "",
-                  "hospCode": "DKC",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "FYK",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "GH",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "ML",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "AEIS-RD",
-                  "hospCode": "QMH",
-                  "version": "8.16.0",
-                  "context_root": "/aeis/8_16_0/"
-              },
-              {
-                  "function": "",
-                  "hospCode": "TWH",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "TYH",
-                  "version": "",
-                  "context_root": ""
-              }
-          ]
-      },
-      {
-          "function": "ASPF",
-          "hospForwarder": [
-              {
-                  "function": "ASPF",
-                  "hospCode": "DKC",
-                  "version": "1.1.0",
-                  "context_root": "/cms-aspweb/1_1_0/"
-              },
-              {
-                  "function": "ASPF",
-                  "hospCode": "FYK",
-                  "version": "1.1.0",
-                  "context_root": "/cms-aspweb/1_1_0/"
-              },
-              {
-                  "function": "ASPF",
-                  "hospCode": "GH",
-                  "version": "1.1.0",
-                  "context_root": "/cms-aspweb/1_1_0/"
-              },
-              {
-                  "function": "ASPF",
-                  "hospCode": "ML",
-                  "version": "1.1.0",
-                  "context_root": "/cms-aspweb/1_1_0/"
-              },
-              {
-                  "function": "ASPF",
-                  "hospCode": "QMH",
-                  "version": "1.1.1",
-                  "context_root": "/cms-aspweb/1_1_1/"
-              },
-              {
-                  "function": "ASPF",
-                  "hospCode": "TWH",
-                  "version": "1.1.0",
-                  "context_root": "/cms-aspweb/1_1_0/"
-              },
-              {
-                  "function": "ASPF",
-                  "hospCode": "TYH",
-                  "version": "1.1.0",
-                  "context_root": "/cms-aspweb/1_1_0/"
-              }
-          ]
-      },
-      {
-          "function": "CMS",
-          "hospForwarder": [
-              {
-                  "function": "CMS",
-                  "hospCode": "DKC",
-                  "version": "10.28.1",
-                  "context_root": "/cms/10_28_1/common/login.jsp?hospCode=DKC&forwarderHosp=DKC&appl_cd=CMS; /cms/10_28_1/acs; /cms/10_28_1/common/sam/sso-logoff_cms.jsp; /cms-cms-startup/cmsStartup.jsp; /cms/10_28_1/common/userSpecialtyExtJS.jsp"
-              },
-              {
-                  "function": "CMS",
-                  "hospCode": "FYK",
-                  "version": "10.28.1",
-                  "context_root": "/cms/10_28_1/common/login.jsp?hospCode=FYK&forwarderHosp=FYK&appl_cd=CMS; /cms/10_28_1/acs; /cms/10_28_1/common/sam/sso-logoff_cms.jsp; /cms-cms-startup/cmsStartup.jsp; /cms/10_28_1/common/userSpecialtyExtJS.jsp"
-              },
-              {
-                  "function": "CMS",
-                  "hospCode": "GH",
-                  "version": "10.28.1",
-                  "context_root": "/cms/10_28_1/common/login.jsp?hospCode=GH&forwarderHosp=GH&appl_cd=CMS; /cms/10_28_1/acs; /cms/10_28_1/common/sam/sso-logoff_cms.jsp; /cms-cms-startup/cmsStartup.jsp; /cms/10_28_1/common/userSpecialtyExtJS.jsp"
-              },
-              {
-                  "function": "CMS",
-                  "hospCode": "ML",
-                  "version": "10.28.1",
-                  "context_root": "/cms/10_28_1/common/login.jsp?hospCode=ML&forwarderHosp=ML&appl_cd=CMS; /cms/10_28_1/acs; /cms/10_28_1/common/sam/sso-logoff_cms.jsp; /cms-cms-startup/cmsStartup.jsp; /cms/10_28_1/common/userSpecialtyExtJS.jsp"
-              },
-              {
-                  "function": "CMS",
-                  "hospCode": "QMH",
-                  "version": "10.28.1",
-                  "context_root": "/cms/10_28_1/common/login.jsp?hospCode=QMH&forwarderHosp=QMH&appl_cd=CMS; /cms/10_28_1/acs; /cms/10_28_1/common/sam/sso-logoff_cms.jsp; /cms-cms-startup/cmsStartup.jsp; /cms/10_28_1/common/userSpecialtyExtJS.jsp"
-              },
-              {
-                  "function": "CMS",
-                  "hospCode": "TWH",
-                  "version": "10.28.1",
-                  "context_root": "/cms/10_28_1/common/login.jsp?hospCode=TWH&forwarderHosp=TWH&appl_cd=CMS; /cms/10_28_1/acs; /cms/10_28_1/common/sam/sso-logoff_cms.jsp; /cms-cms-startup/cmsStartup.jsp; /cms/10_28_1/common/userSpecialtyExtJS.jsp"
-              },
-              {
-                  "function": "CMS",
-                  "hospCode": "TYH",
-                  "version": "10.28.1",
-                  "context_root": "/cms/10_28_1/common/login.jsp?hospCode=TYH&forwarderHosp=TYH&appl_cd=CMS; /cms/10_28_1/acs; /cms/10_28_1/common/sam/sso-logoff_cms.jsp; /cms-cms-startup/cmsStartup.jsp; /cms/10_28_1/common/userSpecialtyExtJS.jsp"
-              }
-          ]
-      },
-      {
-          "function": "CMS3",
-          "hospForwarder": [
-              {
-                  "function": "CMS3",
-                  "hospCode": "DKC",
-                  "version": "12.2.2",
-                  "context_root": "/cms/12_2_2/ext4/login.jsp?hospCode=DKC&forwarderHosp=DKC&appl_cd=CMS3; /cms/12_2_2/acs; /cms/12_2_2/common/sam/sso-logoff_cms.jsp; /cms-cms-startup/cmsStartup.jsp; /cms/12_2_2/ext4/userSpecialtyExtJS.jsp"
-              },
-              {
-                  "function": "CMS3",
-                  "hospCode": "FYK",
-                  "version": "12.2.2",
-                  "context_root": "/cms/12_2_2/ext4/login.jsp?hospCode=FYK&forwarderHosp=FYK&appl_cd=CMS3; /cms/12_2_2/acs; /cms/12_2_2/common/sam/sso-logoff_cms.jsp; /cms-cms-startup/cmsStartup.jsp; /cms/12_2_2/ext4/userSpecialtyExtJS.jsp"
-              },
-              {
-                  "function": "CMS3",
-                  "hospCode": "GH",
-                  "version": "12.2.2",
-                  "context_root": "/cms/12_2_2/ext4/login.jsp?hospCode=GH&forwarderHosp=GH&appl_cd=CMS3; /cms/12_2_2/acs; /cms/12_2_2/common/sam/sso-logoff_cms.jsp; /cms-cms-startup/cmsStartup.jsp; /cms/12_2_2/ext4/userSpecialtyExtJS.jsp"
-              },
-              {
-                  "function": "CMS3",
-                  "hospCode": "ML",
-                  "version": "12.2.2",
-                  "context_root": "/cms/12_2_2/ext4/login.jsp?hospCode=ML&forwarderHosp=ML&appl_cd=CMS3; /cms/12_2_2/acs; /cms/12_2_2/common/sam/sso-logoff_cms.jsp; /cms-cms-startup/cmsStartup.jsp; /cms/12_2_2/ext4/userSpecialtyExtJS.jsp"
-              },
-              {
-                  "function": "CMS3",
-                  "hospCode": "QMH",
-                  "version": "12.2.2",
-                  "context_root": "/cms/12_2_2/ext4/login.jsp?hospCode=QMH&forwarderHosp=QMH&appl_cd=CMS3; /cms/12_2_2/acs; /cms/12_2_2/common/sam/sso-logoff_cms.jsp; /cms-cms-startup/cmsStartup.jsp; /cms/12_2_2/ext4/userSpecialtyExtJS.jsp"
-              },
-              {
-                  "function": "CMS3",
-                  "hospCode": "TWH",
-                  "version": "12.2.2",
-                  "context_root": "/cms/12_2_2/ext4/login.jsp?hospCode=TWH&forwarderHosp=TWH&appl_cd=CMS3; /cms/12_2_2/acs; /cms/12_2_2/common/sam/sso-logoff_cms.jsp; /cms-cms-startup/cmsStartup.jsp; /cms/12_2_2/ext4/userSpecialtyExtJS.jsp"
-              },
-              {
-                  "function": "CMS3",
-                  "hospCode": "TYH",
-                  "version": "12.2.2",
-                  "context_root": "/cms/12_2_2/ext4/login.jsp?hospCode=TYH&forwarderHosp=TYH&appl_cd=CMS3; /cms/12_2_2/acs; /cms/12_2_2/common/sam/sso-logoff_cms.jsp; /cms-cms-startup/cmsStartup.jsp; /cms/12_2_2/ext4/userSpecialtyExtJS.jsp"
-              }
-          ]
-      },
-      {
-          "function": "CMS3_AA",
-          "hospForwarder": [
-              {
-                  "function": "CMS3_AA",
-                  "hospCode": "DKC",
-                  "version": "12.2.2",
-                  "context_root": "/cms/12_2_2/ext4/login.jsp?hospCode=DKC&forwarderHosp=DKC&appl_cd=CMS3_AA; /cms/12_2_2/acs; /cms/12_2_2/common/sam/sso-logoff_cms.jsp; /cms-cms-startup/cmsStartup.jsp; /cms/12_2_2/ext4/userSpecialtyExtJS.jsp"
-              },
-              {
-                  "function": "CMS3_AA",
-                  "hospCode": "FYK",
-                  "version": "12.2.2",
-                  "context_root": "/cms/12_2_2/ext4/login.jsp?hospCode=FYK&forwarderHosp=FYK&appl_cd=CMS3_AA; /cms/12_2_2/acs; /cms/12_2_2/common/sam/sso-logoff_cms.jsp; /cms-cms-startup/cmsStartup.jsp; /cms/12_2_2/ext4/userSpecialtyExtJS.jsp"
-              },
-              {
-                  "function": "CMS3_AA",
-                  "hospCode": "GH",
-                  "version": "12.2.2",
-                  "context_root": "/cms/12_2_2/ext4/login.jsp?hospCode=GH&forwarderHosp=GH&appl_cd=CMS3_AA; /cms/12_2_2/acs; /cms/12_2_2/common/sam/sso-logoff_cms.jsp; /cms-cms-startup/cmsStartup.jsp; /cms/12_2_2/ext4/userSpecialtyExtJS.jsp"
-              },
-              {
-                  "function": "CMS3_AA",
-                  "hospCode": "ML",
-                  "version": "12.2.2",
-                  "context_root": "/cms/12_2_2/ext4/login.jsp?hospCode=ML&forwarderHosp=ML&appl_cd=CMS3_AA; /cms/12_2_2/acs; /cms/12_2_2/common/sam/sso-logoff_cms.jsp; /cms-cms-startup/cmsStartup.jsp; /cms/12_2_2/ext4/userSpecialtyExtJS.jsp"
-              },
-              {
-                  "function": "CMS3_AA",
-                  "hospCode": "QMH",
-                  "version": "12.2.2",
-                  "context_root": "/cms/12_2_2/ext4/login.jsp?hospCode=QMH&forwarderHosp=QMH&appl_cd=CMS3_AA; /cms/12_2_2/acs; /cms/12_2_2/common/sam/sso-logoff_cms.jsp; /cms-cms-startup/cmsStartup.jsp; /cms/12_2_2/ext4/userSpecialtyExtJS.jsp"
-              },
-              {
-                  "function": "CMS3_AA",
-                  "hospCode": "TWH",
-                  "version": "12.2.2",
-                  "context_root": "/cms/12_2_2/ext4/login.jsp?hospCode=TWH&forwarderHosp=TWH&appl_cd=CMS3_AA; /cms/12_2_2/acs; /cms/12_2_2/common/sam/sso-logoff_cms.jsp; /cms-cms-startup/cmsStartup.jsp; /cms/12_2_2/ext4/userSpecialtyExtJS.jsp"
-              },
-              {
-                  "function": "CMS3_AA",
-                  "hospCode": "TYH",
-                  "version": "12.2.2",
-                  "context_root": "/cms/12_2_2/ext4/login.jsp?hospCode=TYH&forwarderHosp=TYH&appl_cd=CMS3_AA; /cms/12_2_2/acs; /cms/12_2_2/common/sam/sso-logoff_cms.jsp; /cms-cms-startup/cmsStartup.jsp; /cms/12_2_2/ext4/userSpecialtyExtJS.jsp"
-              }
-          ]
-      },
-      {
-          "function": "CMSHOSPITALINTRANET",
-          "hospForwarder": [
-              {
-                  "function": "CMSHOSPITALINTRANET",
-                  "hospCode": "DKC",
-                  "version": "",
-                  "context_root": "/clinicalwebstation.asp"
-              },
-              {
-                  "function": "CMSHOSPITALINTRANET",
-                  "hospCode": "FYK",
-                  "version": "",
-                  "context_root": "/clinicalwebstation.asp"
-              },
-              {
-                  "function": "CMSHOSPITALINTRANET",
-                  "hospCode": "GH",
-                  "version": "",
-                  "context_root": "/clinicalwebstation.asp"
-              },
-              {
-                  "function": "CMSHOSPITALINTRANET",
-                  "hospCode": "ML",
-                  "version": "",
-                  "context_root": "/clinicalwebstation.asp"
-              },
-              {
-                  "function": "CMSHOSPITALINTRANET",
-                  "hospCode": "QMH",
-                  "version": "",
-                  "context_root": "/clinicalwebstation.asp"
-              },
-              {
-                  "function": "CMSHOSPITALINTRANET",
-                  "hospCode": "TWH",
-                  "version": "",
-                  "context_root": "/clinicalwebstation.asp"
-              },
-              {
-                  "function": "CMSHOSPITALINTRANET",
-                  "hospCode": "TYH",
-                  "version": "",
-                  "context_root": ""
-              }
-          ]
-      },
-      {
-          "function": "CMS_12C",
-          "hospForwarder": [
-              {
-                  "function": "CMS_12C",
-                  "hospCode": "DKC",
-                  "version": "15.3.4.8",
-                  "context_root": "/cms/15_3_4_8/common/login.jsp?hospCode=DKC&forwarderHosp=DKC&appl_cd=CMS_12C&sam_config_key=12C; /cms/15_3_4_8/acs; /cms/15_3_4_8/common/sam/sso-logoff_cms.jsp; /cms/cmsStartup.jsp; /cms/15_3_4_8/common/userSpecialtyExtJS.jsp"
-              },
-              {
-                  "function": "CMS_12C",
-                  "hospCode": "FYK",
-                  "version": "15.3.4.8",
-                  "context_root": "/cms/15_3_4_8/common/login.jsp?hospCode=FYK&forwarderHosp=FYK&appl_cd=CMS_12C&sam_config_key=12C; /cms/15_3_4_8/acs; /cms/15_3_4_8/common/sam/sso-logoff_cms.jsp; /cms/cmsStartup.jsp; /cms/15_3_4_8/common/userSpecialtyExtJS.jsp"
-              },
-              {
-                  "function": "CMS_12C",
-                  "hospCode": "GH",
-                  "version": "15.3.4.8",
-                  "context_root": "/cms/15_3_4_8/common/login.jsp?hospCode=GH&forwarderHosp=GH&appl_cd=CMS_12C&sam_config_key=12C; /cms/15_3_4_8/acs; /cms/15_3_4_8/common/sam/sso-logoff_cms.jsp; /cms/cmsStartup.jsp; /cms/15_3_4_8/common/userSpecialtyExtJS.jsp"
-              },
-              {
-                  "function": "CMS_12C",
-                  "hospCode": "ML",
-                  "version": "15.3.4.8",
-                  "context_root": "/cms/15_3_4_8/common/login.jsp?hospCode=ML&forwarderHosp=ML&appl_cd=CMS_12C&sam_config_key=12C; /cms/15_3_4_8/acs; /cms/15_3_4_8/common/sam/sso-logoff_cms.jsp; /cms/cmsStartup.jsp; /cms/15_3_4_8/common/userSpecialtyExtJS.jsp"
-              },
-              {
-                  "function": "CMS_12C",
-                  "hospCode": "QMH",
-                  "version": "15.3.4.8",
-                  "context_root": "/cms/15_3_4_8/common/login.jsp?hospCode=QMH&forwarderHosp=QMH&appl_cd=CMS_12C&sam_config_key=12C; /cms/15_3_4_8/acs; /cms/15_3_4_8/common/sam/sso-logoff_cms.jsp; /cms/cmsStartup.jsp; /cms/15_3_4_8/common/userSpecialtyExtJS.jsp"
-              },
-              {
-                  "function": "CMS_12C",
-                  "hospCode": "TWH",
-                  "version": "15.3.4.8",
-                  "context_root": "/cms/15_3_4_8/common/login.jsp?hospCode=TWH&forwarderHosp=TWH&appl_cd=CMS_12C&sam_config_key=12C; /cms/15_3_4_8/acs; /cms/15_3_4_8/common/sam/sso-logoff_cms.jsp; /cms/cmsStartup.jsp; /cms/15_3_4_8/common/userSpecialtyExtJS.jsp"
-              },
-              {
-                  "function": "CMS_12C",
-                  "hospCode": "TYH",
-                  "version": "15.3.4.8",
-                  "context_root": "/cms/15_3_4_8/common/login.jsp?hospCode=TYH&forwarderHosp=TYH&appl_cd=CMS_12C&sam_config_key=12C; /cms/15_3_4_8/acs; /cms/15_3_4_8/common/sam/sso-logoff_cms.jsp; /cms/cmsStartup.jsp; /cms/15_3_4_8/common/userSpecialtyExtJS.jsp"
-              }
-          ]
-      },
-      {
-          "function": "CMS_12CS",
-          "hospForwarder": [
-              {
-                  "function": "CMS_12CS",
-                  "hospCode": "DKC",
-                  "version": "15.3.4.8",
-                  "context_root": "/cms/15_3_4_8/common/login.jsp?hospCode=DKC&forwarderHosp=DKC&appl_cd=CMS_12CS&sam_config_key=12CS; /cms/15_3_4_8/acs; /cms/15_3_4_8/common/sam/sso-logoff_cms.jsp; /cms/cmsStartup.jsp; /cms/15_3_4_8/common/userSpecialtyExtJS.jsp"
-              },
-              {
-                  "function": "CMS_12CS",
-                  "hospCode": "FYK",
-                  "version": "15.3.4.8",
-                  "context_root": "/cms/15_3_4_8/common/login.jsp?hospCode=FYK&forwarderHosp=FYK&appl_cd=CMS_12CS&sam_config_key=12CS; /cms/15_3_4_8/acs; /cms/15_3_4_8/common/sam/sso-logoff_cms.jsp; /cms/cmsStartup.jsp; /cms/15_3_4_8/common/userSpecialtyExtJS.jsp"
-              },
-              {
-                  "function": "CMS_12CS",
-                  "hospCode": "GH",
-                  "version": "15.3.4.8",
-                  "context_root": "/cms/15_3_4_8/common/login.jsp?hospCode=GH&forwarderHosp=GH&appl_cd=CMS_12CS&sam_config_key=12CS; /cms/15_3_4_8/acs; /cms/15_3_4_8/common/sam/sso-logoff_cms.jsp; /cms/cmsStartup.jsp; /cms/15_3_4_8/common/userSpecialtyExtJS.jsp"
-              },
-              {
-                  "function": "CMS_12CS",
-                  "hospCode": "ML",
-                  "version": "15.3.4.8",
-                  "context_root": "/cms/15_3_4_8/common/login.jsp?hospCode=ML&forwarderHosp=ML&appl_cd=CMS_12CS&sam_config_key=12CS; /cms/15_3_4_8/acs; /cms/15_3_4_8/common/sam/sso-logoff_cms.jsp; /cms/cmsStartup.jsp; /cms/15_3_4_8/common/userSpecialtyExtJS.jsp"
-              },
-              {
-                  "function": "CMS_12CS",
-                  "hospCode": "QMH",
-                  "version": "15.3.4.8",
-                  "context_root": "/cms/15_3_4_8/common/login.jsp?hospCode=QMH&forwarderHosp=QMH&appl_cd=CMS_12CS&sam_config_key=12CS; /cms/15_3_4_8/acs; /cms/15_3_4_8/common/sam/sso-logoff_cms.jsp; /cms/cmsStartup.jsp; /cms/15_3_4_8/common/userSpecialtyExtJS.jsp"
-              },
-              {
-                  "function": "CMS_12CS",
-                  "hospCode": "TWH",
-                  "version": "15.3.4.8",
-                  "context_root": "/cms/15_3_4_8/common/login.jsp?hospCode=TWH&forwarderHosp=TWH&appl_cd=CMS_12CS&sam_config_key=12CS; /cms/15_3_4_8/acs; /cms/15_3_4_8/common/sam/sso-logoff_cms.jsp; /cms/cmsStartup.jsp; /cms/15_3_4_8/common/userSpecialtyExtJS.jsp"
-              },
-              {
-                  "function": "CMS_12CS",
-                  "hospCode": "TYH",
-                  "version": "15.3.4.8",
-                  "context_root": "/cms/15_3_4_8/common/login.jsp?hospCode=TYH&forwarderHosp=TYH&appl_cd=CMS_12CS&sam_config_key=12CS; /cms/15_3_4_8/acs; /cms/15_3_4_8/common/sam/sso-logoff_cms.jsp; /cms/cmsStartup.jsp; /cms/15_3_4_8/common/userSpecialtyExtJS.jsp"
-              }
-          ]
-      },
-      {
-          "function": "CMS_AA",
-          "hospForwarder": [
-              {
-                  "function": "CMS_AA",
-                  "hospCode": "DKC",
-                  "version": "10.28.1",
-                  "context_root": "/cms/10_28_1/common/login.jsp?hospCode=DKC&forwarderHosp=DKC; /cms/10_28_1/acs; /cms/10_28_1/common/sam/sso-logoff_cms.jsp; /cms-cms-startup/cmsStartup.jsp; /cms/10_28_1/common/userSpecialtyExtJS.jsp"
-              },
-              {
-                  "function": "CMS_AA",
-                  "hospCode": "FYK",
-                  "version": "10.28.1",
-                  "context_root": "/cms/10_28_1/common/login.jsp?hospCode=FYK&forwarderHosp=FYK; /cms/10_28_1/acs; /cms/10_28_1/common/sam/sso-logoff_cms.jsp; /cms-cms-startup/cmsStartup.jsp; /cms/10_28_1/common/userSpecialtyExtJS.jsp"
-              },
-              {
-                  "function": "CMS_AA",
-                  "hospCode": "GH",
-                  "version": "10.28.1",
-                  "context_root": "/cms/10_28_1/common/login.jsp?hospCode=GH&forwarderHosp=GH; /cms/10_28_1/acs; /cms/10_28_1/common/sam/sso-logoff_cms.jsp; /cms-cms-startup/cmsStartup.jsp; /cms/10_28_1/common/userSpecialtyExtJS.jsp"
-              },
-              {
-                  "function": "CMS_AA",
-                  "hospCode": "ML",
-                  "version": "10.28.1",
-                  "context_root": "/cms/10_28_1/common/login.jsp?hospCode=ML&forwarderHosp=ML; /cms/10_28_1/acs; /cms/10_28_1/common/sam/sso-logoff_cms.jsp; /cms-cms-startup/cmsStartup.jsp; /cms/10_28_1/common/userSpecialtyExtJS.jsp"
-              },
-              {
-                  "function": "CMS_AA",
-                  "hospCode": "QMH",
-                  "version": "10.28.1",
-                  "context_root": "/cms/10_28_1/common/login.jsp?hospCode=QMH&forwarderHosp=QMH; /cms/10_28_1/acs; /cms/10_28_1/common/sam/sso-logoff_cms.jsp; /cms-cms-startup/cmsStartup.jsp; /cms/10_28_1/common/userSpecialtyExtJS.jsp"
-              },
-              {
-                  "function": "CMS_AA",
-                  "hospCode": "TWH",
-                  "version": "10.28.1",
-                  "context_root": "/cms/10_28_1/common/login.jsp?hospCode=TWH&forwarderHosp=TWH; /cms/10_28_1/acs; /cms/10_28_1/common/sam/sso-logoff_cms.jsp; /cms-cms-startup/cmsStartup.jsp; /cms/10_28_1/common/userSpecialtyExtJS.jsp"
-              },
-              {
-                  "function": "CMS_AA",
-                  "hospCode": "TYH",
-                  "version": "10.28.1",
-                  "context_root": "/cms/10_28_1/common/login.jsp?hospCode=TYH&forwarderHosp=TYH; /cms/10_28_1/acs; /cms/10_28_1/common/sam/sso-logoff_cms.jsp; /cms-cms-startup/cmsStartup.jsp; /cms/10_28_1/common/userSpecialtyExtJS.jsp"
-              }
-          ]
-      },
-      {
-          "function": "CMS_LREWS",
-          "hospForwarder": [
-              {
-                  "function": "CMS_LREWS",
-                  "hospCode": "DKC",
-                  "version": "1.0.0",
-                  "context_root": "/lisWeb/LabReportEnquiryAppServiceWebS"
-              },
-              {
-                  "function": "CMS_LREWS",
-                  "hospCode": "FYK",
-                  "version": "1.0.0",
-                  "context_root": "/lisWeb/LabReportEnquiryAppServiceWebS"
-              },
-              {
-                  "function": "CMS_LREWS",
-                  "hospCode": "GH",
-                  "version": "1.0.0",
-                  "context_root": "/lisWeb/LabReportEnquiryAppServiceWebS"
-              },
-              {
-                  "function": "CMS_LREWS",
-                  "hospCode": "ML",
-                  "version": "1.0.0",
-                  "context_root": "/lisWeb/LabReportEnquiryAppServiceWebS"
-              },
-              {
-                  "function": "CMS_LREWS",
-                  "hospCode": "QMH",
-                  "version": "1.0.0",
-                  "context_root": "/lisWeb/LabReportEnquiryAppServiceWebS"
-              },
-              {
-                  "function": "CMS_LREWS",
-                  "hospCode": "TWH",
-                  "version": "1.0.0",
-                  "context_root": "/lisWeb/LabReportEnquiryAppServiceWebS"
-              },
-              {
-                  "function": "",
-                  "hospCode": "TYH",
-                  "version": "",
-                  "context_root": ""
-              }
-          ]
-      },
-      {
-          "function": "CMS_OTERS_CIDEPR_WS",
-          "hospForwarder": [
-              {
-                  "function": "CMS_OTERS_CIDEPR_WS",
-                  "hospCode": "DKC",
-                  "version": "7_0_0",
-                  "context_root": "/epr-cid-ers-processcid/EprCidWSSSoapHttpPort?wsdl"
-              },
-              {
-                  "function": "CMS_OTERS_CIDEPR_WS",
-                  "hospCode": "FYK",
-                  "version": "7_0_0",
-                  "context_root": "/epr-cid-ers-processcid/EprCidWSSSoapHttpPort?wsdl"
-              },
-              {
-                  "function": "CMS_OTERS_CIDEPR_WS",
-                  "hospCode": "GH",
-                  "version": "7_0_0",
-                  "context_root": "/axcid-proxy/EprCidWSS?wsdl"
-              },
-              {
-                  "function": "CMS_OTERS_CIDEPR_WS",
-                  "hospCode": "ML",
-                  "version": "7_0_0",
-                  "context_root": "/epr-cid-ers-processcid/EprCidWSSSoapHttpPort?wsdl"
-              },
-              {
-                  "function": "CMS_OTERS_CIDEPR_WS",
-                  "hospCode": "QMH",
-                  "version": "7_0_0",
-                  "context_root": "/axcid-proxy/EprCidWSS?wsdl"
-              },
-              {
-                  "function": "CMS_OTERS_CIDEPR_WS",
-                  "hospCode": "TWH",
-                  "version": "7_0_0",
-                  "context_root": "/axcid-proxy/EprCidWSS?wsdl"
-              },
-              {
-                  "function": "CMS_OTERS_CIDEPR_WS",
-                  "hospCode": "TYH",
-                  "version": "7_0_0",
-                  "context_root": "/epr-cid-ers-processcid/EprCidWSSSoapHttpPort?wsdl"
-              }
-          ]
-      },
-      {
-          "function": "CMS_RPTSCRN_LREWS",
-          "hospForwarder": [
-              {
-                  "function": "",
-                  "hospCode": "DKC",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "FYK",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "CMS_RPTSCRN_LREWS",
-                  "hospCode": "GH",
-                  "version": "1.0.0",
-                  "context_root": "/PrintServiceBean/PrintServiceWebS"
-              },
-              {
-                  "function": "",
-                  "hospCode": "ML",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "CMS_RPTSCRN_LREWS",
-                  "hospCode": "QMH",
-                  "version": "1.0.0",
-                  "context_root": "/PrintServiceBean/PrintServiceWebS"
-              },
-              {
-                  "function": "",
-                  "hospCode": "TWH",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "TYH",
-                  "version": "",
-                  "context_root": ""
-              }
-          ]
-      },
-      {
-          "function": "DPMS",
-          "hospForwarder": [
-              {
-                  "function": "DPMS",
-                  "hospCode": "DKC",
-                  "version": "",
-                  "context_root": "/pms-dpms"
-              },
-              {
-                  "function": "DPMS",
-                  "hospCode": "FYK",
-                  "version": "",
-                  "context_root": "/pms-dpms"
-              },
-              {
-                  "function": "DPMS",
-                  "hospCode": "GH",
-                  "version": "",
-                  "context_root": "/pms-dpms"
-              },
-              {
-                  "function": "DPMS",
-                  "hospCode": "ML",
-                  "version": "",
-                  "context_root": "/pms-dpms"
-              },
-              {
-                  "function": "DPMS",
-                  "hospCode": "QMH",
-                  "version": "",
-                  "context_root": "/pms-dpms"
-              },
-              {
-                  "function": "DPMS",
-                  "hospCode": "TWH",
-                  "version": "",
-                  "context_root": "/pms-dpms"
-              },
-              {
-                  "function": "",
-                  "hospCode": "TYH",
-                  "version": "",
-                  "context_root": ""
-              }
-          ]
-      },
-      {
-          "function": "FFCS",
-          "hospForwarder": [
-              {
-                  "function": "",
-                  "hospCode": "DKC",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "FYK",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "GH",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "ML",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "FFCS",
-                  "hospCode": "QMH",
-                  "version": "1.1.0",
-                  "context_root": "/cms/ffcs/1.1.0/"
-              },
-              {
-                  "function": "",
-                  "hospCode": "TWH",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "TYH",
-                  "version": "",
-                  "context_root": ""
-              }
-          ]
-      },
-      {
-          "function": "MDSREST_WS",
-          "hospForwarder": [
-              {
-                  "function": "MDSREST_WS",
-                  "hospCode": "DKC",
-                  "version": "4.0.8",
-                  "context_root": "/cms-moe-mds/4_0_8/mdsresource/enquiry"
-              },
-              {
-                  "function": "MDSREST_WS",
-                  "hospCode": "FYK",
-                  "version": "4.0.8",
-                  "context_root": "/cms-moe-mds/4_0_8/mdsresource/enquiry"
-              },
-              {
-                  "function": "MDSREST_WS",
-                  "hospCode": "GH",
-                  "version": "4.0.8",
-                  "context_root": "/cms-moe-mds/4_0_8/mdsresource/enquiry"
-              },
-              {
-                  "function": "MDSREST_WS",
-                  "hospCode": "ML",
-                  "version": "4.0.8",
-                  "context_root": "/cms-moe-mds/4_0_8/mdsresource/enquiry"
-              },
-              {
-                  "function": "MDSREST_WS",
-                  "hospCode": "QMH",
-                  "version": "4.0.8",
-                  "context_root": "/cms-moe-mds/4_0_8/mdsresource/enquiry"
-              },
-              {
-                  "function": "MDSREST_WS",
-                  "hospCode": "TWH",
-                  "version": "4.0.8",
-                  "context_root": "/cms-moe-mds/4_0_8/mdsresource/enquiry"
-              },
-              {
-                  "function": "",
-                  "hospCode": "TYH",
-                  "version": "",
-                  "context_root": ""
-              }
-          ]
-      },
-      {
-          "function": "OTMSWEBS-ApptEnq-CDB",
-          "hospForwarder": [
-              {
-                  "function": "OTMSWEBS-ApptEnq-CDB",
-                  "hospCode": "DKC",
-                  "version": "1.0.0",
-                  "context_root": "/OTMS_WS/OTMS_Data.svc"
-              },
-              {
-                  "function": "",
-                  "hospCode": "FYK",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "OTMSWEBS-ApptEnq-CDB",
-                  "hospCode": "GH",
-                  "version": "1.0.0",
-                  "context_root": "/OTMS_WS/OTMS_Data.svc"
-              },
-              {
-                  "function": "",
-                  "hospCode": "ML",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "OTMSWEBS-ApptEnq-CDB",
-                  "hospCode": "QMH",
-                  "version": "1.0.0",
-                  "context_root": "/OTMS_WS/OTMS_Data.svc"
-              },
-              {
-                  "function": "OTMSWEBS-ApptEnq-CDB",
-                  "hospCode": "TWH",
-                  "version": "1.0.0",
-                  "context_root": "/OTMS_WS/OTMS_Data.svc"
-              },
-              {
-                  "function": "",
-                  "hospCode": "TYH",
-                  "version": "",
-                  "context_root": ""
-              }
-          ]
-      },
-      {
-          "function": "OTMS_EOT_Booking",
-          "hospForwarder": [
-              {
-                  "function": "OTMS_EOT_Booking",
-                  "hospCode": "DKC",
-                  "version": "1_0_0",
-                  "context_root": "/OTMS/toASPSession.aspx"
-              },
-              {
-                  "function": "",
-                  "hospCode": "FYK",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "OTMS_EOT_Booking",
-                  "hospCode": "GH",
-                  "version": "1_0_0",
-                  "context_root": "/OTMS/toASPSession.aspx"
-              },
-              {
-                  "function": "",
-                  "hospCode": "ML",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "OTMS_EOT_Booking",
-                  "hospCode": "QMH",
-                  "version": "1_0_0",
-                  "context_root": "/OTMS/toASPSession.aspx"
-              },
-              {
-                  "function": "OTMS_EOT_Booking",
-                  "hospCode": "TWH",
-                  "version": "1_0_0",
-                  "context_root": "/OTMS/toASPSession.aspx"
-              },
-              {
-                  "function": "",
-                  "hospCode": "TYH",
-                  "version": "",
-                  "context_root": ""
-              }
-          ]
-      },
-      {
-          "function": "OTMS_EOT_Maint",
-          "hospForwarder": [
-              {
-                  "function": "OTMS_EOT_Maint",
-                  "hospCode": "DKC",
-                  "version": "1_0_0",
-                  "context_root": "/OTMS/toASPSession.aspx"
-              },
-              {
-                  "function": "",
-                  "hospCode": "FYK",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "OTMS_EOT_Maint",
-                  "hospCode": "GH",
-                  "version": "1_0_0",
-                  "context_root": "/OTMS/toASPSession.aspx"
-              },
-              {
-                  "function": "",
-                  "hospCode": "ML",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "OTMS_EOT_Maint",
-                  "hospCode": "QMH",
-                  "version": "1_0_0",
-                  "context_root": "/OTMS/toASPSession.aspx"
-              },
-              {
-                  "function": "OTMS_EOT_Maint",
-                  "hospCode": "TWH",
-                  "version": "1_0_0",
-                  "context_root": "/OTMS/toASPSession.aspx"
-              },
-              {
-                  "function": "",
-                  "hospCode": "TYH",
-                  "version": "",
-                  "context_root": ""
-              }
-          ]
-      },
-      {
-          "function": "OTMS_EOT_Status",
-          "hospForwarder": [
-              {
-                  "function": "OTMS_EOT_Status",
-                  "hospCode": "DKC",
-                  "version": "1_0_0",
-                  "context_root": "/OTMS/toASPSession.aspx"
-              },
-              {
-                  "function": "",
-                  "hospCode": "FYK",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "OTMS_EOT_Status",
-                  "hospCode": "GH",
-                  "version": "1_0_0",
-                  "context_root": "/OTMS/toASPSession.aspx"
-              },
-              {
-                  "function": "",
-                  "hospCode": "ML",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "OTMS_EOT_Status",
-                  "hospCode": "QMH",
-                  "version": "1_0_0",
-                  "context_root": "/OTMS/toASPSession.aspx"
-              },
-              {
-                  "function": "OTMS_EOT_Status",
-                  "hospCode": "TWH",
-                  "version": "1_0_0",
-                  "context_root": "/OTMS/toASPSession.aspx"
-              },
-              {
-                  "function": "",
-                  "hospCode": "TYH",
-                  "version": "",
-                  "context_root": ""
-              }
-          ]
-      },
-      {
-          "function": "OTMS_ElectiveOT_Booking",
-          "hospForwarder": [
-              {
-                  "function": "OTMS_ElectiveOT_Booking",
-                  "hospCode": "DKC",
-                  "version": "1_0_0",
-                  "context_root": "/OTMS/toASPSession.aspx"
-              },
-              {
-                  "function": "",
-                  "hospCode": "FYK",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "OTMS_ElectiveOT_Booking",
-                  "hospCode": "GH",
-                  "version": "1_0_0",
-                  "context_root": "/OTMS/toASPSession.aspx"
-              },
-              {
-                  "function": "",
-                  "hospCode": "ML",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "OTMS_ElectiveOT_Booking",
-                  "hospCode": "QMH",
-                  "version": "1_0_0",
-                  "context_root": "/OTMS/toASPSession.aspx"
-              },
-              {
-                  "function": "OTMS_ElectiveOT_Booking",
-                  "hospCode": "TWH",
-                  "version": "1_0_0",
-                  "context_root": "/OTMS/toASPSession.aspx"
-              },
-              {
-                  "function": "",
-                  "hospCode": "TYH",
-                  "version": "",
-                  "context_root": ""
-              }
-          ]
-      },
-      {
-          "function": "OTMS_ElectiveOT_Status",
-          "hospForwarder": [
-              {
-                  "function": "OTMS_ElectiveOT_Status",
-                  "hospCode": "DKC",
-                  "version": "1_0_0",
-                  "context_root": "/OTMS/toASPSession.aspx"
-              },
-              {
-                  "function": "",
-                  "hospCode": "FYK",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "OTMS_ElectiveOT_Status",
-                  "hospCode": "GH",
-                  "version": "1_0_0",
-                  "context_root": "/OTMS/toASPSession.aspx"
-              },
-              {
-                  "function": "",
-                  "hospCode": "ML",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "OTMS_ElectiveOT_Status",
-                  "hospCode": "QMH",
-                  "version": "1_0_0",
-                  "context_root": "/OTMS/toASPSession.aspx"
-              },
-              {
-                  "function": "OTMS_ElectiveOT_Status",
-                  "hospCode": "TWH",
-                  "version": "1_0_0",
-                  "context_root": "/OTMS/toASPSession.aspx"
-              },
-              {
-                  "function": "",
-                  "hospCode": "TYH",
-                  "version": "",
-                  "context_root": ""
-              }
-          ]
-      },
-      {
-          "function": "OTMS_Other_ElectiveOT",
-          "hospForwarder": [
-              {
-                  "function": "OTMS_Other_ElectiveOT",
-                  "hospCode": "DKC",
-                  "version": "1_0_0",
-                  "context_root": "/OTMS/toASPSession.aspx"
-              },
-              {
-                  "function": "",
-                  "hospCode": "FYK",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "OTMS_Other_ElectiveOT",
-                  "hospCode": "GH",
-                  "version": "1_0_0",
-                  "context_root": "/OTMS/toASPSession.aspx"
-              },
-              {
-                  "function": "",
-                  "hospCode": "ML",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "OTMS_Other_ElectiveOT",
-                  "hospCode": "QMH",
-                  "version": "1_0_0",
-                  "context_root": "/OTMS/toASPSession.aspx"
-              },
-              {
-                  "function": "OTMS_Other_ElectiveOT",
-                  "hospCode": "TWH",
-                  "version": "1_0_0",
-                  "context_root": "/OTMS/toASPSession.aspx"
-              },
-              {
-                  "function": "",
-                  "hospCode": "TYH",
-                  "version": "",
-                  "context_root": ""
-              }
-          ]
-      },
-      {
-          "function": "PAPERLESSECG",
-          "hospForwarder": [
-              {
-                  "function": "",
-                  "hospCode": "DKC",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "PAPERLESSECG",
-                  "hospCode": "FYK",
-                  "version": "1.0.0",
-                  "context_root": "/"
-              },
-              {
-                  "function": "PAPERLESSECG",
-                  "hospCode": "GH",
-                  "version": "1.0.0",
-                  "context_root": "/"
-              },
-              {
-                  "function": "",
-                  "hospCode": "ML",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "PAPERLESSECG",
-                  "hospCode": "QMH",
-                  "version": "1.0.0",
-                  "context_root": "/"
-              },
-              {
-                  "function": "PAPERLESSECG",
-                  "hospCode": "TWH",
-                  "version": "1.0.0",
-                  "context_root": "/"
-              },
-              {
-                  "function": "",
-                  "hospCode": "TYH",
-                  "version": "",
-                  "context_root": ""
-              }
-          ]
-      },
-      {
-          "function": "PSP-List12",
-          "hospForwarder": [
-              {
-                  "function": "",
-                  "hospCode": "DKC",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "FYK",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "GH",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "ML",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "PSP-List12",
-                  "hospCode": "QMH",
-                  "version": "2.6.0",
-                  "context_root": "/aeis/8_16_0/"
-              },
-              {
-                  "function": "",
-                  "hospCode": "TWH",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "TYH",
-                  "version": "",
-                  "context_root": ""
-              }
-          ]
-      },
-      {
-          "function": "USER_ADMIN",
-          "hospForwarder": [
-              {
-                  "function": "USER_ADMIN",
-                  "hospCode": "DKC",
-                  "version": "3_3_4_1",
-                  "context_root": "/cms_user_admin/3_3_4_1/"
-              },
-              {
-                  "function": "USER_ADMIN",
-                  "hospCode": "FYK",
-                  "version": "3_3_4_1",
-                  "context_root": "/cms_user_admin/3_3_4_1/"
-              },
-              {
-                  "function": "USER_ADMIN",
-                  "hospCode": "GH",
-                  "version": "3_3_4_1",
-                  "context_root": "/cms_user_admin/3_3_4_1/"
-              },
-              {
-                  "function": "USER_ADMIN",
-                  "hospCode": "ML",
-                  "version": "3_3_4_1",
-                  "context_root": "/cms_user_admin/3_3_4_1/"
-              },
-              {
-                  "function": "USER_ADMIN",
-                  "hospCode": "QMH",
-                  "version": "3_3_5_1",
-                  "context_root": "/cms_user_admin/3_3_5_1/"
-              },
-              {
-                  "function": "USER_ADMIN",
-                  "hospCode": "TWH",
-                  "version": "3_3_4_1",
-                  "context_root": "/cms_user_admin/3_3_4_1/"
-              },
-              {
-                  "function": "USER_ADMIN",
-                  "hospCode": "TYH",
-                  "version": "3_3_4_1",
-                  "context_root": "/cms_user_admin/3_3_4_1/"
-              }
-          ]
-      },
-      {
-          "function": "ARS-RESTAPI-OBSCIS",
-          "hospForwarder": [
-              {
-                  "function": "",
-                  "hospCode": "DKC",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "FYK",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "GH",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "ML",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "ARS-RESTAPI-OBSCIS",
-                  "hospCode": "QMH",
-                  "version": "5_11_0",
-                  "context_root": "/cms-obscis/5_11_0/rest/arsRestFulWebService"
-              },
-              {
-                  "function": "",
-                  "hospCode": "TWH",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "TYH",
-                  "version": "",
-                  "context_root": ""
-              }
-          ]
-      },
-      {
-          "function": "OBSCIS",
-          "hospForwarder": [
-              {
-                  "function": "",
-                  "hospCode": "DKC",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "FYK",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "GH",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "ML",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "OBSCIS",
-                  "hospCode": "QMH",
-                  "version": "5_11_0",
-                  "context_root": "/cms-obscis/5_11_0/"
-              },
-              {
-                  "function": "",
-                  "hospCode": "TWH",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "TYH",
-                  "version": "",
-                  "context_root": ""
-              }
-          ]
-      },
-      {
-          "function": "CDB-DKC",
-          "hospForwarder": [
-              {
-                  "function": "CDB-DKC",
-                  "hospCode": "DKC",
-                  "version": "3_12_0",
-                  "context_root": "CMS_HKWC_CDB_ApptPolling_APP_Config_3_12_0#hk.org.ha.cms.cdb.ejb.ConfigSessionFacade"
-              },
-              {
-                  "function": "",
-                  "hospCode": "FYK",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "GH",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "ML",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "QMH",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "TWH",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "TYH",
-                  "version": "",
-                  "context_root": ""
-              }
-          ]
-      },
-      {
-          "function": "CDB-FYK",
-          "hospForwarder": [
-              {
-                  "function": "",
-                  "hospCode": "DKC",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "CDB-FYK",
-                  "hospCode": "FYK",
-                  "version": "3_12_0",
-                  "context_root": "CMS_HKWC_CDB_ApptPolling_APP_Config_3_12_0#hk.org.ha.cms.cdb.ejb.ConfigSessionFacade"
-              },
-              {
-                  "function": "",
-                  "hospCode": "GH",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "ML",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "QMH",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "TWH",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "TYH",
-                  "version": "",
-                  "context_root": ""
-              }
-          ]
-      },
-      {
-          "function": "CDB-GH",
-          "hospForwarder": [
-              {
-                  "function": "",
-                  "hospCode": "DKC",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "FYK",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "CDB-GH",
-                  "hospCode": "GH",
-                  "version": "3_12_0",
-                  "context_root": "CMS_HKWC_CDB_ApptPolling_APP_Config_3_12_0#hk.org.ha.cms.cdb.ejb.ConfigSessionFacade"
-              },
-              {
-                  "function": "",
-                  "hospCode": "ML",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "QMH",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "TWH",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "TYH",
-                  "version": "",
-                  "context_root": ""
-              }
-          ]
-      },
-      {
-          "function": "OBSCIS_IP",
-          "hospForwarder": [
-              {
-                  "function": "",
-                  "hospCode": "DKC",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "FYK",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "GH",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "ML",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "OBSCIS_IP",
-                  "hospCode": "QMH",
-                  "version": "7_9_6",
-                  "context_root": "/cms-obscis-ip/7_9_6/"
-              },
-              {
-                  "function": "",
-                  "hospCode": "TWH",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "TYH",
-                  "version": "",
-                  "context_root": ""
-              }
-          ]
-      },
-      {
-          "function": "PASWEBS-OpasServiceEnquiry-OBSCIS",
-          "hospForwarder": [
-              {
-                  "function": "",
-                  "hospCode": "DKC",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "FYK",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "GH",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "ML",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "PASWEBS-OpasServiceEnquiry-OBSCIS",
-                  "hospCode": "QMH",
-                  "version": "3.0.7",
-                  "context_root": "/PAS_PAS_APPOINTMENT_WSS_3_0_7/OpasServiceEnquiryWebS_2_1_1"
-              },
-              {
-                  "function": "",
-                  "hospCode": "TWH",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "TYH",
-                  "version": "",
-                  "context_root": ""
-              }
-          ]
-      },
-      {
-          "function": "PAS_OBS_NEW_BORN_REG",
-          "hospForwarder": [
-              {
-                  "function": "",
-                  "hospCode": "DKC",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "FYK",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "GH",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "ML",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "PAS_OBS_NEW_BORN_REG",
-                  "hospCode": "QMH",
-                  "version": "5.0.7",
-                  "context_root": "/nbadm/5_0_7/pas/newBornRegistration.jsp"
-              },
-              {
-                  "function": "",
-                  "hospCode": "TWH",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "TYH",
-                  "version": "",
-                  "context_root": ""
-              }
-          ]
-      },
-      {
-          "function": "GCD_FIM",
-          "hospForwarder": [
-              {
-                  "function": "",
-                  "hospCode": "DKC",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "FYK",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "GH",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "GCD_FIM",
-                  "hospCode": "ML",
-                  "version": "6.3.0",
-                  "context_root": "/cms-cms-fim/6_3_0/"
-              },
-              {
-                  "function": "",
-                  "hospCode": "QMH",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "TWH",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "TYH",
-                  "version": "",
-                  "context_root": ""
-              }
-          ]
-      },
-      {
-          "function": "OBSCIS_USER_ADMIN_API",
-          "hospForwarder": [
-              {
-                  "function": "",
-                  "hospCode": "DKC",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "FYK",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "GH",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "ML",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "OBSCIS_USER_ADMIN_API",
-                  "hospCode": "QMH",
-                  "version": "7_9_6",
-                  "context_root": "/cms-obscis-ip/7_9_6/rest/api/"
-              },
-              {
-                  "function": "",
-                  "hospCode": "TWH",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "TYH",
-                  "version": "",
-                  "context_root": ""
-              }
-          ]
-      },
-      {
-          "function": "CDB-ML",
-          "hospForwarder": [
-              {
-                  "function": "",
-                  "hospCode": "DKC",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "FYK",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "GH",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "CDB-ML",
-                  "hospCode": "ML",
-                  "version": "3_12_0",
-                  "context_root": "CMS_HKWC_CDB_ApptPolling_APP_Config_3_12_0#hk.org.ha.cms.cdb.ejb.ConfigSessionFacade"
-              },
-              {
-                  "function": "",
-                  "hospCode": "QMH",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "TWH",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "TYH",
-                  "version": "",
-                  "context_root": ""
-              }
-          ]
-      },
-      {
-          "function": "PSP-List14",
-          "hospForwarder": [
-              {
-                  "function": "",
-                  "hospCode": "DKC",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "FYK",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "GH",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "ML",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "PSP-List14",
-                  "hospCode": "QMH",
-                  "version": "1.1.0",
-                  "context_root": "/trauma/4_7_0/"
-              },
-              {
-                  "function": "",
-                  "hospCode": "TWH",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "TYH",
-                  "version": "",
-                  "context_root": ""
-              }
-          ]
-      },
-      {
-          "function": "TRAUMA",
-          "hospForwarder": [
-              {
-                  "function": "",
-                  "hospCode": "DKC",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "FYK",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "GH",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "ML",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "TRAUMA",
-                  "hospCode": "QMH",
-                  "version": "4.7.0",
-                  "context_root": "/trauma/4_7_0/"
-              },
-              {
-                  "function": "",
-                  "hospCode": "TWH",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "TYH",
-                  "version": "",
-                  "context_root": ""
-              }
-          ]
-      },
-      {
-          "function": "CDB-QMH",
-          "hospForwarder": [
-              {
-                  "function": "",
-                  "hospCode": "DKC",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "FYK",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "GH",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "ML",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "CDB-QMH",
-                  "hospCode": "QMH",
-                  "version": "3_12_0",
-                  "context_root": "CMS_HKWC_CDB_ApptPolling_APP_Config_3_12_0#hk.org.ha.cms.cdb.ejb.ConfigSessionFacade"
-              },
-              {
-                  "function": "",
-                  "hospCode": "TWH",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "TYH",
-                  "version": "",
-                  "context_root": ""
-              }
-          ]
-      },
-      {
-          "function": "PBBS",
-          "hospForwarder": [
-              {
-                  "function": "",
-                  "hospCode": "DKC",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "FYK",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "GH",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "ML",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "PBBS",
-                  "hospCode": "QMH",
-                  "version": "1_0_0",
-                  "context_root": "/cmspbbs_deshell/common/toASPSession.aspx; /PBBSCMS.aspx"
-              },
-              {
-                  "function": "",
-                  "hospCode": "TWH",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "TYH",
-                  "version": "",
-                  "context_root": ""
-              }
-          ]
-      },
-      {
-          "function": "CDB-TWH",
-          "hospForwarder": [
-              {
-                  "function": "",
-                  "hospCode": "DKC",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "FYK",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "GH",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "ML",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "QMH",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "CDB-TWH",
-                  "hospCode": "TWH",
-                  "version": "3_12_0",
-                  "context_root": "CMS_HKWC_CDB_ApptPolling_APP_Config_3_12_0#hk.org.ha.cms.cdb.ejb.ConfigSessionFacade"
-              },
-              {
-                  "function": "",
-                  "hospCode": "TYH",
-                  "version": "",
-                  "context_root": ""
-              }
-          ]
-      },
-      {
-          "function": "CDB-TYH",
-          "hospForwarder": [
-              {
-                  "function": "",
-                  "hospCode": "DKC",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "FYK",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "GH",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "ML",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "QMH",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "",
-                  "hospCode": "TWH",
-                  "version": "",
-                  "context_root": ""
-              },
-              {
-                  "function": "CDB-TYH",
-                  "hospCode": "TYH",
-                  "version": "3_12_0",
-                  "context_root": "CMS_HKWC_CDB_ApptPolling_APP_Config_3_12_0#hk.org.ha.cms.cdb.ejb.ConfigSessionFacade"
-              }
-          ]
-      }
-  ]
+    "status": "OK",
+    "lastUpdated": "Below are placeholder data only!",
+    "total": 48,
+    "results": [
+        {
+            "function": "AEDF",
+            "hospForwarder": [
+                {
+                    "function": "",
+                    "hospCode": "DKC",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "FYK",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "GH",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "ML",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "AEDF",
+                    "hospCode": "QMH",
+                    "version": "4.1.0",
+                    "context_root": "/cms/aedf_4_1_0/"
+                },
+                {
+                    "function": "",
+                    "hospCode": "TWH",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "TYH",
+                    "version": "",
+                    "context_root": ""
+                }
+            ]
+        },
+        {
+            "function": "AEDF-PDFENG",
+            "hospForwarder": [
+                {
+                    "function": "",
+                    "hospCode": "DKC",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "FYK",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "GH",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "ML",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "AEDF-PDFENG",
+                    "hospCode": "QMH",
+                    "version": "4.1.0",
+                    "context_root": "/cms/aedf_4_1_0/"
+                },
+                {
+                    "function": "",
+                    "hospCode": "TWH",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "TYH",
+                    "version": "",
+                    "context_root": ""
+                }
+            ]
+        },
+        {
+            "function": "AEIS",
+            "hospForwarder": [
+                {
+                    "function": "",
+                    "hospCode": "DKC",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "FYK",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "GH",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "ML",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "AEIS",
+                    "hospCode": "QMH",
+                    "version": "8.16.0",
+                    "context_root": "/aeis/8_16_0/"
+                },
+                {
+                    "function": "",
+                    "hospCode": "TWH",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "TYH",
+                    "version": "",
+                    "context_root": ""
+                }
+            ]
+        },
+        {
+            "function": "AEIS-CQMS",
+            "hospForwarder": [
+                {
+                    "function": "",
+                    "hospCode": "DKC",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "FYK",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "GH",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "ML",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "AEIS-CQMS",
+                    "hospCode": "QMH",
+                    "version": "1.0.0",
+                    "context_root": "/qmh.ae/aeapi.asmx"
+                },
+                {
+                    "function": "",
+                    "hospCode": "TWH",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "TYH",
+                    "version": "",
+                    "context_root": ""
+                }
+            ]
+        },
+        {
+            "function": "AEIS-IPMOE",
+            "hospForwarder": [
+                {
+                    "function": "",
+                    "hospCode": "DKC",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "FYK",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "GH",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "ML",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "AEIS-IPMOE",
+                    "hospCode": "QMH",
+                    "version": "8.16.0",
+                    "context_root": "/aeis/8_16_0/"
+                },
+                {
+                    "function": "",
+                    "hospCode": "TWH",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "TYH",
+                    "version": "",
+                    "context_root": ""
+                }
+            ]
+        },
+        {
+            "function": "AEIS-PDFENG",
+            "hospForwarder": [
+                {
+                    "function": "",
+                    "hospCode": "DKC",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "FYK",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "GH",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "ML",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "AEIS-PDFENG",
+                    "hospCode": "QMH",
+                    "version": "8.16.0",
+                    "context_root": "/aeis/8_16_0/"
+                },
+                {
+                    "function": "",
+                    "hospCode": "TWH",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "TYH",
+                    "version": "",
+                    "context_root": ""
+                }
+            ]
+        },
+        {
+            "function": "AEIS-RD",
+            "hospForwarder": [
+                {
+                    "function": "",
+                    "hospCode": "DKC",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "FYK",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "GH",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "ML",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "AEIS-RD",
+                    "hospCode": "QMH",
+                    "version": "8.16.0",
+                    "context_root": "/aeis/8_16_0/"
+                },
+                {
+                    "function": "",
+                    "hospCode": "TWH",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "TYH",
+                    "version": "",
+                    "context_root": ""
+                }
+            ]
+        },
+        {
+            "function": "ARS-RESTAPI-OBSCIS",
+            "hospForwarder": [
+                {
+                    "function": "",
+                    "hospCode": "DKC",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "FYK",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "GH",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "ML",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "ARS-RESTAPI-OBSCIS",
+                    "hospCode": "QMH",
+                    "version": "5_11_0",
+                    "context_root": "/cms-obscis/5_11_0/rest/arsRestFulWebService"
+                },
+                {
+                    "function": "",
+                    "hospCode": "TWH",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "TYH",
+                    "version": "",
+                    "context_root": ""
+                }
+            ]
+        },
+        {
+            "function": "ASPF",
+            "hospForwarder": [
+                {
+                    "function": "ASPF",
+                    "hospCode": "DKC",
+                    "version": "1.1.0",
+                    "context_root": "/cms-aspweb/1_1_0/"
+                },
+                {
+                    "function": "ASPF",
+                    "hospCode": "FYK",
+                    "version": "1.1.0",
+                    "context_root": "/cms-aspweb/1_1_0/"
+                },
+                {
+                    "function": "ASPF",
+                    "hospCode": "GH",
+                    "version": "1.1.0",
+                    "context_root": "/cms-aspweb/1_1_0/"
+                },
+                {
+                    "function": "ASPF",
+                    "hospCode": "ML",
+                    "version": "1.1.0",
+                    "context_root": "/cms-aspweb/1_1_0/"
+                },
+                {
+                    "function": "ASPF",
+                    "hospCode": "QMH",
+                    "version": "1.1.1",
+                    "context_root": "/cms-aspweb/1_1_1/"
+                },
+                {
+                    "function": "ASPF",
+                    "hospCode": "TWH",
+                    "version": "1.1.0",
+                    "context_root": "/cms-aspweb/1_1_0/"
+                },
+                {
+                    "function": "ASPF",
+                    "hospCode": "TYH",
+                    "version": "1.1.0",
+                    "context_root": "/cms-aspweb/1_1_0/"
+                }
+            ]
+        },
+        {
+            "function": "CDB-DKC",
+            "hospForwarder": [
+                {
+                    "function": "CDB-DKC",
+                    "hospCode": "DKC",
+                    "version": "3_12_0",
+                    "context_root": "CMS_HKWC_CDB_ApptPolling_APP_Config_3_12_0#hk.org.ha.cms.cdb.ejb.ConfigSessionFacade"
+                },
+                {
+                    "function": "",
+                    "hospCode": "FYK",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "GH",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "ML",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "QMH",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "TWH",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "TYH",
+                    "version": "",
+                    "context_root": ""
+                }
+            ]
+        },
+        {
+            "function": "CDB-FYK",
+            "hospForwarder": [
+                {
+                    "function": "",
+                    "hospCode": "DKC",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "CDB-FYK",
+                    "hospCode": "FYK",
+                    "version": "3_12_0",
+                    "context_root": "CMS_HKWC_CDB_ApptPolling_APP_Config_3_12_0#hk.org.ha.cms.cdb.ejb.ConfigSessionFacade"
+                },
+                {
+                    "function": "",
+                    "hospCode": "GH",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "ML",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "QMH",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "TWH",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "TYH",
+                    "version": "",
+                    "context_root": ""
+                }
+            ]
+        },
+        {
+            "function": "CDB-GH",
+            "hospForwarder": [
+                {
+                    "function": "",
+                    "hospCode": "DKC",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "FYK",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "CDB-GH",
+                    "hospCode": "GH",
+                    "version": "3_12_0",
+                    "context_root": "CMS_HKWC_CDB_ApptPolling_APP_Config_3_12_0#hk.org.ha.cms.cdb.ejb.ConfigSessionFacade"
+                },
+                {
+                    "function": "",
+                    "hospCode": "ML",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "QMH",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "TWH",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "TYH",
+                    "version": "",
+                    "context_root": ""
+                }
+            ]
+        },
+        {
+            "function": "CDB-ML",
+            "hospForwarder": [
+                {
+                    "function": "",
+                    "hospCode": "DKC",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "FYK",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "GH",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "CDB-ML",
+                    "hospCode": "ML",
+                    "version": "3_12_0",
+                    "context_root": "CMS_HKWC_CDB_ApptPolling_APP_Config_3_12_0#hk.org.ha.cms.cdb.ejb.ConfigSessionFacade"
+                },
+                {
+                    "function": "",
+                    "hospCode": "QMH",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "TWH",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "TYH",
+                    "version": "",
+                    "context_root": ""
+                }
+            ]
+        },
+        {
+            "function": "CDB-QMH",
+            "hospForwarder": [
+                {
+                    "function": "",
+                    "hospCode": "DKC",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "FYK",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "GH",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "ML",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "CDB-QMH",
+                    "hospCode": "QMH",
+                    "version": "3_12_0",
+                    "context_root": "CMS_HKWC_CDB_ApptPolling_APP_Config_3_12_0#hk.org.ha.cms.cdb.ejb.ConfigSessionFacade"
+                },
+                {
+                    "function": "",
+                    "hospCode": "TWH",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "TYH",
+                    "version": "",
+                    "context_root": ""
+                }
+            ]
+        },
+        {
+            "function": "CDB-TWH",
+            "hospForwarder": [
+                {
+                    "function": "",
+                    "hospCode": "DKC",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "FYK",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "GH",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "ML",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "QMH",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "CDB-TWH",
+                    "hospCode": "TWH",
+                    "version": "3_12_0",
+                    "context_root": "CMS_HKWC_CDB_ApptPolling_APP_Config_3_12_0#hk.org.ha.cms.cdb.ejb.ConfigSessionFacade"
+                },
+                {
+                    "function": "",
+                    "hospCode": "TYH",
+                    "version": "",
+                    "context_root": ""
+                }
+            ]
+        },
+        {
+            "function": "CDB-TYH",
+            "hospForwarder": [
+                {
+                    "function": "",
+                    "hospCode": "DKC",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "FYK",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "GH",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "ML",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "QMH",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "TWH",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "CDB-TYH",
+                    "hospCode": "TYH",
+                    "version": "3_12_0",
+                    "context_root": "CMS_HKWC_CDB_ApptPolling_APP_Config_3_12_0#hk.org.ha.cms.cdb.ejb.ConfigSessionFacade"
+                }
+            ]
+        },
+        {
+            "function": "CMS",
+            "hospForwarder": [
+                {
+                    "function": "CMS",
+                    "hospCode": "DKC",
+                    "version": "10.28.1",
+                    "context_root": "/cms/10_28_1/common/login.jsp?hospCode=DKC&forwarderHosp=DKC&appl_cd=CMS\n\n/cms/10_28_1/acs\n\n/cms/10_28_1/common/sam/sso-logoff_cms.jsp\n\n/cms-cms-startup/cmsStartup.jsp\n\n/cms/10_28_1/common/userSpecialtyExtJS.jsp"
+                },
+                {
+                    "function": "CMS",
+                    "hospCode": "FYK",
+                    "version": "10.28.1",
+                    "context_root": "/cms/10_28_1/common/login.jsp?hospCode=FYK&forwarderHosp=FYK&appl_cd=CMS\n\n/cms/10_28_1/acs\n\n/cms/10_28_1/common/sam/sso-logoff_cms.jsp\n\n/cms-cms-startup/cmsStartup.jsp\n\n/cms/10_28_1/common/userSpecialtyExtJS.jsp"
+                },
+                {
+                    "function": "CMS",
+                    "hospCode": "GH",
+                    "version": "10.28.1",
+                    "context_root": "/cms/10_28_1/common/login.jsp?hospCode=GH&forwarderHosp=GH&appl_cd=CMS\n\n/cms/10_28_1/acs\n\n/cms/10_28_1/common/sam/sso-logoff_cms.jsp\n\n/cms-cms-startup/cmsStartup.jsp\n\n/cms/10_28_1/common/userSpecialtyExtJS.jsp"
+                },
+                {
+                    "function": "CMS",
+                    "hospCode": "ML",
+                    "version": "10.28.1",
+                    "context_root": "/cms/10_28_1/common/login.jsp?hospCode=ML&forwarderHosp=ML&appl_cd=CMS\n\n/cms/10_28_1/acs\n\n/cms/10_28_1/common/sam/sso-logoff_cms.jsp\n\n/cms-cms-startup/cmsStartup.jsp\n\n/cms/10_28_1/common/userSpecialtyExtJS.jsp"
+                },
+                {
+                    "function": "CMS",
+                    "hospCode": "QMH",
+                    "version": "10.28.1",
+                    "context_root": "/cms/10_28_1/common/login.jsp?hospCode=QMH&forwarderHosp=QMH&appl_cd=CMS\n\n/cms/10_28_1/acs\n\n/cms/10_28_1/common/sam/sso-logoff_cms.jsp\n\n/cms-cms-startup/cmsStartup.jsp\n\n/cms/10_28_1/common/userSpecialtyExtJS.jsp"
+                },
+                {
+                    "function": "CMS",
+                    "hospCode": "TWH",
+                    "version": "10.28.1",
+                    "context_root": "/cms/10_28_1/common/login.jsp?hospCode=TWH&forwarderHosp=TWH&appl_cd=CMS\n\n/cms/10_28_1/acs\n\n/cms/10_28_1/common/sam/sso-logoff_cms.jsp\n\n/cms-cms-startup/cmsStartup.jsp\n\n/cms/10_28_1/common/userSpecialtyExtJS.jsp"
+                },
+                {
+                    "function": "CMS",
+                    "hospCode": "TYH",
+                    "version": "10.28.1",
+                    "context_root": "/cms/10_28_1/common/login.jsp?hospCode=TYH&forwarderHosp=TYH&appl_cd=CMS\n\n/cms/10_28_1/acs\n\n/cms/10_28_1/common/sam/sso-logoff_cms.jsp\n\n/cms-cms-startup/cmsStartup.jsp\n\n/cms/10_28_1/common/userSpecialtyExtJS.jsp"
+                }
+            ]
+        },
+        {
+            "function": "CMS3",
+            "hospForwarder": [
+                {
+                    "function": "CMS3",
+                    "hospCode": "DKC",
+                    "version": "12.2.2",
+                    "context_root": "/cms/12_2_2/ext4/login.jsp?hospCode=DKC&forwarderHosp=DKC&appl_cd=CMS3\n\n/cms/12_2_2/acs\n\n/cms/12_2_2/common/sam/sso-logoff_cms.jsp\n\n/cms-cms-startup/cmsStartup.jsp\n\n/cms/12_2_2/ext4/userSpecialtyExtJS.jsp"
+                },
+                {
+                    "function": "CMS3",
+                    "hospCode": "FYK",
+                    "version": "12.2.2",
+                    "context_root": "/cms/12_2_2/ext4/login.jsp?hospCode=FYK&forwarderHosp=FYK&appl_cd=CMS3\n\n/cms/12_2_2/acs\n\n/cms/12_2_2/common/sam/sso-logoff_cms.jsp\n\n/cms-cms-startup/cmsStartup.jsp\n\n/cms/12_2_2/ext4/userSpecialtyExtJS.jsp"
+                },
+                {
+                    "function": "CMS3",
+                    "hospCode": "GH",
+                    "version": "12.2.2",
+                    "context_root": "/cms/12_2_2/ext4/login.jsp?hospCode=GH&forwarderHosp=GH&appl_cd=CMS3\n\n/cms/12_2_2/acs\n\n/cms/12_2_2/common/sam/sso-logoff_cms.jsp\n\n/cms-cms-startup/cmsStartup.jsp\n\n/cms/12_2_2/ext4/userSpecialtyExtJS.jsp"
+                },
+                {
+                    "function": "CMS3",
+                    "hospCode": "ML",
+                    "version": "12.2.2",
+                    "context_root": "/cms/12_2_2/ext4/login.jsp?hospCode=ML&forwarderHosp=ML&appl_cd=CMS3\n\n/cms/12_2_2/acs\n\n/cms/12_2_2/common/sam/sso-logoff_cms.jsp\n\n/cms-cms-startup/cmsStartup.jsp\n\n/cms/12_2_2/ext4/userSpecialtyExtJS.jsp"
+                },
+                {
+                    "function": "CMS3",
+                    "hospCode": "QMH",
+                    "version": "12.2.2",
+                    "context_root": "/cms/12_2_2/ext4/login.jsp?hospCode=QMH&forwarderHosp=QMH&appl_cd=CMS3\n\n/cms/12_2_2/acs\n\n/cms/12_2_2/common/sam/sso-logoff_cms.jsp\n\n/cms-cms-startup/cmsStartup.jsp\n\n/cms/12_2_2/ext4/userSpecialtyExtJS.jsp"
+                },
+                {
+                    "function": "CMS3",
+                    "hospCode": "TWH",
+                    "version": "12.2.2",
+                    "context_root": "/cms/12_2_2/ext4/login.jsp?hospCode=TWH&forwarderHosp=TWH&appl_cd=CMS3\n\n/cms/12_2_2/acs\n\n/cms/12_2_2/common/sam/sso-logoff_cms.jsp\n\n/cms-cms-startup/cmsStartup.jsp\n\n/cms/12_2_2/ext4/userSpecialtyExtJS.jsp"
+                },
+                {
+                    "function": "CMS3",
+                    "hospCode": "TYH",
+                    "version": "12.2.2",
+                    "context_root": "/cms/12_2_2/ext4/login.jsp?hospCode=TYH&forwarderHosp=TYH&appl_cd=CMS3\n\n/cms/12_2_2/acs\n\n/cms/12_2_2/common/sam/sso-logoff_cms.jsp\n\n/cms-cms-startup/cmsStartup.jsp\n\n/cms/12_2_2/ext4/userSpecialtyExtJS.jsp"
+                }
+            ]
+        },
+        {
+            "function": "CMS3_AA",
+            "hospForwarder": [
+                {
+                    "function": "CMS3_AA",
+                    "hospCode": "DKC",
+                    "version": "12.2.2",
+                    "context_root": "/cms/12_2_2/ext4/login.jsp?hospCode=DKC&forwarderHosp=DKC&appl_cd=CMS3_AA\n\n/cms/12_2_2/acs\n\n/cms/12_2_2/common/sam/sso-logoff_cms.jsp\n\n/cms-cms-startup/cmsStartup.jsp\n\n/cms/12_2_2/ext4/userSpecialtyExtJS.jsp"
+                },
+                {
+                    "function": "CMS3_AA",
+                    "hospCode": "FYK",
+                    "version": "12.2.2",
+                    "context_root": "/cms/12_2_2/ext4/login.jsp?hospCode=FYK&forwarderHosp=FYK&appl_cd=CMS3_AA\n\n/cms/12_2_2/acs\n\n/cms/12_2_2/common/sam/sso-logoff_cms.jsp\n\n/cms-cms-startup/cmsStartup.jsp\n\n/cms/12_2_2/ext4/userSpecialtyExtJS.jsp"
+                },
+                {
+                    "function": "CMS3_AA",
+                    "hospCode": "GH",
+                    "version": "12.2.2",
+                    "context_root": "/cms/12_2_2/ext4/login.jsp?hospCode=GH&forwarderHosp=GH&appl_cd=CMS3_AA\n\n/cms/12_2_2/acs\n\n/cms/12_2_2/common/sam/sso-logoff_cms.jsp\n\n/cms-cms-startup/cmsStartup.jsp\n\n/cms/12_2_2/ext4/userSpecialtyExtJS.jsp"
+                },
+                {
+                    "function": "CMS3_AA",
+                    "hospCode": "ML",
+                    "version": "12.2.2",
+                    "context_root": "/cms/12_2_2/ext4/login.jsp?hospCode=ML&forwarderHosp=ML&appl_cd=CMS3_AA\n\n/cms/12_2_2/acs\n\n/cms/12_2_2/common/sam/sso-logoff_cms.jsp\n\n/cms-cms-startup/cmsStartup.jsp\n\n/cms/12_2_2/ext4/userSpecialtyExtJS.jsp"
+                },
+                {
+                    "function": "CMS3_AA",
+                    "hospCode": "QMH",
+                    "version": "12.2.2",
+                    "context_root": "/cms/12_2_2/ext4/login.jsp?hospCode=QMH&forwarderHosp=QMH&appl_cd=CMS3_AA\n\n/cms/12_2_2/acs\n\n/cms/12_2_2/common/sam/sso-logoff_cms.jsp\n\n/cms-cms-startup/cmsStartup.jsp\n\n/cms/12_2_2/ext4/userSpecialtyExtJS.jsp"
+                },
+                {
+                    "function": "CMS3_AA",
+                    "hospCode": "TWH",
+                    "version": "12.2.2",
+                    "context_root": "/cms/12_2_2/ext4/login.jsp?hospCode=TWH&forwarderHosp=TWH&appl_cd=CMS3_AA\n\n/cms/12_2_2/acs\n\n/cms/12_2_2/common/sam/sso-logoff_cms.jsp\n\n/cms-cms-startup/cmsStartup.jsp\n\n/cms/12_2_2/ext4/userSpecialtyExtJS.jsp"
+                },
+                {
+                    "function": "CMS3_AA",
+                    "hospCode": "TYH",
+                    "version": "12.2.2",
+                    "context_root": "/cms/12_2_2/ext4/login.jsp?hospCode=TYH&forwarderHosp=TYH&appl_cd=CMS3_AA\n\n/cms/12_2_2/acs\n\n/cms/12_2_2/common/sam/sso-logoff_cms.jsp\n\n/cms-cms-startup/cmsStartup.jsp\n\n/cms/12_2_2/ext4/userSpecialtyExtJS.jsp"
+                }
+            ]
+        },
+        {
+            "function": "CMSHOSPITALINTRANET",
+            "hospForwarder": [
+                {
+                    "function": "CMSHOSPITALINTRANET",
+                    "hospCode": "DKC",
+                    "version": "",
+                    "context_root": "/clinicalwebstation.asp"
+                },
+                {
+                    "function": "CMSHOSPITALINTRANET",
+                    "hospCode": "FYK",
+                    "version": "",
+                    "context_root": "/clinicalwebstation.asp"
+                },
+                {
+                    "function": "CMSHOSPITALINTRANET",
+                    "hospCode": "GH",
+                    "version": "",
+                    "context_root": "/clinicalwebstation.asp"
+                },
+                {
+                    "function": "CMSHOSPITALINTRANET",
+                    "hospCode": "ML",
+                    "version": "",
+                    "context_root": "/clinicalwebstation.asp"
+                },
+                {
+                    "function": "CMSHOSPITALINTRANET",
+                    "hospCode": "QMH",
+                    "version": "",
+                    "context_root": "/clinicalwebstation.asp"
+                },
+                {
+                    "function": "CMSHOSPITALINTRANET",
+                    "hospCode": "TWH",
+                    "version": "",
+                    "context_root": "/clinicalwebstation.asp"
+                },
+                {
+                    "function": "CMSHOSPITALINTRANET",
+                    "hospCode": "TYH",
+                    "version": "",
+                    "context_root": ""
+                }
+            ]
+        },
+        {
+            "function": "CMS_12C",
+            "hospForwarder": [
+                {
+                    "function": "CMS_12C",
+                    "hospCode": "DKC",
+                    "version": "15.3.4.8",
+                    "context_root": "/cms/15_3_4_8/common/login.jsp?hospCode=DKC&forwarderHosp=DKC&appl_cd=CMS_12C&sam_config_key=12C\n\n/cms/15_3_4_8/acs\n\n/cms/15_3_4_8/common/sam/sso-logoff_cms.jsp\n\n/cms/cmsStartup.jsp\n\n/cms/15_3_4_8/common/userSpecialtyExtJS.jsp"
+                },
+                {
+                    "function": "CMS_12C",
+                    "hospCode": "FYK",
+                    "version": "15.3.4.8",
+                    "context_root": "/cms/15_3_4_8/common/login.jsp?hospCode=FYK&forwarderHosp=FYK&appl_cd=CMS_12C&sam_config_key=12C\n\n/cms/15_3_4_8/acs\n\n/cms/15_3_4_8/common/sam/sso-logoff_cms.jsp\n\n/cms/cmsStartup.jsp\n\n/cms/15_3_4_8/common/userSpecialtyExtJS.jsp"
+                },
+                {
+                    "function": "CMS_12C",
+                    "hospCode": "GH",
+                    "version": "15.3.4.8",
+                    "context_root": "/cms/15_3_4_8/common/login.jsp?hospCode=GH&forwarderHosp=GH&appl_cd=CMS_12C&sam_config_key=12C\n\n/cms/15_3_4_8/acs\n\n/cms/15_3_4_8/common/sam/sso-logoff_cms.jsp\n\n/cms/cmsStartup.jsp\n\n/cms/15_3_4_8/common/userSpecialtyExtJS.jsp"
+                },
+                {
+                    "function": "CMS_12C",
+                    "hospCode": "ML",
+                    "version": "15.3.4.8",
+                    "context_root": "/cms/15_3_4_8/common/login.jsp?hospCode=ML&forwarderHosp=ML&appl_cd=CMS_12C&sam_config_key=12C\n\n/cms/15_3_4_8/acs\n\n/cms/15_3_4_8/common/sam/sso-logoff_cms.jsp\n\n/cms/cmsStartup.jsp\n\n/cms/15_3_4_8/common/userSpecialtyExtJS.jsp"
+                },
+                {
+                    "function": "CMS_12C",
+                    "hospCode": "QMH",
+                    "version": "15.3.4.8",
+                    "context_root": "/cms/15_3_4_8/common/login.jsp?hospCode=QMH&forwarderHosp=QMH&appl_cd=CMS_12C&sam_config_key=12C\n\n/cms/15_3_4_8/acs\n\n/cms/15_3_4_8/common/sam/sso-logoff_cms.jsp\n\n/cms/cmsStartup.jsp\n\n/cms/15_3_4_8/common/userSpecialtyExtJS.jsp"
+                },
+                {
+                    "function": "CMS_12C",
+                    "hospCode": "TWH",
+                    "version": "15.3.4.8",
+                    "context_root": "/cms/15_3_4_8/common/login.jsp?hospCode=TWH&forwarderHosp=TWH&appl_cd=CMS_12C&sam_config_key=12C\n\n/cms/15_3_4_8/acs\n\n/cms/15_3_4_8/common/sam/sso-logoff_cms.jsp\n\n/cms/cmsStartup.jsp\n\n/cms/15_3_4_8/common/userSpecialtyExtJS.jsp"
+                },
+                {
+                    "function": "CMS_12C",
+                    "hospCode": "TYH",
+                    "version": "15.3.4.8",
+                    "context_root": "/cms/15_3_4_8/common/login.jsp?hospCode=TYH&forwarderHosp=TYH&appl_cd=CMS_12C&sam_config_key=12C\n\n/cms/15_3_4_8/acs\n\n/cms/15_3_4_8/common/sam/sso-logoff_cms.jsp\n\n/cms/cmsStartup.jsp\n\n/cms/15_3_4_8/common/userSpecialtyExtJS.jsp"
+                }
+            ]
+        },
+        {
+            "function": "CMS_12CS",
+            "hospForwarder": [
+                {
+                    "function": "CMS_12CS",
+                    "hospCode": "DKC",
+                    "version": "15.3.4.8",
+                    "context_root": "/cms/15_3_4_8/common/login.jsp?hospCode=DKC&forwarderHosp=DKC&appl_cd=CMS_12CS&sam_config_key=12CS\n\n/cms/15_3_4_8/acs\n\n/cms/15_3_4_8/common/sam/sso-logoff_cms.jsp\n\n/cms/cmsStartup.jsp\n\n/cms/15_3_4_8/common/userSpecialtyExtJS.jsp"
+                },
+                {
+                    "function": "CMS_12CS",
+                    "hospCode": "FYK",
+                    "version": "15.3.4.8",
+                    "context_root": "/cms/15_3_4_8/common/login.jsp?hospCode=FYK&forwarderHosp=FYK&appl_cd=CMS_12CS&sam_config_key=12CS\n\n/cms/15_3_4_8/acs\n\n/cms/15_3_4_8/common/sam/sso-logoff_cms.jsp\n\n/cms/cmsStartup.jsp\n\n/cms/15_3_4_8/common/userSpecialtyExtJS.jsp"
+                },
+                {
+                    "function": "CMS_12CS",
+                    "hospCode": "GH",
+                    "version": "15.3.4.8",
+                    "context_root": "/cms/15_3_4_8/common/login.jsp?hospCode=GH&forwarderHosp=GH&appl_cd=CMS_12CS&sam_config_key=12CS\n\n/cms/15_3_4_8/acs\n\n/cms/15_3_4_8/common/sam/sso-logoff_cms.jsp\n\n/cms/cmsStartup.jsp\n\n/cms/15_3_4_8/common/userSpecialtyExtJS.jsp"
+                },
+                {
+                    "function": "CMS_12CS",
+                    "hospCode": "ML",
+                    "version": "15.3.4.8",
+                    "context_root": "/cms/15_3_4_8/common/login.jsp?hospCode=ML&forwarderHosp=ML&appl_cd=CMS_12CS&sam_config_key=12CS\n\n/cms/15_3_4_8/acs\n\n/cms/15_3_4_8/common/sam/sso-logoff_cms.jsp\n\n/cms/cmsStartup.jsp\n\n/cms/15_3_4_8/common/userSpecialtyExtJS.jsp"
+                },
+                {
+                    "function": "CMS_12CS",
+                    "hospCode": "QMH",
+                    "version": "15.3.4.8",
+                    "context_root": "/cms/15_3_4_8/common/login.jsp?hospCode=QMH&forwarderHosp=QMH&appl_cd=CMS_12CS&sam_config_key=12CS\n\n/cms/15_3_4_8/acs\n\n/cms/15_3_4_8/common/sam/sso-logoff_cms.jsp\n\n/cms/cmsStartup.jsp\n\n/cms/15_3_4_8/common/userSpecialtyExtJS.jsp"
+                },
+                {
+                    "function": "CMS_12CS",
+                    "hospCode": "TWH",
+                    "version": "15.3.4.8",
+                    "context_root": "/cms/15_3_4_8/common/login.jsp?hospCode=TWH&forwarderHosp=TWH&appl_cd=CMS_12CS&sam_config_key=12CS\n\n/cms/15_3_4_8/acs\n\n/cms/15_3_4_8/common/sam/sso-logoff_cms.jsp\n\n/cms/cmsStartup.jsp\n\n/cms/15_3_4_8/common/userSpecialtyExtJS.jsp"
+                },
+                {
+                    "function": "CMS_12CS",
+                    "hospCode": "TYH",
+                    "version": "15.3.4.8",
+                    "context_root": "/cms/15_3_4_8/common/login.jsp?hospCode=TYH&forwarderHosp=TYH&appl_cd=CMS_12CS&sam_config_key=12CS\n\n/cms/15_3_4_8/acs\n\n/cms/15_3_4_8/common/sam/sso-logoff_cms.jsp\n\n/cms/cmsStartup.jsp\n\n/cms/15_3_4_8/common/userSpecialtyExtJS.jsp"
+                }
+            ]
+        },
+        {
+            "function": "CMS_AA",
+            "hospForwarder": [
+                {
+                    "function": "CMS_AA",
+                    "hospCode": "DKC",
+                    "version": "10.28.1",
+                    "context_root": "/cms/10_28_1/common/login.jsp?hospCode=DKC&forwarderHosp=DKC\n\n/cms/10_28_1/acs\n\n/cms/10_28_1/common/sam/sso-logoff_cms.jsp\n\n/cms-cms-startup/cmsStartup.jsp\n\n/cms/10_28_1/common/userSpecialtyExtJS.jsp"
+                },
+                {
+                    "function": "CMS_AA",
+                    "hospCode": "FYK",
+                    "version": "10.28.1",
+                    "context_root": "/cms/10_28_1/common/login.jsp?hospCode=FYK&forwarderHosp=FYK\n\n/cms/10_28_1/acs\n\n/cms/10_28_1/common/sam/sso-logoff_cms.jsp\n\n/cms-cms-startup/cmsStartup.jsp\n\n/cms/10_28_1/common/userSpecialtyExtJS.jsp"
+                },
+                {
+                    "function": "CMS_AA",
+                    "hospCode": "GH",
+                    "version": "10.28.1",
+                    "context_root": "/cms/10_28_1/common/login.jsp?hospCode=GH&forwarderHosp=GH\n\n/cms/10_28_1/acs\n\n/cms/10_28_1/common/sam/sso-logoff_cms.jsp\n\n/cms-cms-startup/cmsStartup.jsp\n\n/cms/10_28_1/common/userSpecialtyExtJS.jsp"
+                },
+                {
+                    "function": "CMS_AA",
+                    "hospCode": "ML",
+                    "version": "10.28.1",
+                    "context_root": "/cms/10_28_1/common/login.jsp?hospCode=ML&forwarderHosp=ML\n\n/cms/10_28_1/acs\n\n/cms/10_28_1/common/sam/sso-logoff_cms.jsp\n\n/cms-cms-startup/cmsStartup.jsp\n\n/cms/10_28_1/common/userSpecialtyExtJS.jsp"
+                },
+                {
+                    "function": "CMS_AA",
+                    "hospCode": "QMH",
+                    "version": "10.28.1",
+                    "context_root": "/cms/10_28_1/common/login.jsp?hospCode=QMH&forwarderHosp=QMH\n\n/cms/10_28_1/acs\n\n/cms/10_28_1/common/sam/sso-logoff_cms.jsp\n\n/cms-cms-startup/cmsStartup.jsp\n\n/cms/10_28_1/common/userSpecialtyExtJS.jsp"
+                },
+                {
+                    "function": "CMS_AA",
+                    "hospCode": "TWH",
+                    "version": "10.28.1",
+                    "context_root": "/cms/10_28_1/common/login.jsp?hospCode=TWH&forwarderHosp=TWH\n\n/cms/10_28_1/acs\n\n/cms/10_28_1/common/sam/sso-logoff_cms.jsp\n\n/cms-cms-startup/cmsStartup.jsp\n\n/cms/10_28_1/common/userSpecialtyExtJS.jsp"
+                },
+                {
+                    "function": "CMS_AA",
+                    "hospCode": "TYH",
+                    "version": "10.28.1",
+                    "context_root": "/cms/10_28_1/common/login.jsp?hospCode=TYH&forwarderHosp=TYH\n\n/cms/10_28_1/acs\n\n/cms/10_28_1/common/sam/sso-logoff_cms.jsp\n\n/cms-cms-startup/cmsStartup.jsp\n\n/cms/10_28_1/common/userSpecialtyExtJS.jsp"
+                }
+            ]
+        },
+        {
+            "function": "CMS_LREWS",
+            "hospForwarder": [
+                {
+                    "function": "CMS_LREWS",
+                    "hospCode": "DKC",
+                    "version": "1.0.0",
+                    "context_root": "/lisWeb/LabReportEnquiryAppServiceWebS"
+                },
+                {
+                    "function": "CMS_LREWS",
+                    "hospCode": "FYK",
+                    "version": "1.0.0",
+                    "context_root": "/lisWeb/LabReportEnquiryAppServiceWebS"
+                },
+                {
+                    "function": "CMS_LREWS",
+                    "hospCode": "GH",
+                    "version": "1.0.0",
+                    "context_root": "/lisWeb/LabReportEnquiryAppServiceWebS"
+                },
+                {
+                    "function": "CMS_LREWS",
+                    "hospCode": "ML",
+                    "version": "1.0.0",
+                    "context_root": "/lisWeb/LabReportEnquiryAppServiceWebS"
+                },
+                {
+                    "function": "CMS_LREWS",
+                    "hospCode": "QMH",
+                    "version": "1.0.0",
+                    "context_root": "/lisWeb/LabReportEnquiryAppServiceWebS"
+                },
+                {
+                    "function": "CMS_LREWS",
+                    "hospCode": "TWH",
+                    "version": "1.0.0",
+                    "context_root": "/lisWeb/LabReportEnquiryAppServiceWebS"
+                },
+                {
+                    "function": "",
+                    "hospCode": "TYH",
+                    "version": "",
+                    "context_root": ""
+                }
+            ]
+        },
+        {
+            "function": "CMS_OTERS_CIDEPR_WS",
+            "hospForwarder": [
+                {
+                    "function": "CMS_OTERS_CIDEPR_WS",
+                    "hospCode": "DKC",
+                    "version": "7_0_0",
+                    "context_root": "/epr-cid-ers-processcid/EprCidWSSSoapHttpPort?wsdl"
+                },
+                {
+                    "function": "CMS_OTERS_CIDEPR_WS",
+                    "hospCode": "FYK",
+                    "version": "7_0_0",
+                    "context_root": "/epr-cid-ers-processcid/EprCidWSSSoapHttpPort?wsdl"
+                },
+                {
+                    "function": "CMS_OTERS_CIDEPR_WS",
+                    "hospCode": "GH",
+                    "version": "7_0_0",
+                    "context_root": "/axcid-proxy/EprCidWSS?wsdl"
+                },
+                {
+                    "function": "CMS_OTERS_CIDEPR_WS",
+                    "hospCode": "ML",
+                    "version": "7_0_0",
+                    "context_root": "/epr-cid-ers-processcid/EprCidWSSSoapHttpPort?wsdl"
+                },
+                {
+                    "function": "CMS_OTERS_CIDEPR_WS",
+                    "hospCode": "QMH",
+                    "version": "7_0_0",
+                    "context_root": "/axcid-proxy/EprCidWSS?wsdl"
+                },
+                {
+                    "function": "CMS_OTERS_CIDEPR_WS",
+                    "hospCode": "TWH",
+                    "version": "7_0_0",
+                    "context_root": "/axcid-proxy/EprCidWSS?wsdl"
+                },
+                {
+                    "function": "CMS_OTERS_CIDEPR_WS",
+                    "hospCode": "TYH",
+                    "version": "7_0_0",
+                    "context_root": "/epr-cid-ers-processcid/EprCidWSSSoapHttpPort?wsdl"
+                }
+            ]
+        },
+        {
+            "function": "CMS_RPTSCRN_LREWS",
+            "hospForwarder": [
+                {
+                    "function": "",
+                    "hospCode": "DKC",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "FYK",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "CMS_RPTSCRN_LREWS",
+                    "hospCode": "GH",
+                    "version": "1.0.0",
+                    "context_root": "/PrintServiceBean/PrintServiceWebS"
+                },
+                {
+                    "function": "",
+                    "hospCode": "ML",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "CMS_RPTSCRN_LREWS",
+                    "hospCode": "QMH",
+                    "version": "1.0.0",
+                    "context_root": "/PrintServiceBean/PrintServiceWebS"
+                },
+                {
+                    "function": "",
+                    "hospCode": "TWH",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "TYH",
+                    "version": "",
+                    "context_root": ""
+                }
+            ]
+        },
+        {
+            "function": "DPMS",
+            "hospForwarder": [
+                {
+                    "function": "DPMS",
+                    "hospCode": "DKC",
+                    "version": "",
+                    "context_root": "/pms-dpms"
+                },
+                {
+                    "function": "DPMS",
+                    "hospCode": "FYK",
+                    "version": "",
+                    "context_root": "/pms-dpms"
+                },
+                {
+                    "function": "DPMS",
+                    "hospCode": "GH",
+                    "version": "",
+                    "context_root": "/pms-dpms"
+                },
+                {
+                    "function": "DPMS",
+                    "hospCode": "ML",
+                    "version": "",
+                    "context_root": "/pms-dpms"
+                },
+                {
+                    "function": "DPMS",
+                    "hospCode": "QMH",
+                    "version": "",
+                    "context_root": "/pms-dpms"
+                },
+                {
+                    "function": "DPMS",
+                    "hospCode": "TWH",
+                    "version": "",
+                    "context_root": "/pms-dpms"
+                },
+                {
+                    "function": "",
+                    "hospCode": "TYH",
+                    "version": "",
+                    "context_root": ""
+                }
+            ]
+        },
+        {
+            "function": "FFCS",
+            "hospForwarder": [
+                {
+                    "function": "",
+                    "hospCode": "DKC",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "FYK",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "GH",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "ML",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "FFCS",
+                    "hospCode": "QMH",
+                    "version": "1.1.0",
+                    "context_root": "/cms/ffcs/1.1.0/"
+                },
+                {
+                    "function": "",
+                    "hospCode": "TWH",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "TYH",
+                    "version": "",
+                    "context_root": ""
+                }
+            ]
+        },
+        {
+            "function": "GCD_FIM",
+            "hospForwarder": [
+                {
+                    "function": "",
+                    "hospCode": "DKC",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "FYK",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "GH",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "GCD_FIM",
+                    "hospCode": "ML",
+                    "version": "6.3.0",
+                    "context_root": "/cms-cms-fim/6_3_0/"
+                },
+                {
+                    "function": "",
+                    "hospCode": "QMH",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "TWH",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "TYH",
+                    "version": "",
+                    "context_root": ""
+                }
+            ]
+        },
+        {
+            "function": "MDSREST_WS",
+            "hospForwarder": [
+                {
+                    "function": "MDSREST_WS",
+                    "hospCode": "DKC",
+                    "version": "4.0.9",
+                    "context_root": "/cms-moe-mds/4_0_9/mdsresource/enquiry"
+                },
+                {
+                    "function": "MDSREST_WS",
+                    "hospCode": "FYK",
+                    "version": "4.0.9",
+                    "context_root": "/cms-moe-mds/4_0_9/mdsresource/enquiry"
+                },
+                {
+                    "function": "MDSREST_WS",
+                    "hospCode": "GH",
+                    "version": "4.0.9",
+                    "context_root": "/cms-moe-mds/4_0_9/mdsresource/enquiry"
+                },
+                {
+                    "function": "MDSREST_WS",
+                    "hospCode": "ML",
+                    "version": "4.0.9",
+                    "context_root": "/cms-moe-mds/4_0_9/mdsresource/enquiry"
+                },
+                {
+                    "function": "MDSREST_WS",
+                    "hospCode": "QMH",
+                    "version": "4.0.9",
+                    "context_root": "/cms-moe-mds/4_0_9/mdsresource/enquiry"
+                },
+                {
+                    "function": "MDSREST_WS",
+                    "hospCode": "TWH",
+                    "version": "4.0.9",
+                    "context_root": "/cms-moe-mds/4_0_9/mdsresource/enquiry"
+                },
+                {
+                    "function": "",
+                    "hospCode": "TYH",
+                    "version": "",
+                    "context_root": ""
+                }
+            ]
+        },
+        {
+            "function": "OBSCIS",
+            "hospForwarder": [
+                {
+                    "function": "",
+                    "hospCode": "DKC",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "FYK",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "GH",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "ML",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "OBSCIS",
+                    "hospCode": "QMH",
+                    "version": "5_11_0",
+                    "context_root": "/cms-obscis/5_11_0/"
+                },
+                {
+                    "function": "",
+                    "hospCode": "TWH",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "TYH",
+                    "version": "",
+                    "context_root": ""
+                }
+            ]
+        },
+        {
+            "function": "OBSCIS_IP",
+            "hospForwarder": [
+                {
+                    "function": "",
+                    "hospCode": "DKC",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "FYK",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "GH",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "ML",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "OBSCIS_IP",
+                    "hospCode": "QMH",
+                    "version": "7_9_6",
+                    "context_root": "/cms-obscis-ip/7_9_6/"
+                },
+                {
+                    "function": "",
+                    "hospCode": "TWH",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "TYH",
+                    "version": "",
+                    "context_root": ""
+                }
+            ]
+        },
+        {
+            "function": "OBSCIS_USER_ADMIN_API",
+            "hospForwarder": [
+                {
+                    "function": "",
+                    "hospCode": "DKC",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "FYK",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "GH",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "ML",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "OBSCIS_USER_ADMIN_API",
+                    "hospCode": "QMH",
+                    "version": "7_9_6",
+                    "context_root": "/cms-obscis-ip/7_9_6/rest/api/"
+                },
+                {
+                    "function": "",
+                    "hospCode": "TWH",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "TYH",
+                    "version": "",
+                    "context_root": ""
+                }
+            ]
+        },
+        {
+            "function": "OTMSWEBS-ApptEnq-CDB",
+            "hospForwarder": [
+                {
+                    "function": "OTMSWEBS-ApptEnq-CDB",
+                    "hospCode": "DKC",
+                    "version": "1.0.0",
+                    "context_root": "/OTMS_WS/OTMS_Data.svc"
+                },
+                {
+                    "function": "",
+                    "hospCode": "FYK",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "OTMSWEBS-ApptEnq-CDB",
+                    "hospCode": "GH",
+                    "version": "1.0.0",
+                    "context_root": "/OTMS_WS/OTMS_Data.svc"
+                },
+                {
+                    "function": "",
+                    "hospCode": "ML",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "OTMSWEBS-ApptEnq-CDB",
+                    "hospCode": "QMH",
+                    "version": "1.0.0",
+                    "context_root": "/OTMS_WS/OTMS_Data.svc"
+                },
+                {
+                    "function": "OTMSWEBS-ApptEnq-CDB",
+                    "hospCode": "TWH",
+                    "version": "1.0.0",
+                    "context_root": "/OTMS_WS/OTMS_Data.svc"
+                },
+                {
+                    "function": "",
+                    "hospCode": "TYH",
+                    "version": "",
+                    "context_root": ""
+                }
+            ]
+        },
+        {
+            "function": "OTMS_EOT_Booking",
+            "hospForwarder": [
+                {
+                    "function": "OTMS_EOT_Booking",
+                    "hospCode": "DKC",
+                    "version": "1_0_0",
+                    "context_root": "/OTMS/toASPSession.aspx"
+                },
+                {
+                    "function": "",
+                    "hospCode": "FYK",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "OTMS_EOT_Booking",
+                    "hospCode": "GH",
+                    "version": "1_0_0",
+                    "context_root": "/OTMS/toASPSession.aspx"
+                },
+                {
+                    "function": "",
+                    "hospCode": "ML",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "OTMS_EOT_Booking",
+                    "hospCode": "QMH",
+                    "version": "1_0_0",
+                    "context_root": "/OTMS/toASPSession.aspx"
+                },
+                {
+                    "function": "OTMS_EOT_Booking",
+                    "hospCode": "TWH",
+                    "version": "1_0_0",
+                    "context_root": "/OTMS/toASPSession.aspx"
+                },
+                {
+                    "function": "",
+                    "hospCode": "TYH",
+                    "version": "",
+                    "context_root": ""
+                }
+            ]
+        },
+        {
+            "function": "OTMS_EOT_Maint",
+            "hospForwarder": [
+                {
+                    "function": "OTMS_EOT_Maint",
+                    "hospCode": "DKC",
+                    "version": "1_0_0",
+                    "context_root": "/OTMS/toASPSession.aspx"
+                },
+                {
+                    "function": "",
+                    "hospCode": "FYK",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "OTMS_EOT_Maint",
+                    "hospCode": "GH",
+                    "version": "1_0_0",
+                    "context_root": "/OTMS/toASPSession.aspx"
+                },
+                {
+                    "function": "",
+                    "hospCode": "ML",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "OTMS_EOT_Maint",
+                    "hospCode": "QMH",
+                    "version": "1_0_0",
+                    "context_root": "/OTMS/toASPSession.aspx"
+                },
+                {
+                    "function": "OTMS_EOT_Maint",
+                    "hospCode": "TWH",
+                    "version": "1_0_0",
+                    "context_root": "/OTMS/toASPSession.aspx"
+                },
+                {
+                    "function": "",
+                    "hospCode": "TYH",
+                    "version": "",
+                    "context_root": ""
+                }
+            ]
+        },
+        {
+            "function": "OTMS_EOT_Status",
+            "hospForwarder": [
+                {
+                    "function": "OTMS_EOT_Status",
+                    "hospCode": "DKC",
+                    "version": "1_0_0",
+                    "context_root": "/OTMS/toASPSession.aspx"
+                },
+                {
+                    "function": "",
+                    "hospCode": "FYK",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "OTMS_EOT_Status",
+                    "hospCode": "GH",
+                    "version": "1_0_0",
+                    "context_root": "/OTMS/toASPSession.aspx"
+                },
+                {
+                    "function": "",
+                    "hospCode": "ML",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "OTMS_EOT_Status",
+                    "hospCode": "QMH",
+                    "version": "1_0_0",
+                    "context_root": "/OTMS/toASPSession.aspx"
+                },
+                {
+                    "function": "OTMS_EOT_Status",
+                    "hospCode": "TWH",
+                    "version": "1_0_0",
+                    "context_root": "/OTMS/toASPSession.aspx"
+                },
+                {
+                    "function": "",
+                    "hospCode": "TYH",
+                    "version": "",
+                    "context_root": ""
+                }
+            ]
+        },
+        {
+            "function": "OTMS_ElectiveOT_Booking",
+            "hospForwarder": [
+                {
+                    "function": "OTMS_ElectiveOT_Booking",
+                    "hospCode": "DKC",
+                    "version": "1_0_0",
+                    "context_root": "/OTMS/toASPSession.aspx"
+                },
+                {
+                    "function": "",
+                    "hospCode": "FYK",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "OTMS_ElectiveOT_Booking",
+                    "hospCode": "GH",
+                    "version": "1_0_0",
+                    "context_root": "/OTMS/toASPSession.aspx"
+                },
+                {
+                    "function": "",
+                    "hospCode": "ML",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "OTMS_ElectiveOT_Booking",
+                    "hospCode": "QMH",
+                    "version": "1_0_0",
+                    "context_root": "/OTMS/toASPSession.aspx"
+                },
+                {
+                    "function": "OTMS_ElectiveOT_Booking",
+                    "hospCode": "TWH",
+                    "version": "1_0_0",
+                    "context_root": "/OTMS/toASPSession.aspx"
+                },
+                {
+                    "function": "",
+                    "hospCode": "TYH",
+                    "version": "",
+                    "context_root": ""
+                }
+            ]
+        },
+        {
+            "function": "OTMS_ElectiveOT_Status",
+            "hospForwarder": [
+                {
+                    "function": "OTMS_ElectiveOT_Status",
+                    "hospCode": "DKC",
+                    "version": "1_0_0",
+                    "context_root": "/OTMS/toASPSession.aspx"
+                },
+                {
+                    "function": "",
+                    "hospCode": "FYK",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "OTMS_ElectiveOT_Status",
+                    "hospCode": "GH",
+                    "version": "1_0_0",
+                    "context_root": "/OTMS/toASPSession.aspx"
+                },
+                {
+                    "function": "",
+                    "hospCode": "ML",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "OTMS_ElectiveOT_Status",
+                    "hospCode": "QMH",
+                    "version": "1_0_0",
+                    "context_root": "/OTMS/toASPSession.aspx"
+                },
+                {
+                    "function": "OTMS_ElectiveOT_Status",
+                    "hospCode": "TWH",
+                    "version": "1_0_0",
+                    "context_root": "/OTMS/toASPSession.aspx"
+                },
+                {
+                    "function": "",
+                    "hospCode": "TYH",
+                    "version": "",
+                    "context_root": ""
+                }
+            ]
+        },
+        {
+            "function": "OTMS_Other_ElectiveOT",
+            "hospForwarder": [
+                {
+                    "function": "OTMS_Other_ElectiveOT",
+                    "hospCode": "DKC",
+                    "version": "1_0_0",
+                    "context_root": "/OTMS/toASPSession.aspx"
+                },
+                {
+                    "function": "",
+                    "hospCode": "FYK",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "OTMS_Other_ElectiveOT",
+                    "hospCode": "GH",
+                    "version": "1_0_0",
+                    "context_root": "/OTMS/toASPSession.aspx"
+                },
+                {
+                    "function": "",
+                    "hospCode": "ML",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "OTMS_Other_ElectiveOT",
+                    "hospCode": "QMH",
+                    "version": "1_0_0",
+                    "context_root": "/OTMS/toASPSession.aspx"
+                },
+                {
+                    "function": "OTMS_Other_ElectiveOT",
+                    "hospCode": "TWH",
+                    "version": "1_0_0",
+                    "context_root": "/OTMS/toASPSession.aspx"
+                },
+                {
+                    "function": "",
+                    "hospCode": "TYH",
+                    "version": "",
+                    "context_root": ""
+                }
+            ]
+        },
+        {
+            "function": "PAPERLESSECG",
+            "hospForwarder": [
+                {
+                    "function": "",
+                    "hospCode": "DKC",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "PAPERLESSECG",
+                    "hospCode": "FYK",
+                    "version": "1.0.0",
+                    "context_root": "/"
+                },
+                {
+                    "function": "PAPERLESSECG",
+                    "hospCode": "GH",
+                    "version": "1.0.0",
+                    "context_root": "/"
+                },
+                {
+                    "function": "",
+                    "hospCode": "ML",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "PAPERLESSECG",
+                    "hospCode": "QMH",
+                    "version": "1.0.0",
+                    "context_root": "/"
+                },
+                {
+                    "function": "PAPERLESSECG",
+                    "hospCode": "TWH",
+                    "version": "1.0.0",
+                    "context_root": "/"
+                },
+                {
+                    "function": "",
+                    "hospCode": "TYH",
+                    "version": "",
+                    "context_root": ""
+                }
+            ]
+        },
+        {
+            "function": "PASWEBS-OpasServiceEnquiry-OBSCIS",
+            "hospForwarder": [
+                {
+                    "function": "",
+                    "hospCode": "DKC",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "FYK",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "GH",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "ML",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "PASWEBS-OpasServiceEnquiry-OBSCIS",
+                    "hospCode": "QMH",
+                    "version": "3.0.7",
+                    "context_root": "/PAS_PAS_APPOINTMENT_WSS_3_0_7/OpasServiceEnquiryWebS_2_1_1"
+                },
+                {
+                    "function": "",
+                    "hospCode": "TWH",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "TYH",
+                    "version": "",
+                    "context_root": ""
+                }
+            ]
+        },
+        {
+            "function": "PAS_OBS_NEW_BORN_REG",
+            "hospForwarder": [
+                {
+                    "function": "",
+                    "hospCode": "DKC",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "FYK",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "GH",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "ML",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "PAS_OBS_NEW_BORN_REG",
+                    "hospCode": "QMH",
+                    "version": "5.0.7",
+                    "context_root": "/nbadm/5_0_7/pas/newBornRegistration.jsp"
+                },
+                {
+                    "function": "",
+                    "hospCode": "TWH",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "TYH",
+                    "version": "",
+                    "context_root": ""
+                }
+            ]
+        },
+        {
+            "function": "PBBS",
+            "hospForwarder": [
+                {
+                    "function": "",
+                    "hospCode": "DKC",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "FYK",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "GH",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "ML",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "PBBS",
+                    "hospCode": "QMH",
+                    "version": "1_0_0",
+                    "context_root": "/cmspbbs_deshell/common/toASPSession.aspx\n\n/PBBSCMS.aspx"
+                },
+                {
+                    "function": "",
+                    "hospCode": "TWH",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "TYH",
+                    "version": "",
+                    "context_root": ""
+                }
+            ]
+        },
+        {
+            "function": "PSP-List12",
+            "hospForwarder": [
+                {
+                    "function": "",
+                    "hospCode": "DKC",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "FYK",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "GH",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "ML",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "PSP-List12",
+                    "hospCode": "QMH",
+                    "version": "2.6.0",
+                    "context_root": "/aeis/8_16_0/"
+                },
+                {
+                    "function": "",
+                    "hospCode": "TWH",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "TYH",
+                    "version": "",
+                    "context_root": ""
+                }
+            ]
+        },
+        {
+            "function": "PSP-List14",
+            "hospForwarder": [
+                {
+                    "function": "",
+                    "hospCode": "DKC",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "FYK",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "GH",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "ML",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "PSP-List14",
+                    "hospCode": "QMH",
+                    "version": "1.1.0",
+                    "context_root": "/trauma/4_7_0/"
+                },
+                {
+                    "function": "",
+                    "hospCode": "TWH",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "TYH",
+                    "version": "",
+                    "context_root": ""
+                }
+            ]
+        },
+        {
+            "function": "TRAUMA",
+            "hospForwarder": [
+                {
+                    "function": "",
+                    "hospCode": "DKC",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "FYK",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "GH",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "ML",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "TRAUMA",
+                    "hospCode": "QMH",
+                    "version": "4.7.0",
+                    "context_root": "/trauma/4_7_0/"
+                },
+                {
+                    "function": "",
+                    "hospCode": "TWH",
+                    "version": "",
+                    "context_root": ""
+                },
+                {
+                    "function": "",
+                    "hospCode": "TYH",
+                    "version": "",
+                    "context_root": ""
+                }
+            ]
+        },
+        {
+            "function": "USER_ADMIN",
+            "hospForwarder": [
+                {
+                    "function": "USER_ADMIN",
+                    "hospCode": "DKC",
+                    "version": "3_3_4_1",
+                    "context_root": "/cms_user_admin/3_3_4_1/"
+                },
+                {
+                    "function": "USER_ADMIN",
+                    "hospCode": "FYK",
+                    "version": "3_3_4_1",
+                    "context_root": "/cms_user_admin/3_3_4_1/"
+                },
+                {
+                    "function": "USER_ADMIN",
+                    "hospCode": "GH",
+                    "version": "3_3_4_1",
+                    "context_root": "/cms_user_admin/3_3_4_1/"
+                },
+                {
+                    "function": "USER_ADMIN",
+                    "hospCode": "ML",
+                    "version": "3_3_4_1",
+                    "context_root": "/cms_user_admin/3_3_4_1/"
+                },
+                {
+                    "function": "USER_ADMIN",
+                    "hospCode": "QMH",
+                    "version": "3_3_5_1",
+                    "context_root": "/cms_user_admin/3_3_5_1/"
+                },
+                {
+                    "function": "USER_ADMIN",
+                    "hospCode": "TWH",
+                    "version": "3_3_4_1",
+                    "context_root": "/cms_user_admin/3_3_4_1/"
+                },
+                {
+                    "function": "USER_ADMIN",
+                    "hospCode": "TYH",
+                    "version": "3_3_4_1",
+                    "context_root": "/cms_user_admin/3_3_4_1/"
+                }
+            ]
+        }
+    ]
 }

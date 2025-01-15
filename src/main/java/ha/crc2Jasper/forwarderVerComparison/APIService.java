@@ -11,7 +11,18 @@ public class APIService {
     private APIService() {}
     private static final WebClient WEB_CLIENT = WebClientConfig.getWebClient();
 
-    public static void getSrcForwarderData() {
+    public static Response getSrcForwarderDataReactive(List<String> hospList) {
+        SetupConfig SETUP_CONFIG = SetupConfig.getInstance();
+        Mono<String> monoData = WEB_CLIENT.get()
+                                    .uri(SETUP_CONFIG.getCms_forwarder_ver_API())
+                                    .retrieve()
+                                    .bodyToMono(String.class);
+        return JsonDataParser.parseForwarderDataAndCompileResponse(monoData, hospList);
+    }
+
+    /* Below are obsoleted functions */
+
+    /*    public static void getSrcForwarderData() {
         SetupConfig SETUP_CONFIG = SetupConfig.getInstance();
         WEB_CLIENT.get()
                 .uri(SETUP_CONFIG.getCms_forwarder_ver_API())
@@ -30,14 +41,5 @@ public class APIService {
                 .retrieve()
                 .bodyToMono(String.class);
         JsonDataParser.parseForwarderData_V2(monoData);
-    }
-
-    public static Response getSrcForwarderDataReactive(List<String> hospList) {
-        SetupConfig SETUP_CONFIG = SetupConfig.getInstance();
-        Mono<String> monoData = WEB_CLIENT.get()
-                                    .uri(SETUP_CONFIG.getCms_forwarder_ver_API())
-                                    .retrieve()
-                                    .bodyToMono(String.class);
-        return JsonDataParser.parseForwarderDataAndCompileResponse(monoData, hospList);
-    }
+    }*/
 }

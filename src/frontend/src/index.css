@@ -23,7 +23,7 @@ a:hover {
 }
 
 html, body {
-  overflow: auto;
+  overflow: hidden;
 }
 
 body {

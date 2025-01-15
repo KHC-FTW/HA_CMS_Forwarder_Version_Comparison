@@ -11,10 +11,9 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-@Getter
-@Setter
 public class Database {
-    private Database() {
+    /* Obsoleted class */
+    /*private Database() {
         hospMapPlaceholder = createHospPlaceholderMap();
         allHospCode = new ArrayList<>(hospMapPlaceholder.keySet());
     }
@@ -74,6 +73,6 @@ public class Database {
             copyResult.put(key, new CMSFunction(value));
         });
         return copyResult;
-    }
+    }*/
 
 }

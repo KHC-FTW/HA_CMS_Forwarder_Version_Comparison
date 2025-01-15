@@ -9,7 +9,8 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
 
 @Component
 public class EventController {
-    private EventController() {}
+    /* Obsoleted class */
+    /*private EventController() {}
 
     private static final ReentrantReadWriteLock LOCK = new ReentrantReadWriteLock();
     @Getter
@@ -17,7 +18,7 @@ public class EventController {
     @Getter
     private static final ReentrantReadWriteLock.WriteLock WRITE_LOCK = LOCK.writeLock();
 
-    private static boolean runOnce = true;
+    private static boolean runOnce = true;*/
 
 /*    public static void kickStartFirstDataQuery(){
         APIService.getSrcForwarderData_V2();
@@ -38,9 +39,9 @@ public class EventController {
 
 
 //    @Scheduled(cron = "0 * * * * *")
-    public static void testCronSchedule(){
+/*    public static void testCronSchedule(){
         LocalDateTime now = LocalDateTime.now();
         System.out.println("Current time: " + now);
-//        DebugUtils.print("Print every minute.");
-    }
+        DebugUtils.print("Print every minute.");
+    }*/
 }

@@ -12,9 +12,8 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
 @RequestMapping(value = "/api")
 public class ClientRequestController {
     private ClientRequestController() {}
-    private static final Database DB = Database.getInstance();
-
-    private static final ReentrantReadWriteLock.ReadLock READ_LOCK = EventController.getREAD_LOCK();
+//    private static final Database DB = Database.getInstance();
+//    private static final ReentrantReadWriteLock.ReadLock READ_LOCK = EventController.getREAD_LOCK();
 
     @ResponseBody
     @GetMapping("/v1/testGET")
@@ -25,7 +24,7 @@ public class ClientRequestController {
     @ResponseBody
     @GetMapping("/v2/find-forwarder-diff/all-hosp")
     public Response v2_find_forwarder_diff_all_hosp() {
-        List<String> hospList = Database.getInstance().getAllHospCode();
+        List<String> hospList = SetupConfig.getInstance().getAllHospCode();
         return APIService.getSrcForwarderDataReactive(hospList);
     }
 
@@ -36,13 +35,20 @@ public class ClientRequestController {
         return APIService.getSrcForwarderDataReactive(hospList);
     }
 
+    @ResponseBody
+    @GetMapping("/v2/find-forwarder-diff-by-cluster/{cluster}")
+    public Response v2_find_forwarder_diff_by_cluster(@PathVariable("cluster") String cluster) {
+        final SetupConfig SETUP_CONFIG = SetupConfig.getInstance();
+        List<String> hospList = SETUP_CONFIG.getHospListByCluster(cluster);
+        if(hospList != null) {
+            return APIService.getSrcForwarderDataReactive(hospList);
+        }
+        String errorMsg = "Error: Cluster '" + cluster + "' not found! Only valid clusters are accepted: " + SETUP_CONFIG.getValidClusters();
+        return new Response(errorMsg, "", 0, null);
+    }
 
 
-    /*
-    * Deprecated below
-    * */
-
-
+    /* Below are obsoleted functions */
 
 
     /*@ResponseBody

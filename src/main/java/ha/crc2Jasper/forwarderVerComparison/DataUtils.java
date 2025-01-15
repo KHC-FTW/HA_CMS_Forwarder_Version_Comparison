@@ -10,17 +10,6 @@ import java.util.Map;
 public class DataUtils {
     private DataUtils() {}
 
-    private static final Database DB = Database.getInstance();
-
-//    public static void updateFuncWithDiffVerMapForAllHosp(){
-//        if(DB.getFuncWithDiffVerMap_allHosp() == null){
-//            DB.setFuncWithDiffVerMap_allHosp(compareForwarderVersion(DB.getAllHospCode(), DB.getAllFuncHospMap()));
-//        }
-//        if(DB.getPreComputedResponseAllHosp() == null){
-//            DB.setPreComputedResponseAllHosp(createResponse(DB.getFuncWithDiffVerMap_allHosp()));
-//        }
-//    }
-
     public static Response createResponse(Map<String, Map<String, CMSFunction>> funcHospMap, String lasUpdated){
         List<Result> results = new ArrayList<>();
         funcHospMap.forEach((function, hospMap) -> {
@@ -29,20 +18,6 @@ public class DataUtils {
         });
         return new Response("OK", lasUpdated, results.size(), results);
     }
-
-    public static Map<String, Map<String, CMSFunction>> compareForwarderVersion_V2(List<String> hospToCompare) {
-        Map<String, Map<String, CMSFunction>> funcWithDiffVerMap_allHospital = DB.getFuncWithDiffVerMap_allHosp();
-        Map<String, Map<String, CMSFunction>> results = new LinkedHashMap<>();
-        funcWithDiffVerMap_allHospital.forEach((function, hospMap) -> {
-            Map<String, CMSFunction> diffMap = new LinkedHashMap<>();
-            hospToCompare.forEach((String hospCode) -> {
-                diffMap.put(hospCode, hospMap.get(hospCode));
-            });
-            results.put(function, diffMap);
-        });
-        return results;
-    }
-
 
     public static Map<String, Map<String, CMSFunction>> compareForwarderVersion(
             List<String> hospToCompare,
@@ -82,5 +57,29 @@ public class DataUtils {
         });
         return hospMap;
     }
+
+    /* Below are obsoleted functions */
+
+    /*    public static void updateFuncWithDiffVerMapForAllHosp(){
+        if(DB.getFuncWithDiffVerMap_allHosp() == null){
+            DB.setFuncWithDiffVerMap_allHosp(compareForwarderVersion(DB.getAllHospCode(), DB.getAllFuncHospMap()));
+        }
+        if(DB.getPreComputedResponseAllHosp() == null){
+            DB.setPreComputedResponseAllHosp(createResponse(DB.getFuncWithDiffVerMap_allHosp()));
+        }
+    }*/
+
+    /*    public static Map<String, Map<String, CMSFunction>> compareForwarderVersion_V2(List<String> hospToCompare) {
+        Map<String, Map<String, CMSFunction>> funcWithDiffVerMap_allHospital = DB.getFuncWithDiffVerMap_allHosp();
+        Map<String, Map<String, CMSFunction>> results = new LinkedHashMap<>();
+        funcWithDiffVerMap_allHospital.forEach((function, hospMap) -> {
+            Map<String, CMSFunction> diffMap = new LinkedHashMap<>();
+            hospToCompare.forEach((String hospCode) -> {
+                diffMap.put(hospCode, hospMap.get(hospCode));
+            });
+            results.put(function, diffMap);
+        });
+        return results;
+    }*/
 
 }

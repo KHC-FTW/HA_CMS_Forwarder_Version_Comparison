@@ -45,7 +45,7 @@ const ForwarderVer2 = ({data}) => {
                                     <td>{result.function}</td>
                                     { result.hospForwarder.map((result, idx) => (
                                         <React.Fragment key={idx}>
-                                        <td>{result.version || '/'}</td>
+                                        <td style={{textAlign: 'center'}}>{result.version || '/'}</td>
                                         {contextRootDisplay && (
                                             <td dangerouslySetInnerHTML={formatContextRoot(result.context_root || '/')} />
                                         )}

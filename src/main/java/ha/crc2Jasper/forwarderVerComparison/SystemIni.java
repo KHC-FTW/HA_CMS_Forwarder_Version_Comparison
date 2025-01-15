@@ -1,11 +1,15 @@
 package ha.crc2Jasper.forwarderVerComparison;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import ha.crc2Jasper.forwarderVerComparison.component.CMSFunction;
 import ha.crc2Jasper.forwarderVerComparison.component.Cluster;
 import ha.crc2Jasper.forwarderVerComparison.component.SetupConfig;
 
 import java.io.File;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
+import java.util.stream.Collectors;
 
 public class SystemIni {
     private SystemIni(){}
@@ -30,12 +34,12 @@ public class SystemIni {
 
         SETUP_CONFIG.setConfigInputPath(jsonPath);
 
-
         try {
             // Read JSON file and convert to JsonNode
             SetupConfig setupConfig = OBJECT_MAPPER.readValue(jsonFile, SetupConfig.class);
             SetupConfig.setInstance(setupConfig);
             SetupConfig.getInstance().setValidClusters(createValidClustersList(setupConfig));
+            SetupConfig.getInstance().setAllHospCode(createAllHospCodeList(setupConfig));
             System.out.println("\nJson data saved with the following:\n");
             System.out.println(setupConfig);
 
@@ -51,5 +55,11 @@ public class SystemIni {
     private static String createValidClustersList(SetupConfig setupConfig){
         return String.join(", ", setupConfig.getAllClusters()
                 .stream().map(Cluster::getCluster).toList());
+    }
+
+    private static List<String> createAllHospCodeList(SetupConfig setupConfig) {
+        return setupConfig.getAllClusters().stream()
+                .flatMap(cluster -> cluster.getHospList().stream())
+                .collect(Collectors.toList());
     }
 }

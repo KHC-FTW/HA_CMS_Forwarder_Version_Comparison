@@ -2,6 +2,7 @@
     width: 100%;
     overflow: auto;
     height: 99.9vh;
+    overflow-x: scroll; /* Enable horizontal scrolling */
 }
 
 .inner-container {
@@ -36,13 +37,16 @@ table {
 }
 
 th, td {
-    border: 1px solid #ddd;
+    /* border: 1px solid #ddd; */
+    border: 1px solid #d3e4de;
     padding: 3.5px 15px;
     text-align: left;
+    width: 100vw;
 }
 
 th {
-    background-color: #f2f2f2;
+    /* background-color: #f2f2f2; */
+    background-color: #CAE8EA;
     font-weight: bold;
     font-size: 1rem;
     text-align: center;
