@@ -9,6 +9,7 @@ import lombok.Setter;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.regex.Pattern;
 
 @AllArgsConstructor
 @NoArgsConstructor
@@ -32,6 +33,10 @@ public class SetupConfig {
     private String validClusters = "";
     @JsonIgnore
     private List<String> allHospCode;
+    @JsonIgnore
+    private List<String> allClusterAndHospCode;
+    @JsonIgnore
+    private Pattern clusterHospCodePattern;
 
     @JsonProperty("cms_forwarder_API_host")
     private String cms_forwarder_API_host;

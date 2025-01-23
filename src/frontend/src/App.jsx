@@ -16,8 +16,7 @@ function App() {
   }, []);
 
   const toggleSidebar = () => {
-    const status = !isSidebarOpen
-    setIsSidebarOpen(status);
+    setIsSidebarOpen(!isSidebarOpen);
   };
 
   return (
@@ -28,7 +27,7 @@ function App() {
         醫院列表
       </div>
       <div className={`left-side ${isSidebarOpen ? 'open' : ''}`}>
-          <ClusterCheckboxes setRespData={setRespData} />
+          <ClusterCheckboxes setRespData={setRespData} setIsSidebarOpen={setIsSidebarOpen}/>
       </div>
       <div className='right-side'>
         <ForwarderVer2 data={respData} />

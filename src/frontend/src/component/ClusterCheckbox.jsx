@@ -4,7 +4,7 @@ import setupConfig from '../param_config/setupConfig.json';
 import axios from 'axios';
 import { doGetRequest } from '../jsUtils.js';
 
-const ClusterCheckboxes = ({setRespData}) => {
+const ClusterCheckboxes = ({setRespData, setIsSidebarOpen}) => {
     const [checkedClusters, setCheckedClusters] = useState({});
     const [checkedHospitals, setCheckedHospitals] = useState({});
 
@@ -96,7 +96,12 @@ const ClusterCheckboxes = ({setRespData}) => {
         const targetAPI = setupConfig.backend_port + (isAllSelected ? setupConfig.api_list.find_forwarder_diff_all_hosp : setupConfig.api_list.find_forwarder_diff_selected_hosp);
 
         if (isAllSelected){
-            doGetRequest(targetAPI).then(data => setRespData(data));
+            doGetRequest(targetAPI).then(data => {
+                setRespData(data);
+                // set to automatically close the side bar
+                // for better user experience
+                setIsSidebarOpen(false);
+            });
         }else{
             const payload = { payload: compileSelected() };    
             axios.post(targetAPI, payload, {
@@ -104,7 +109,12 @@ const ClusterCheckboxes = ({setRespData}) => {
                     'Content-Type': 'application/json'
                 }
             })
-            .then(resp => { setRespData(resp.data); })
+            .then(resp => { 
+                setRespData(resp.data);
+                // set to automatically close the side bar
+                // for better user experience
+                setIsSidebarOpen(false);
+            })
             .catch(err => { console.log(err); });
         }
     };

@@ -1,4 +1,4 @@
-package ha.crc2Jasper.forwarderVerComparison;
+package ha.crc2Jasper.forwarderVerComparison.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

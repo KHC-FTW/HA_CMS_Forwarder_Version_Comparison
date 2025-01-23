@@ -1,11 +1,12 @@
-package ha.crc2Jasper.forwarderVerComparison;
+package ha.crc2Jasper.forwarderVerComparison.controller;
 
 import ha.crc2Jasper.forwarderVerComparison.component.*;
+import ha.crc2Jasper.forwarderVerComparison.service.APIService;
+import ha.crc2Jasper.forwarderVerComparison.utils.DataUtils;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.*;
-import java.util.concurrent.locks.ReentrantReadWriteLock;
 
 @Controller
 @CrossOrigin
@@ -24,15 +25,13 @@ public class ClientRequestController {
     @ResponseBody
     @GetMapping("/v2/find-forwarder-diff/all-hosp")
     public Response v2_find_forwarder_diff_all_hosp() {
-        List<String> hospList = SetupConfig.getInstance().getAllHospCode();
-        return APIService.getSrcForwarderDataReactive(hospList);
+        return APIService.getSrcForwarderDataReactive(SetupConfig.getInstance().getAllHospCode());
     }
 
     @ResponseBody
     @PostMapping("/v2/find-forwarder-diff/selected-hosp")
     public Response v2_find_forwarder_diff_selected_hosp(@RequestBody PayloadHospSelection payload) {
-        List<String> hospList = DataUtils.getHospListFromPayload(payload);
-        return APIService.getSrcForwarderDataReactive(hospList);
+        return APIService.getSrcForwarderDataReactive(DataUtils.getHospListFromPayload(payload));
     }
 
     @ResponseBody

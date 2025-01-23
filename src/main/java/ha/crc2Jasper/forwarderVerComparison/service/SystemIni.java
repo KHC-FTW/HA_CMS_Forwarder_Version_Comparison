@@ -1,15 +1,15 @@
-package ha.crc2Jasper.forwarderVerComparison;
+package ha.crc2Jasper.forwarderVerComparison.service;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import ha.crc2Jasper.forwarderVerComparison.component.CMSFunction;
 import ha.crc2Jasper.forwarderVerComparison.component.Cluster;
 import ha.crc2Jasper.forwarderVerComparison.component.SetupConfig;
 
 import java.io.File;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
+import java.util.regex.Pattern;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class SystemIni {
     private SystemIni(){}
@@ -40,6 +40,9 @@ public class SystemIni {
             SetupConfig.setInstance(setupConfig);
             SetupConfig.getInstance().setValidClusters(createValidClustersList(setupConfig));
             SetupConfig.getInstance().setAllHospCode(createAllHospCodeList(setupConfig));
+            List<String> allClusterAndHospCodeList = createAllClusterAndHospCodeList(setupConfig);
+            SetupConfig.getInstance().setAllClusterAndHospCode(allClusterAndHospCodeList);
+            SetupConfig.getInstance().setClusterHospCodePattern(Pattern.compile(String.join("|", allClusterAndHospCodeList), Pattern.CASE_INSENSITIVE));
             System.out.println("\nJson data saved with the following:\n");
             System.out.println(setupConfig);
 
@@ -60,6 +63,12 @@ public class SystemIni {
     private static List<String> createAllHospCodeList(SetupConfig setupConfig) {
         return setupConfig.getAllClusters().stream()
                 .flatMap(cluster -> cluster.getHospList().stream())
+                .collect(Collectors.toList());
+    }
+
+    private static List<String> createAllClusterAndHospCodeList(SetupConfig setupConfig) {
+        return Stream.concat(setupConfig.getAllClusters().stream().flatMap(cluster -> cluster.getHospList().stream()),
+                        setupConfig.getAllClusters().stream().map(Cluster::getCluster))
                 .collect(Collectors.toList());
     }
 }

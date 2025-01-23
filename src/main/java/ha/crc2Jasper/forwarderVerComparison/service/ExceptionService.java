@@ -1,4 +1,4 @@
-package ha.crc2Jasper.forwarderVerComparison;
+package ha.crc2Jasper.forwarderVerComparison.service;
 
 public class ExceptionService {
     private ExceptionService(){}

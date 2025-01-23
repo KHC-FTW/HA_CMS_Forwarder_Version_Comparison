@@ -1,4 +1,4 @@
-package ha.crc2Jasper.forwarderVerComparison;
+package ha.crc2Jasper.forwarderVerComparison.config;
 
 import org.springframework.web.reactive.function.client.WebClient;
 

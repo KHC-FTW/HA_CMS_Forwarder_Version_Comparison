@@ -5,6 +5,10 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.regex.Pattern;
+
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter
@@ -23,7 +27,7 @@ public class CMSFunction {
     }
 
     public boolean isDiffVersion(CMSFunction other){
-        return !this.context_root.equals(other.getContext_root());
+        return !(this.context_root.equals(other.getContext_root()) || this.version.equals(other.getVersion()));
     }
 
     public void setAll(String function, String hospCode, String version, String context_root){

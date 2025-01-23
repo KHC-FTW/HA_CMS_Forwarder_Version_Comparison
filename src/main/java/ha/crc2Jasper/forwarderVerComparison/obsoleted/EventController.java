@@ -1,11 +1,6 @@
-package ha.crc2Jasper.forwarderVerComparison;
+package ha.crc2Jasper.forwarderVerComparison.obsoleted;
 
-import lombok.Getter;
-import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
-
-import java.time.LocalDateTime;
-import java.util.concurrent.locks.ReentrantReadWriteLock;
 
 @Component
 public class EventController {
