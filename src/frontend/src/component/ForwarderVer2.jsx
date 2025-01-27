@@ -4,10 +4,15 @@ import React, { useState } from 'react';
 const ForwarderVer2 = ({data}) => {
 
     const [contextRootDisplay, setContextRootDisplay] = useState(false);
+    const [lastUpdatedDisplay, setLastUpdatedDisplay] = useState(false);
 
     const handleContextRootDisplay = () =>{
         const value = !contextRootDisplay;
         setContextRootDisplay(value);
+    }
+
+    const handleLastUpdatedDisplay = () =>{
+        setLastUpdatedDisplay(!lastUpdatedDisplay);
     }
 
     const formatContextRoot = (contextRoot) => {
@@ -29,13 +34,21 @@ const ForwarderVer2 = ({data}) => {
                         />
                         Show context_root
                     </label>
+                    <label className='last-updated-checkbox'>
+                        <input
+                            type="checkbox"
+                            checked = {lastUpdatedDisplay}
+                            onChange={handleLastUpdatedDisplay}
+                        />
+                        Show last_updated
+                    </label>
                     <div className="results">
                         <table>
                             <thead>
                             <tr>
                                 <th></th>
                                 {data.results[0].hospForwarder.map((result, index) => (
-                                    <th colSpan={contextRootDisplay ? 2 : 1} key={index}>{result.hospCode}</th>
+                                    <th colSpan={contextRootDisplay && lastUpdatedDisplay ? 3 : (contextRootDisplay || lastUpdatedDisplay ? 2 : 1)} key={index}>{result.hospCode}</th>
                                 ))}
                             </tr>
                             </thead>
@@ -48,6 +61,9 @@ const ForwarderVer2 = ({data}) => {
                                         <td style={{textAlign: 'center'}}>{result.version || '/'}</td>
                                         {contextRootDisplay && (
                                             <td dangerouslySetInnerHTML={formatContextRoot(result.context_root || '/')} />
+                                        )}
+                                        {lastUpdatedDisplay && (
+                                            <td className='last-Updated-cell' dangerouslySetInnerHTML={formatContextRoot(result.last_updated || '/')} />
                                         )}
                                         </React.Fragment>
                                     ))}

@@ -50,7 +50,7 @@ public class DataUtils {
     public static Map<String, CMSFunction> createCustomHospPlaceholderMap(List<String> hospList){
         Map<String, CMSFunction> hospMap = new LinkedHashMap<>();
         hospList.forEach(hospCode -> {
-            hospMap.put(hospCode, new CMSFunction("", hospCode, "", ""));
+            hospMap.put(hospCode, new CMSFunction("", hospCode, "", "", ""));
         });
         return hospMap;
     }

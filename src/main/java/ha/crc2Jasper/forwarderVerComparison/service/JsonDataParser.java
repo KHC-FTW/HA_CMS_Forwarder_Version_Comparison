@@ -27,6 +27,7 @@ public class JsonDataParser {
                     String function = data.get("function").asText();
                     String version = data.get("version").asText();
                     String context_root = data.get("context_root").asText();
+                    String last_updated = data.get("last_updated").asText();
 
                     if (version.isBlank()) version = "";
                     if (context_root.isBlank()) context_root = "";
@@ -36,13 +37,13 @@ public class JsonDataParser {
                         CMSFunction existingCMSFunction = hospMap.get(hospCode);
                         String existingContextRoot = existingCMSFunction.getContext_root();
                         if(existingContextRoot.isBlank()){
-                            existingCMSFunction.setAll(function, hospCode, version, context_root);
+                            existingCMSFunction.setAll(function, hospCode, version, context_root, last_updated);
                         }else if(!existingContextRoot.contains(context_root)){
                             existingCMSFunction.setContext_root(existingContextRoot + "\n\n" + context_root);
                         }
                     }else{
                         Map<String, CMSFunction> hospMap = DataUtils.createCustomHospPlaceholderMap(hospList);
-                        hospMap.get(hospCode).setAll(function, hospCode, version, context_root);
+                        hospMap.get(hospCode).setAll(function, hospCode, version, context_root, last_updated);
                         allForwarderHospMap.put(function, hospMap);
                     }
                 }

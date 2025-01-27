@@ -22,11 +22,13 @@
     font-size: 16px;
 }
 
-.context-root-checkbox{
-    display: inline-block;
-    font-size: 16px;
+label{
+    display: inline-flex;
+    flex-direction: row;
+    gap: 3px;
     cursor: pointer;
     font-weight: bold;
+    padding-right: 25px;
 }
 
 table {
@@ -36,12 +38,22 @@ table {
     border-spacing: 5px;
 }
 
+th:not(:first-child), td:not(:first-child) {
+    white-space: nowrap;
+}
+
 th, td {
     /* border: 1px solid #ddd; */
     border: 1px solid #d3e4de;
     padding: 3.5px 15px;
     text-align: left;
     width: 100vw;
+}
+
+.last-Updated-cell{
+    /* min-width: 6.5vw; */
+    text-align: center;
+    /* white-space: nowrap; */
 }
 
 th {
@@ -62,10 +74,6 @@ td {
 tr:nth-child(odd) td {
     background-color: #f9f9f9;
 }
-
-/* tr:nth-child(even) td {
-    background-color: #e9e9e9;
-} */
 
 td:first-child, th:first-child {
     font-size: 0.9rem;
