@@ -88,6 +88,14 @@ th:first-child {
     z-index: 3; /* Ensure the top-left cell is above other sticky elements */
 }
 
+.results .func-name{
+    cursor: pointer;
+}
+
+.results .func-name:hover{
+    background-color: aqua;
+}
+
 @media screen and (max-width: 600px) {
     table, thead, tbody, th, td, tr {
         display: block;

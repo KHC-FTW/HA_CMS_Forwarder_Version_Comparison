@@ -1,7 +1,7 @@
 import '../style/ForwarderVer2.css';
 import React, { useState } from 'react';
 
-const ForwarderVer2 = ({data}) => {
+const ForwarderVer2 = ({data, setSortedData}) => {
 
     const [contextRootDisplay, setContextRootDisplay] = useState(false);
     const [lastUpdatedDisplay, setLastUpdatedDisplay] = useState(false);
@@ -18,6 +18,44 @@ const ForwarderVer2 = ({data}) => {
     const formatContextRoot = (contextRoot) => {
         return { __html: contextRoot.replace(/\n/g, '<br />') };
     }
+
+    const sortByFuncName = (e) => {
+        const funcName = e.target.getAttribute('value');
+        const sortedHospCodes = getSortedHospCodes(data, funcName);
+        const sortedData = applySortingToHospForwarders(data, sortedHospCodes);
+        setSortedData(sortedData);
+    }
+
+    const getDate = (dateStr) => {
+        // Empty string treated as very old date.
+        return dateStr ? new Date(dateStr) : new Date(0);
+      };
+
+    const getSortedHospCodes = (respData, funcName) => {
+        const hospCodeLatestMap = {};
+        // Loop through each function and update the most recent last_updated for each hospCode.
+        respData.results.filter(funcItem => funcItem.function === funcName).forEach(funcItem => {
+          funcItem.hospForwarder.forEach(item => {
+            const { hospCode, last_updated } = item;
+            const itemDate = getDate(last_updated);
+            hospCodeLatestMap[hospCode] = itemDate;
+          });
+        });
+        // Sort hospCodes descending by the latest date (most recent first).
+        return Object.keys(hospCodeLatestMap).sort((a, b) => hospCodeLatestMap[b] - hospCodeLatestMap[a]);
+    };
+
+    const applySortingToHospForwarders = (respData, sortedHospCodes) => {
+        // For each function, sort its hospForwarders based on the global sorted hospCode order.
+        const result = respData.results.map(item => {
+          const sortedHospForwarders = [...item.hospForwarder].sort((a, b) =>
+            sortedHospCodes.indexOf(a.hospCode) - sortedHospCodes.indexOf(b.hospCode)
+          );
+          return { ...item, hospForwarder: sortedHospForwarders };
+        });
+        return { ...respData, results: result };
+    };
+    
 
     return (
         <div className="data-container">
@@ -55,7 +93,7 @@ const ForwarderVer2 = ({data}) => {
                             <tbody>
                             {data.results.map((result, index) => (
                                 <tr key={index}>
-                                    <td>{result.function}</td>
+                                    <td value={result.function} onClick={sortByFuncName} className='func-name'>{result.function}</td>
                                     { result.hospForwarder.map((result, idx) => (
                                         <React.Fragment key={idx}>
                                         <td style={{textAlign: 'center'}}>{result.version || '/'}</td>
