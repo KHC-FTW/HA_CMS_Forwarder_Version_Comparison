@@ -4,7 +4,7 @@ import setupConfig from '../param_config/setupConfig.json';
 import axios from 'axios';
 import { doGetRequest } from '../jsUtils.js';
 
-const ClusterCheckboxes = ({setRespData, setIsSidebarOpen}) => {
+const ClusterCheckboxes = ({setRespData, setIsSidebarOpen, setSelectedFuncName}) => {
     const [checkedClusters, setCheckedClusters] = useState({});
     const [checkedHospitals, setCheckedHospitals] = useState({});
 
@@ -101,6 +101,7 @@ const ClusterCheckboxes = ({setRespData, setIsSidebarOpen}) => {
                 // set to automatically close the side bar
                 // for better user experience
                 setIsSidebarOpen(false);
+                setSelectedFuncName('');
             });
         }else{
             const payload = { payload: compileSelected() };    
@@ -114,6 +115,7 @@ const ClusterCheckboxes = ({setRespData, setIsSidebarOpen}) => {
                 // set to automatically close the side bar
                 // for better user experience
                 setIsSidebarOpen(false);
+                setSelectedFuncName('');
             })
             .catch(err => { console.log(err); });
         }

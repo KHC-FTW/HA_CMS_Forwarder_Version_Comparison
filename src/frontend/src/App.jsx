@@ -10,6 +10,7 @@ function App() {
   const [respData, setRespData] = useState(data);
   const [sortedData, setSortedData] = useState(data);
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+  const [selectedFuncName, setSelectedFuncName] = useState('');
 
   useEffect(() => {
     const targetAPI = setupConfig.backend_port + setupConfig.api_list.find_forwarder_diff_all_hosp;
@@ -68,10 +69,10 @@ function App() {
         醫院列表
       </div>
       <div className={`left-side ${isSidebarOpen ? 'open' : ''}`}>
-          <ClusterCheckboxes setRespData={setRespData} setIsSidebarOpen={setIsSidebarOpen}/>
+          <ClusterCheckboxes setRespData={setRespData} setIsSidebarOpen={setIsSidebarOpen} setSelectedFuncName={setSelectedFuncName}/>
       </div>
       <div className='right-side'>
-        <ForwarderVer2 data={sortedData} setSortedData={setSortedData}/>
+        <ForwarderVer2 data={sortedData} setSortedData={setSortedData} selectedFuncName={selectedFuncName} setSelectedFuncName={setSelectedFuncName}/>
       </div>
     </div>
   );

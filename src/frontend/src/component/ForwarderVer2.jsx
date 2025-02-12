@@ -1,11 +1,11 @@
 import '../style/ForwarderVer2.css';
 import React, { useState } from 'react';
 
-const ForwarderVer2 = ({data, setSortedData}) => {
+const ForwarderVer2 = ({data, setSortedData, selectedFuncName, setSelectedFuncName}) => {
 
     const [contextRootDisplay, setContextRootDisplay] = useState(false);
     const [lastUpdatedDisplay, setLastUpdatedDisplay] = useState(false);
-    const [selectedFuncName, setSelectedFuncName] = useState('');
+    // const [selectedFuncName, setSelectedFuncName] = useState('');
 
     const handleContextRootDisplay = () =>{
         const value = !contextRootDisplay;
