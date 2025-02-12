@@ -5,6 +5,7 @@ const ForwarderVer2 = ({data, setSortedData}) => {
 
     const [contextRootDisplay, setContextRootDisplay] = useState(false);
     const [lastUpdatedDisplay, setLastUpdatedDisplay] = useState(false);
+    const [selectedFuncName, setSelectedFuncName] = useState('');
 
     const handleContextRootDisplay = () =>{
         const value = !contextRootDisplay;
@@ -21,6 +22,7 @@ const ForwarderVer2 = ({data, setSortedData}) => {
 
     const sortByFuncName = (e) => {
         const funcName = e.target.getAttribute('value');
+        if (funcName) setSelectedFuncName(funcName);
         const sortedHospCodes = getSortedHospCodes(data, funcName);
         const sortedData = applySortingToHospForwarders(data, sortedHospCodes);
         setSortedData(sortedData);
@@ -92,8 +94,12 @@ const ForwarderVer2 = ({data, setSortedData}) => {
                             </thead>
                             <tbody>
                             {data.results.map((result, index) => (
-                                <tr key={index}>
-                                    <td value={result.function} onClick={sortByFuncName} className='func-name'>{result.function}</td>
+                                <tr key={index} className={result.function === selectedFuncName ? 'row-selected' : ''}>
+                                    <td value={result.function} onClick={sortByFuncName} className='func-name'>
+                                        {result.function === selectedFuncName ? (<span style={{color: 'red'}}>{result.function}</span>) : result.function}
+                                        {/* {`${result.function}`}
+                                        {result.function === selectedFuncName && (<span style={{color: 'red'}}>{` (sorted)`}</span>)} */}
+                                    </td>
                                     { result.hospForwarder.map((result, idx) => (
                                         <React.Fragment key={idx}>
                                         <td style={{textAlign: 'center'}}>{result.version || '/'}</td>
